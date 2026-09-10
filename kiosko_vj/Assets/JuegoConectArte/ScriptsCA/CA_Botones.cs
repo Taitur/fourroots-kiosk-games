@@ -7,4 +7,8 @@ public class CA_Botones : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+        public void Instrucciones()
+    {
+        SceneManager.LoadScene(2);
+    }
 }
