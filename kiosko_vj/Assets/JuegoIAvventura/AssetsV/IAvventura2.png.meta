@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f398d815d3e86744fa51b7fc38baa6b2
+guid: 85fb3146dbdeb9b45b446a4e244b1726
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4390759076209097395
-    second: MenuVacanza_0
+      213: -877344659800015861
+    second: IAvventura2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MenuVacanza_0
+      name: IAvventura2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3baf3c7dd1c1fec30800000000000000
-      internalID: 4390759076209097395
+      spriteID: b0cb8072eab03d3f0800000000000000
+      internalID: -877344659800015861
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MenuVacanza_0: 4390759076209097395
+      IAvventura2_0: -877344659800015861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
