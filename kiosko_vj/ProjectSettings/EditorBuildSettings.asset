@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/JuegoSaltoCorporativo/Menu_SP.unity
     guid: ab17c5abb78364aff906ae7dea4728b7
+  - enabled: 1
+    path: Assets/JuegoConectArte/EscenasCA/CA_Escena_instrucciones.unity
+    guid: 1c6decccdee8c1c469df6323c468d543
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
