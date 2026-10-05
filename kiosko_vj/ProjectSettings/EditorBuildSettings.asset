@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: "Assets/JuegoConexion/EscenasC/Menu\u0301.unity"
     guid: 1edf78715e869422a9bf5118873fa04c
   - enabled: 1
-    path: Assets/JuegoVacanza/EscenasV/VacanzaScene.unity
+    path: Assets/JuegoIAvventura/EscenasIA/IAvventuraScene.unity
     guid: e32f6daf5f6d443699c522fecd559a58
   - enabled: 1
     path: Assets/JuegoSaltoCorporativo/Menu_SP.unity
