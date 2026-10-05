@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 7eb4e7142c8534a31b90e639676f0086
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2074752975394578968
+    second: Brote_general_0
+  - first:
+      213: -3233479293309259660
+    second: Brote_general_1
+  - first:
+      213: -1434480418636157803
+    second: Brote_general_2
+  - first:
+      213: -8666069881854397393
+    second: Brote_general_3
+  - first:
+      213: -426569743135235073
+    second: Brote_general_4
+  - first:
+      213: -3039902040438115664
+    second: Brote_general_5
+  - first:
+      213: -9208406770253677842
+    second: Brote_general_6
+  - first:
+      213: -3927757300064566382
+    second: Brote_general_7
+  - first:
+      213: -3262413357304062781
+    second: Brote_general_8
+  - first:
+      213: -6365582030380942453
+    second: Brote_general_9
+  - first:
+      213: -1066120155528844979
+    second: Brote_general_10
+  - first:
+      213: 8965940725675074733
+    second: Brote_general_11
+  - first:
+      213: 8635809347871048001
+    second: Brote_general_12
+  - first:
+      213: -8220636117528746534
+    second: Brote_general_13
+  - first:
+      213: 5060328995854335037
+    second: Brote_general_14
+  - first:
+      213: 4825549983471536463
+    second: Brote_general_15
+  - first:
+      213: -6722705797758968679
+    second: Brote_general_16
+  - first:
+      213: 5214023308903472021
+    second: Brote_general_17
+  - first:
+      213: -7202271102070098235
+    second: Brote_general_18
+  - first:
+      213: 3142771143577962462
+    second: Brote_general_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Brote_general_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 523
+        width: 154
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eddbe0592ff433e0800000000000000
+      internalID: -2074752975394578968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 523
+        width: 154
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47078b5e6bf5023d0800000000000000
+      internalID: -3233479293309259660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 523
+        width: 154
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c20f1d8a3b71ce0800000000000000
+      internalID: -1434480418636157803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 523
+        width: 154
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f247b557b5febb780800000000000000
+      internalID: -8666069881854397393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 267
+        width: 138
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3ae742415841af0800000000000000
+      internalID: -426569743135235073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 267
+        width: 154
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b273b7433910d5d0800000000000000
+      internalID: -3039902040438115664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_6
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 267
+        width: 162
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea3ab7a4da253080800000000000000
+      internalID: -9208406770253677842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_7
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 267
+        width: 154
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29344b5bb8dcd79c0800000000000000
+      internalID: -3927757300064566382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 39
+        width: 154
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccd667265499b2d0800000000000000
+      internalID: -3262413357304062781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_9
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 191
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bb882aed8e8a7a0800000000000000
+      internalID: -6365582030380942453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 47
+        width: 162
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49a1d9fd516431f0800000000000000
+      internalID: -1066120155528844979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_11
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 199
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4221f169b6d6c70800000000000000
+      internalID: 8965940725675074733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 11
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1410adfe8de88d770800000000000000
+      internalID: 8635809347871048001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_13
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 159
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5e3f2810f6aed80800000000000000
+      internalID: -8220636117528746534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_14
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 11
+        width: 162
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cb1843966e93640800000000000000
+      internalID: 5060328995854335037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_15
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 167
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4986b2a42cc7f240800000000000000
+      internalID: 4825549983471536463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_16
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 103
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c1e1302b624b2a0800000000000000
+      internalID: -6722705797758968679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_17
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 119
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b5cc9039eeb5840800000000000000
+      internalID: 5214023308903472021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 11
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6fc0987946c0c90800000000000000
+      internalID: -7202271102070098235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brote_general_19
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 11
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7005734bd5d9b20800000000000000
+      internalID: 3142771143577962462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Brote_general_0: -2074752975394578968
+      Brote_general_1: -3233479293309259660
+      Brote_general_10: -1066120155528844979
+      Brote_general_11: 8965940725675074733
+      Brote_general_12: 8635809347871048001
+      Brote_general_13: -8220636117528746534
+      Brote_general_14: 5060328995854335037
+      Brote_general_15: 4825549983471536463
+      Brote_general_16: -6722705797758968679
+      Brote_general_17: 5214023308903472021
+      Brote_general_18: -7202271102070098235
+      Brote_general_19: 3142771143577962462
+      Brote_general_2: -1434480418636157803
+      Brote_general_3: -8666069881854397393
+      Brote_general_4: -426569743135235073
+      Brote_general_5: -3039902040438115664
+      Brote_general_6: -9208406770253677842
+      Brote_general_7: -3927757300064566382
+      Brote_general_8: -3262413357304062781
+      Brote_general_9: -6365582030380942453
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
