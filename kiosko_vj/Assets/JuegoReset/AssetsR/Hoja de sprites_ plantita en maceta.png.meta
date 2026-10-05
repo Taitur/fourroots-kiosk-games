@@ -1,0 +1,566 @@
+fileFormatVersion: 2
+guid: 98030b0f7f1700449a01e629559252ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9083537795428297632
+    second: Hoja de sprites_ plantita en maceta_0
+  - first:
+      213: 6852026962008499501
+    second: Hoja de sprites_ plantita en maceta_1
+  - first:
+      213: -5748870019069948991
+    second: Hoja de sprites_ plantita en maceta_2
+  - first:
+      213: -5802326009940260911
+    second: Hoja de sprites_ plantita en maceta_3
+  - first:
+      213: -4317069641868316395
+    second: Hoja de sprites_ plantita en maceta_4
+  - first:
+      213: 7752115166311392917
+    second: Hoja de sprites_ plantita en maceta_5
+  - first:
+      213: 8126385710774280075
+    second: Hoja de sprites_ plantita en maceta_6
+  - first:
+      213: 2626721297993858970
+    second: Hoja de sprites_ plantita en maceta_7
+  - first:
+      213: -6606887550721561541
+    second: Hoja de sprites_ plantita en maceta_8
+  - first:
+      213: -7699056881415157642
+    second: Hoja de sprites_ plantita en maceta_9
+  - first:
+      213: -8837485350310107566
+    second: Hoja de sprites_ plantita en maceta_10
+  - first:
+      213: -8691413251263658756
+    second: Hoja de sprites_ plantita en maceta_11
+  - first:
+      213: 4897036020191782735
+    second: Hoja de sprites_ plantita en maceta_12
+  - first:
+      213: 588305213601779502
+    second: Hoja de sprites_ plantita en maceta_13
+  - first:
+      213: -5175618044519085145
+    second: Hoja de sprites_ plantita en maceta_14
+  - first:
+      213: -3369736478939861366
+    second: Hoja de sprites_ plantita en maceta_15
+  - first:
+      213: 218155074400161628
+    second: Hoja de sprites_ plantita en maceta_16
+  - first:
+      213: -3285656884073685154
+    second: Hoja de sprites_ plantita en maceta_17
+  - first:
+      213: 5568959181851868552
+    second: Hoja de sprites_ plantita en maceta_18
+  - first:
+      213: 3216693846579758829
+    second: Hoja de sprites_ plantita en maceta_19
+  - first:
+      213: -378273140523672760
+    second: Hoja de sprites_ plantita en maceta_20
+  - first:
+      213: 5011187419683583742
+    second: Hoja de sprites_ plantita en maceta_21
+  - first:
+      213: -5650820171424379317
+    second: Hoja de sprites_ plantita en maceta_22
+  - first:
+      213: 6216841752498671191
+    second: Hoja de sprites_ plantita en maceta_23
+  - first:
+      213: 2277740697265694408
+    second: Hoja de sprites_ plantita en maceta_24
+  - first:
+      213: 7548550761111839153
+    second: Hoja de sprites_ plantita en maceta_25
+  - first:
+      213: 2597828309922994663
+    second: Hoja de sprites_ plantita en maceta_26
+  - first:
+      213: -5294465889584685993
+    second: Hoja de sprites_ plantita en maceta_27
+  - first:
+      213: -6834140981164515075
+    second: Hoja de sprites_ plantita en maceta_28
+  - first:
+      213: 2457981533372546894
+    second: Hoja de sprites_ plantita en maceta_29
+  - first:
+      213: -8408531673630478052
+    second: Hoja de sprites_ plantita en maceta_30
+  - first:
+      213: 7698655728062346600
+    second: Hoja de sprites_ plantita en maceta_31
+  - first:
+      213: -5093371737509740985
+    second: Hoja de sprites_ plantita en maceta_32
+  - first:
+      213: -6450460057140343610
+    second: Hoja de sprites_ plantita en maceta_33
+  - first:
+      213: 4607958711072049546
+    second: Hoja de sprites_ plantita en maceta_34
+  - first:
+      213: 5482015633801082910
+    second: Hoja de sprites_ plantita en maceta_35
+  - first:
+      213: 5428813162657175382
+    second: Hoja de sprites_ plantita en maceta_36
+  - first:
+      213: 6875280734609015168
+    second: Hoja de sprites_ plantita en maceta_37
+  - first:
+      213: 3866861250932912812
+    second: Hoja de sprites_ plantita en maceta_38
+  - first:
+      213: -7926752585666056078
+    second: Hoja de sprites_ plantita en maceta_39
+  - first:
+      213: -176087110990634566
+    second: Hoja de sprites_ plantita en maceta_40
+  - first:
+      213: 4432441117688065752
+    second: Hoja de sprites_ plantita en maceta_41
+  - first:
+      213: -1018884962468964852
+    second: Hoja de sprites_ plantita en maceta_42
+  - first:
+      213: -4993766611584071808
+    second: Hoja de sprites_ plantita en maceta_43
+  - first:
+      213: -8950606909276419908
+    second: Hoja de sprites_ plantita en maceta_44
+  - first:
+      213: -8551778500190583643
+    second: Hoja de sprites_ plantita en maceta_45
+  - first:
+      213: 4851050642176632177
+    second: Hoja de sprites_ plantita en maceta_46
+  - first:
+      213: -5954448051886039089
+    second: Hoja de sprites_ plantita en maceta_47
+  - first:
+      213: -5430628261232896798
+    second: Hoja de sprites_ plantita en maceta_48
+  - first:
+      213: 5682034506665791565
+    second: Hoja de sprites_ plantita en maceta_49
+  - first:
+      213: 8664693822356835287
+    second: Hoja de sprites_ plantita en maceta_50
+  - first:
+      213: 7770378344643567227
+    second: Hoja de sprites_ plantita en maceta_51
+  - first:
+      213: -2158715538049108403
+    second: Hoja de sprites_ plantita en maceta_52
+  - first:
+      213: -2302649822091799398
+    second: Hoja de sprites_ plantita en maceta_53
+  - first:
+      213: 8202789463524566702
+    second: Hoja de sprites_ plantita en maceta_54
+  - first:
+      213: -8481501909696678620
+    second: Hoja de sprites_ plantita en maceta_55
+  - first:
+      213: 2470765603128010547
+    second: Hoja de sprites_ plantita en maceta_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aba6509f753f0e70800000000000000
+      internalID: 9083537795428297632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 724
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d256ae5e73a471f50800000000000000
+      internalID: 6852026962008499501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 724
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb417d2d29e730b0800000000000000
+      internalID: -5748870019069948991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 724
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7408a6c3ff97fa0800000000000000
+      internalID: -5802326009940260911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511f0d59800b614c0800000000000000
+      internalID: -4317069641868316395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 362
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596a8e9dbab059b60800000000000000
+      internalID: 7752115166311392917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 362
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fd28e9fb8b6c070800000000000000
+      internalID: 8126385710774280075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_7
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 362
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f70e28a1df37420800000000000000
+      internalID: 2626721297993858970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c6a4407ce9f44a0800000000000000
+      internalID: -6606887550721561541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67809b5ce84772590800000000000000
+      internalID: -7699056881415157642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_10
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2562c0b95e1fa5580800000000000000
+      internalID: -8837485350310107566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja de sprites_ plantita en maceta_11
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf48e4272b5e16780800000000000000
+      internalID: -8691413251263658756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 471b20ee8de3a3b45a36e8d295606d3f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":362.0,"y":362.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Hoja de sprites_ plantita en maceta_0: 9083537795428297632
+      Hoja de sprites_ plantita en maceta_1: 6852026962008499501
+      Hoja de sprites_ plantita en maceta_10: -8837485350310107566
+      Hoja de sprites_ plantita en maceta_11: -8691413251263658756
+      Hoja de sprites_ plantita en maceta_2: -5748870019069948991
+      Hoja de sprites_ plantita en maceta_3: -5802326009940260911
+      Hoja de sprites_ plantita en maceta_4: -4317069641868316395
+      Hoja de sprites_ plantita en maceta_5: 7752115166311392917
+      Hoja de sprites_ plantita en maceta_6: 8126385710774280075
+      Hoja de sprites_ plantita en maceta_7: 2626721297993858970
+      Hoja de sprites_ plantita en maceta_8: -6606887550721561541
+      Hoja de sprites_ plantita en maceta_9: -7699056881415157642
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
