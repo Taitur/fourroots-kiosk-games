@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 9c02ef720541f4146a3ef065d5bbf642
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7627940363398685121
+    second: "Etiquetas pixel art de respiraci\xF3n natural_0"
+  - first:
+      213: 2888238366977612303
+    second: "Etiquetas pixel art de respiraci\xF3n natural_1"
+  - first:
+      213: 1312595823859705753
+    second: "Etiquetas pixel art de respiraci\xF3n natural_2"
+  - first:
+      213: -3573417264166304051
+    second: "Etiquetas pixel art de respiraci\xF3n natural_3"
+  - first:
+      213: -2202959676588762916
+    second: "Etiquetas pixel art de respiraci\xF3n natural_4"
+  - first:
+      213: 2651444734289681711
+    second: "Etiquetas pixel art de respiraci\xF3n natural_5"
+  - first:
+      213: 4923560342448935226
+    second: "Etiquetas pixel art de respiraci\xF3n natural_6"
+  - first:
+      213: 5533987675474387765
+    second: "Etiquetas pixel art de respiraci\xF3n natural_7"
+  - first:
+      213: 7993817518872740045
+    second: "Etiquetas pixel art de respiraci\xF3n natural_8"
+  - first:
+      213: 5817024438983881847
+    second: "Etiquetas pixel art de respiraci\xF3n natural_9"
+  - first:
+      213: 2095287618478603268
+    second: "Etiquetas pixel art de respiraci\xF3n natural_10"
+  - first:
+      213: 7214027822551238981
+    second: "Etiquetas pixel art de respiraci\xF3n natural_11"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Etiquetas pixel art de respiraci\xF3n natural_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 557
+        height: 941
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c12e309853ebd960800000000000000
+      internalID: 7627940363398685121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Etiquetas pixel art de respiraci\xF3n natural_1"
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 0
+        width: 557
+        height: 941
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ada520e75151820800000000000000
+      internalID: 2888238366977612303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Etiquetas pixel art de respiraci\xF3n natural_2"
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 0
+        width: 557
+        height: 941
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997a1d682f6473210800000000000000
+      internalID: 1312595823859705753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6971dc3609bd3e94d8630657a54137ba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":557.0,"y":941.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Etiquetas pixel art de respiraci\xF3n natural_0": 7627940363398685121
+      "Etiquetas pixel art de respiraci\xF3n natural_1": 2888238366977612303
+      "Etiquetas pixel art de respiraci\xF3n natural_2": 1312595823859705753
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
