@@ -5,26 +5,26 @@ public class BotonoesMenu : MonoBehaviour
 {
         public void Juego1()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene("Menu_SP");
     }
 
         public void Juego2()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(1);
     }
 
         public void Juego3()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("R_Escena_Menu");
     }
 
         public void Juego4()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene("IAvventuraScene");
     }
     
     public void Juego5()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("CA_Escena_Menu");
     }
 }
