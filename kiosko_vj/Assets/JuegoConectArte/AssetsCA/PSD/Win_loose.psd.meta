@@ -103,20 +103,52 @@ TextureImporter:
       name: Win_loose_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 224
-        height: 96
+        x: 40
+        y: 48
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -8.5, y: -4}
+        - {x: -11.5, y: -15}
+        - {x: 0.5, y: -10}
+        - {x: 10.5, y: -14}
+        - {x: 8.5, y: -4}
+        - {x: 15.5, y: 3}
+        - {x: 5.5, y: 6}
+        - {x: -0.5, y: 15}
+        - {x: -5.5, y: 5}
+        - {x: -15.5, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4391d91e1258e1c00800000000000000
+      internalID: 873281758322039092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_loose_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 50
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4391d91e1258e1c00800000000000000
-      internalID: 873281758322039092
+      spriteID: 2883f812dee67ab4a9ebc8cbc9f62777
+      internalID: 714585281
       vertices: []
       indices: 
       edges: []
@@ -125,7 +157,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a3449a3b2263f7a46adec62f550a2551
     internalID: 0
     vertices: []
     indices: 
@@ -136,6 +168,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Win_loose_0: 873281758322039092
+      Win_loose_1: 714585281
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
