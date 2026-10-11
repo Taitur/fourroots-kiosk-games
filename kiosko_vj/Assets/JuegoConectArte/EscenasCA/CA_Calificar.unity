@@ -2156,6 +2156,7 @@ MonoBehaviour:
   - {fileID: 831591288}
   - {fileID: 1193374046}
   - {fileID: 806207851}
+  guessManager: {fileID: 1788966560}
   offSprite: {fileID: 1505820523614367125, guid: c7613a0c69111fd40b7ccd63924223f4, type: 3}
   onSprite: {fileID: 419218246776751968, guid: c7613a0c69111fd40b7ccd63924223f4, type: 3}
 --- !u!1 &806207849
@@ -5546,16 +5547,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CA_Adivinar
   tmpPlayerName: {fileID: 1166344338}
+  legacyPlayerName: {fileID: 0}
+  namePrefix: 'Dibujo de: '
+  drawingImage: {fileID: 0}
   drawingRenderer: {fileID: 592218679}
   drawingMaxSize: {x: 13.5, y: 8}
   tmpInput: {fileID: 1354708075}
+  legacyInput: {fileID: 0}
+  tmpResult: {fileID: 0}
+  legacyResult: {fileID: 0}
+  loadingMessage: Cargando dibujo...
+  noDrawingsMessage: "No hay dibujos de otros jugadores todav\xEDa."
+  correctMessage: "\xA1Correcto!"
+  wrongMessage: 'Incorrecto. Era: '
+  onlyOneGuess: 1
+  pointsForCorrectGuess: 100
   nextSceneName: CA_Escena_Menu
   delayBeforeChange: 2
-  testEntries:
-  - playerName: Ika
-    word: Pajaro
-    sprite: {fileID: -6046281904296014970, guid: 3bed49c4517247e48ac45e117c69dee1, type: 3}
-    png: 
 --- !u!1 &1832959702
 GameObject:
   m_ObjectHideFlags: 0

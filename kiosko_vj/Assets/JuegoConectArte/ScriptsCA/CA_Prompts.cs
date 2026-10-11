@@ -1,42 +1,56 @@
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Elige UNA palabra al azar al iniciar la escena y la muestra en un Text del Canvas.
-/// Funciona con TextMeshPro o con el Text clásico de UI (arrastra el que uses).
+/// Pide UN prompt al azar a la base de datos (vía DrawingApi) al iniciar la escena
+/// y lo muestra en un Text del Canvas. Guarda su palabra y su id.
+/// Funciona con TextMeshPro o con el Text clásico de UI (usa solo uno).
 /// </summary>
-public class WordPicker : MonoBehaviour
+public class CA_Prompts : MonoBehaviour
 {
+    [Header("Dónde se muestra la palabra (usa solo uno)")]
     [SerializeField] private TMP_Text tmpText;
+    [SerializeField] private Text legacyText;
 
+    [Header("Textos")]
     [SerializeField] private string prefix = "Dibuja: ";
+    [SerializeField] private string loadingMessage = "Cargando palabra...";
+    [SerializeField] private string errorMessage = "No se pudo cargar la palabra";
 
-    [SerializeField]
-    private List<string> words = new List<string>
-    {
-        "Gato", "Perro", "Casa", "Árbol", "Sol", "Luna", "Estrella", "Carro",
-        "Avión", "Barco", "Bicicleta", "Pizza", "Helado", "Manzana", "Plátano",
-        "Flor", "Mariposa", "Pez", "Pájaro", "Elefante", "León", "Tortuga",
-        "Corazón", "Reloj", "Libro", "Guitarra", "Paraguas", "Montaña",
-        "Playa", "Cohete"
-    };
-
-    // Otros scripts pueden leer la palabra elegida con: wordPicker.CurrentWord
     public string CurrentWord { get; private set; }
+    public int CurrentPromptId { get; private set; }   // 0 = todavía no se ha cargado
 
     private void Start()
     {
-        if (words == null || words.Count == 0)
+        SetText(loadingMessage);
+
+        if (CA_ApiDibujos.Instance == null)
         {
-            Debug.LogWarning("WordPicker: la lista de palabras está vacía.");
+            Debug.LogWarning("WordPicker: no hay un objeto CA_ApiDibujos en la escena.");
+            SetText(errorMessage);
             return;
         }
 
-        CurrentWord = words[Random.Range(0, words.Count)];
+        CA_ApiDibujos.Instance.GetRandomPrompt(OnPromptLoaded);
+    }
 
-        string text = prefix + CurrentWord;
+    private void OnPromptLoaded(CA_ApiDibujos.PromptResponse prompt)
+    {
+        if (prompt == null || prompt.id_prompt <= 0)
+        {
+            SetText(errorMessage);
+            return;
+        }
+
+        CurrentPromptId = prompt.id_prompt;
+        CurrentWord = prompt.nombre_prompt;
+        SetText(prefix + CurrentWord);
+    }
+
+    private void SetText(string text)
+    {
         if (tmpText != null) tmpText.text = text;
+        if (legacyText != null) legacyText.text = text;
     }
 }
