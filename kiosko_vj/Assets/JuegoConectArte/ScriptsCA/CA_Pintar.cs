@@ -2,25 +2,17 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-/// <summary>
-/// Ponlo en tu caja blanca (la que tiene el SpriteRenderer).
-/// Crea una textura en tiempo de ejecución y pinta sobre ella.
-/// Conecta los botones a: SetBrushSmall(), SetBrushBig(), SetEraser() y ClearCanvas().
-/// </summary>
 [RequireComponent(typeof(SpriteRenderer))]
-public class DrawingCanvas : MonoBehaviour
+public class CA_Pintar : MonoBehaviour
 {
-    [Header("Canvas")]
     [SerializeField] private int textureWidth = 1024;          // la altura se calcula sola según la proporción de tu caja
     [SerializeField] private Color backgroundColor = Color.white;
 
-    [Header("Pinceles (radio en píxeles de la textura)")]
     [SerializeField] private int smallBrushRadius = 3;
     [SerializeField] private int bigBrushRadius = 10;
     [SerializeField] private int eraserRadius = 20;
     [SerializeField] private Color brushColor = Color.black;
 
-    [Header("Paleta (un color por cada botón, en orden: índice 0 a 5)")]
     [SerializeField] private Color[] paletteColors = new Color[]
     {
         Color.black,
@@ -65,6 +57,13 @@ public class DrawingCanvas : MonoBehaviour
 
     public void SetColor(Color c) { brushColor = c; }   // por si lo llamas desde código
 
+    // Devuelve el dibujo actual como bytes PNG (para guardarlo o enviarlo)
+    public byte[] GetPNG()
+    {
+        ApplyTexture();   // asegura que la textura tenga el último trazo
+        return texture.EncodeToPNG();
+    }
+
     public void ClearCanvas()
     {
         Color32 bg = backgroundColor;
@@ -72,7 +71,6 @@ public class DrawingCanvas : MonoBehaviour
         dirty = true;
     }
 
-    // ---------- Unity ----------
     private void Awake()
     {
         cam = Camera.main;
@@ -110,7 +108,6 @@ public class DrawingCanvas : MonoBehaviour
         }
     }
 
-    // ---------- Input ----------
     private void HandleInput()
     {
         Pointer pointer = Pointer.current;   // mouse o pantalla táctil
@@ -178,8 +175,6 @@ public class DrawingCanvas : MonoBehaviour
         return u >= 0f && u <= 1f && v >= 0f && v <= 1f;
     }
 
-    // ---------- Dibujo ----------
-    // Rellena el espacio entre dos puntos para que el trazo no quede punteado
     private void DrawLine(Vector2 from, Vector2 to, int radius, Color32 color)
     {
         float distance = Vector2.Distance(from, to);

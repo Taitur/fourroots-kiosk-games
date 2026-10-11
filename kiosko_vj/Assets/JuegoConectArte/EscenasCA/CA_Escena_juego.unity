@@ -2341,7 +2341,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 729373538}
-        m_TargetAssemblyTypeName: DrawingCanvas, Assembly-CSharp
+        m_TargetAssemblyTypeName: CA_Pintar, Assembly-CSharp
         m_MethodName: SetBrushSmall
         m_Mode: 1
         m_Arguments:
@@ -2598,7 +2598,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 729373538}
-        m_TargetAssemblyTypeName: DrawingCanvas, Assembly-CSharp
+        m_TargetAssemblyTypeName: CA_Pintar, Assembly-CSharp
         m_MethodName: SetEraser
         m_Mode: 1
         m_Arguments:
@@ -2750,11 +2750,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01f9fe2ffb1282742b6584073f6dcfb7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DrawingCanvas
+  m_EditorClassIdentifier: Assembly-CSharp::CA_Pintar
   textureWidth: 1024
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  smallBrushRadius: 3
-  bigBrushRadius: 10
+  smallBrushRadius: 5
+  bigBrushRadius: 15
   eraserRadius: 20
   brushColor: {r: 0, g: 0, b: 0, a: 1}
   paletteColors:
@@ -2764,6 +2764,53 @@ MonoBehaviour:
   - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   - {r: 0, g: 1, b: 0, a: 1}
   - {r: 0, g: 0, b: 1, a: 1}
+--- !u!1 &975516610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 975516612}
+  - component: {fileID: 975516611}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &975516611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975516610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62dce4f116ab6b74f839aff0d6f7b795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrawingSaver
+  CAPintar: {fileID: 729373538}
+  wordPicker: {fileID: 1059890691}
+  playerName: 67
+--- !u!4 &975516612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975516610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 771.4712, y: 477.5269, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &977443313
 GameObject:
   m_ObjectHideFlags: 0
@@ -2847,7 +2894,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 729373538}
-        m_TargetAssemblyTypeName: DrawingCanvas, Assembly-CSharp
+        m_TargetAssemblyTypeName: CA_Pintar, Assembly-CSharp
         m_MethodName: SetColorByIndex
         m_Mode: 3
         m_Arguments:
@@ -2908,6 +2955,7 @@ GameObject:
   - component: {fileID: 1009115642}
   - component: {fileID: 1009115641}
   - component: {fileID: 1009115640}
+  - component: {fileID: 1009115644}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3006,6 +3054,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1009115644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009115639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a69e13b4cfe6a4bbcd15127a9e809b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CA_Botones
 --- !u!1 &1059890687
 GameObject:
   m_ObjectHideFlags: 0
@@ -3272,7 +3332,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 729373538}
-        m_TargetAssemblyTypeName: DrawingCanvas, Assembly-CSharp
+        m_TargetAssemblyTypeName: CA_Pintar, Assembly-CSharp
         m_MethodName: SetColorByIndex
         m_Mode: 3
         m_Arguments:
@@ -3404,7 +3464,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 729373538}
-        m_TargetAssemblyTypeName: DrawingCanvas, Assembly-CSharp
+        m_TargetAssemblyTypeName: CA_Pintar, Assembly-CSharp
         m_MethodName: SetColorByIndex
         m_Mode: 3
         m_Arguments:
@@ -3503,12 +3563,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a14711c341638c4cbe4b7422dd2c88b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTimer
-  durationSeconds: 120
+  durationSeconds: 30
   startOnAwake: 1
   tmpText: {fileID: 1317985146}
   onTimeUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 975516611}
+        m_TargetAssemblyTypeName: DrawingSaver, Assembly-CSharp
+        m_MethodName: SaveDrawing
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1317985146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3692,7 +3764,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 729373538}
-        m_TargetAssemblyTypeName: DrawingCanvas, Assembly-CSharp
+        m_TargetAssemblyTypeName: CA_Pintar, Assembly-CSharp
         m_MethodName: SetColorByIndex
         m_Mode: 3
         m_Arguments:
@@ -4077,7 +4149,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 729373538}
-        m_TargetAssemblyTypeName: DrawingCanvas, Assembly-CSharp
+        m_TargetAssemblyTypeName: CA_Pintar, Assembly-CSharp
         m_MethodName: SetColorByIndex
         m_Mode: 3
         m_Arguments:
@@ -4209,7 +4281,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 729373538}
-        m_TargetAssemblyTypeName: DrawingCanvas, Assembly-CSharp
+        m_TargetAssemblyTypeName: CA_Pintar, Assembly-CSharp
         m_MethodName: SetBrushBig
         m_Mode: 1
         m_Arguments:
@@ -4432,7 +4504,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 729373538}
-        m_TargetAssemblyTypeName: DrawingCanvas, Assembly-CSharp
+        m_TargetAssemblyTypeName: CA_Pintar, Assembly-CSharp
         m_MethodName: SetColorByIndex
         m_Mode: 3
         m_Arguments:
@@ -5693,7 +5765,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2046728509}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 975516611}
+        m_TargetAssemblyTypeName: DrawingSaver, Assembly-CSharp
+        m_MethodName: SaveDrawing
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2046728509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5833,3 +5917,4 @@ SceneRoots:
   - {fileID: 39290558}
   - {fileID: 729373537}
   - {fileID: 620873057}
+  - {fileID: 975516612}

@@ -4,11 +4,7 @@ using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-/// <summary>
-/// Cuenta regresiva. Cuando llega a 0 cambia a la escena indicada.
-/// Funciona con TextMeshPro o con el Text clásico de UI (arrastra el que uses).
-/// </summary>
-public class SceneTimer : MonoBehaviour
+public class CA_Temporizador : MonoBehaviour
 {
     [SerializeField] private float durationSeconds = 60f;
     [SerializeField] private bool startOnAwake = true;
