@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/MenuPrincipal/MenuPrincipal.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: "Assets/JuegoConexion/EscenasC/Menu\u0301.unity"
+    guid: 1edf78715e869422a9bf5118873fa04c
+  - enabled: 1
     path: Assets/JuegoConectArte/EscenasCA/CA_Escena_Menu.unity
     guid: 47bea78f7a420bc40b54e7259db17c39
   - enabled: 1
@@ -21,16 +24,16 @@ EditorBuildSettings:
     path: "Assets/JuegoConexion/EscenasC/Menu\u0301.unity"
     guid: 1edf78715e869422a9bf5118873fa04c
   - enabled: 1
-    path: Assets/JuegoVacanza/EscenasV/VacanzaScene.unity
+    path: Assets/JuegoIAvventura/EscenasIA/IAvventuraScene.unity
     guid: e32f6daf5f6d443699c522fecd559a58
   - enabled: 1
     path: Assets/JuegoSaltoCorporativo/Menu_SP.unity
     guid: ab17c5abb78364aff906ae7dea4728b7
   - enabled: 1
-    path: Assets/JuegoConectArte/EscenasCA/CA_Escena_instrucciones.unity
-    guid: 1c6decccdee8c1c469df6323c468d543
+    path: Assets/JuegoReset/EscenasR/R_Escena_Juego.unity
+    guid: 009ad75929a36dd4ca6fdf16de2c9e6c
   - enabled: 1
-    path: Assets/JuegoConectArte/EscenasCA/CA_Calificar.unity
-    guid: ac97f35c61db5b748b4fc4fd997e6ede
+    path: Assets/JuegoReset/EscenasR/R_Escena_Respira.unity
+    guid: f77c21d6d6cfb5b43ac176c619ce541b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

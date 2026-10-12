@@ -1,0 +1,545 @@
+fileFormatVersion: 2
+guid: 10efbd6de756f574683e12f6eb7b22d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3620219135525282706
+    second: "Sprite de orbes m\xE1gicos pulsantes_0"
+  - first:
+      213: -5373577806517177723
+    second: "Sprite de orbes m\xE1gicos pulsantes_1"
+  - first:
+      213: 8382995229267191366
+    second: "Sprite de orbes m\xE1gicos pulsantes_2"
+  - first:
+      213: -363182362804931451
+    second: "Sprite de orbes m\xE1gicos pulsantes_3"
+  - first:
+      213: -3953865261424682342
+    second: "Sprite de orbes m\xE1gicos pulsantes_4"
+  - first:
+      213: -3773832679161190962
+    second: "Sprite de orbes m\xE1gicos pulsantes_5"
+  - first:
+      213: -676990353546607720
+    second: "Sprite de orbes m\xE1gicos pulsantes_6"
+  - first:
+      213: -9073618061271663866
+    second: "Sprite de orbes m\xE1gicos pulsantes_7"
+  - first:
+      213: -36861819000485075
+    second: "Sprite de orbes m\xE1gicos pulsantes_8"
+  - first:
+      213: 1598127079421147255
+    second: "Sprite de orbes m\xE1gicos pulsantes_9"
+  - first:
+      213: 3901421870345323633
+    second: "Sprite de orbes m\xE1gicos pulsantes_10"
+  - first:
+      213: 3400167964829852515
+    second: "Sprite de orbes m\xE1gicos pulsantes_11"
+  - first:
+      213: -5477675833852149743
+    second: "Sprite de orbes m\xE1gicos pulsantes_12"
+  - first:
+      213: 484428301163464230
+    second: "Sprite de orbes m\xE1gicos pulsantes_13"
+  - first:
+      213: -222511327993349729
+    second: "Sprite de orbes m\xE1gicos pulsantes_14"
+  - first:
+      213: 5067706772552452764
+    second: "Sprite de orbes m\xE1gicos pulsantes_15"
+  - first:
+      213: 5655266661354684751
+    second: "Sprite de orbes m\xE1gicos pulsantes_16"
+  - first:
+      213: -513803607668801026
+    second: "Sprite de orbes m\xE1gicos pulsantes_17"
+  - first:
+      213: -5174709957321751028
+    second: "Sprite de orbes m\xE1gicos pulsantes_18"
+  - first:
+      213: 927977357769229452
+    second: "Sprite de orbes m\xE1gicos pulsantes_19"
+  - first:
+      213: -7267374012025904591
+    second: "Sprite de orbes m\xE1gicos pulsantes_20"
+  - first:
+      213: -1624201329067258111
+    second: "Sprite de orbes m\xE1gicos pulsantes_21"
+  - first:
+      213: 1205493980036779399
+    second: "Sprite de orbes m\xE1gicos pulsantes_22"
+  - first:
+      213: -8572878389894472026
+    second: "Sprite de orbes m\xE1gicos pulsantes_23"
+  - first:
+      213: 5354833451160621435
+    second: "Sprite de orbes m\xE1gicos pulsantes_24"
+  - first:
+      213: 343884342936945644
+    second: "Sprite de orbes m\xE1gicos pulsantes_25"
+  - first:
+      213: -9053024495721956276
+    second: "Sprite de orbes m\xE1gicos pulsantes_26"
+  - first:
+      213: -6498926702726456705
+    second: "Sprite de orbes m\xE1gicos pulsantes_27"
+  - first:
+      213: -1640565922143748360
+    second: "Sprite de orbes m\xE1gicos pulsantes_28"
+  - first:
+      213: -8875522051230968998
+    second: "Sprite de orbes m\xE1gicos pulsantes_29"
+  - first:
+      213: -6342096793977920395
+    second: "Sprite de orbes m\xE1gicos pulsantes_30"
+  - first:
+      213: -8133639951702973595
+    second: "Sprite de orbes m\xE1gicos pulsantes_31"
+  - first:
+      213: -3539984217633235298
+    second: "Sprite de orbes m\xE1gicos pulsantes_32"
+  - first:
+      213: -3891704347303498656
+    second: "Sprite de orbes m\xE1gicos pulsantes_33"
+  - first:
+      213: -8031409616868782493
+    second: "Sprite de orbes m\xE1gicos pulsantes_34"
+  - first:
+      213: 5219817208058377626
+    second: "Sprite de orbes m\xE1gicos pulsantes_35"
+  - first:
+      213: 8122025556344506839
+    second: "Sprite de orbes m\xE1gicos pulsantes_36"
+  - first:
+      213: 6892930367161087415
+    second: "Sprite de orbes m\xE1gicos pulsantes_37"
+  - first:
+      213: -7599269650767840524
+    second: "Sprite de orbes m\xE1gicos pulsantes_38"
+  - first:
+      213: 6278933521465639076
+    second: "Sprite de orbes m\xE1gicos pulsantes_39"
+  - first:
+      213: 9199374798331651802
+    second: "Sprite de orbes m\xE1gicos pulsantes_40"
+  - first:
+      213: -4432719761469410299
+    second: "Sprite de orbes m\xE1gicos pulsantes_41"
+  - first:
+      213: -2305548455329876007
+    second: "Sprite de orbes m\xE1gicos pulsantes_42"
+  - first:
+      213: 6844327529754622003
+    second: "Sprite de orbes m\xE1gicos pulsantes_43"
+  - first:
+      213: -7992046120552292435
+    second: "Sprite de orbes m\xE1gicos pulsantes_44"
+  - first:
+      213: 8288106663435682122
+    second: "Sprite de orbes m\xE1gicos pulsantes_45"
+  - first:
+      213: -661490789111852544
+    second: "Sprite de orbes m\xE1gicos pulsantes_46"
+  - first:
+      213: 3872075336353044624
+    second: "Sprite de orbes m\xE1gicos pulsantes_47"
+  - first:
+      213: 7768016047401934282
+    second: "Sprite de orbes m\xE1gicos pulsantes_48"
+  - first:
+      213: 4545080742284636620
+    second: "Sprite de orbes m\xE1gicos pulsantes_49"
+  - first:
+      213: 7218521758384976574
+    second: "Sprite de orbes m\xE1gicos pulsantes_50"
+  - first:
+      213: 3355326639153096998
+    second: "Sprite de orbes m\xE1gicos pulsantes_51"
+  - first:
+      213: -9018759559426705867
+    second: "Sprite de orbes m\xE1gicos pulsantes_52"
+  - first:
+      213: 9167687508894106184
+    second: "Sprite de orbes m\xE1gicos pulsantes_53"
+  - first:
+      213: -3908466524193569342
+    second: "Sprite de orbes m\xE1gicos pulsantes_54"
+  - first:
+      213: 2326872623103201950
+    second: "Sprite de orbes m\xE1gicos pulsantes_55"
+  - first:
+      213: 646184733239882848
+    second: "Sprite de orbes m\xE1gicos pulsantes_56"
+  - first:
+      213: -1366794961086304928
+    second: "Sprite de orbes m\xE1gicos pulsantes_57"
+  - first:
+      213: 5498160923318338117
+    second: "Sprite de orbes m\xE1gicos pulsantes_58"
+  - first:
+      213: 6492484019546513224
+    second: "Sprite de orbes m\xE1gicos pulsantes_59"
+  - first:
+      213: 1426060063720641259
+    second: "Sprite de orbes m\xE1gicos pulsantes_60"
+  - first:
+      213: -7391653539395768218
+    second: "Sprite de orbes m\xE1gicos pulsantes_61"
+  - first:
+      213: 2112072998259463307
+    second: "Sprite de orbes m\xE1gicos pulsantes_62"
+  - first:
+      213: 5661316788715957591
+    second: "Sprite de orbes m\xE1gicos pulsantes_63"
+  - first:
+      213: 7060034155331653605
+    second: "Sprite de orbes m\xE1gicos pulsantes_64"
+  - first:
+      213: -1275060297814843757
+    second: "Sprite de orbes m\xE1gicos pulsantes_65"
+  - first:
+      213: -1779519146381909147
+    second: "Sprite de orbes m\xE1gicos pulsantes_66"
+  - first:
+      213: -5664580347847923766
+    second: "Sprite de orbes m\xE1gicos pulsantes_67"
+  - first:
+      213: 4514529358208461187
+    second: "Sprite de orbes m\xE1gicos pulsantes_68"
+  - first:
+      213: -7093440223287356504
+    second: "Sprite de orbes m\xE1gicos pulsantes_69"
+  - first:
+      213: 3731822650887793356
+    second: "Sprite de orbes m\xE1gicos pulsantes_70"
+  - first:
+      213: 698038738062075773
+    second: "Sprite de orbes m\xE1gicos pulsantes_71"
+  - first:
+      213: -6840570849260723133
+    second: "Sprite de orbes m\xE1gicos pulsantes_72"
+  - first:
+      213: -8357340851328306555
+    second: "Sprite de orbes m\xE1gicos pulsantes_73"
+  - first:
+      213: -2569079347779701734
+    second: "Sprite de orbes m\xE1gicos pulsantes_74"
+  - first:
+      213: 6908385704411001786
+    second: "Sprite de orbes m\xE1gicos pulsantes_75"
+  - first:
+      213: -1842390569721465858
+    second: "Sprite de orbes m\xE1gicos pulsantes_76"
+  - first:
+      213: 7220288532390678996
+    second: "Sprite de orbes m\xE1gicos pulsantes_77"
+  - first:
+      213: -4334959085416325701
+    second: "Sprite de orbes m\xE1gicos pulsantes_78"
+  - first:
+      213: -8804344771511936655
+    second: "Sprite de orbes m\xE1gicos pulsantes_79"
+  - first:
+      213: 8514030048008267464
+    second: "Sprite de orbes m\xE1gicos pulsantes_80"
+  - first:
+      213: -8647892007145903598
+    second: "Sprite de orbes m\xE1gicos pulsantes_81"
+  - first:
+      213: -4275257967548022186
+    second: "Sprite de orbes m\xE1gicos pulsantes_82"
+  - first:
+      213: -2807809804498050934
+    second: "Sprite de orbes m\xE1gicos pulsantes_83"
+  - first:
+      213: 1922862071122116037
+    second: "Sprite de orbes m\xE1gicos pulsantes_84"
+  - first:
+      213: 3496482295050060409
+    second: "Sprite de orbes m\xE1gicos pulsantes_85"
+  - first:
+      213: -3128316494964392124
+    second: "Sprite de orbes m\xE1gicos pulsantes_86"
+  - first:
+      213: -3133181252292479081
+    second: "Sprite de orbes m\xE1gicos pulsantes_87"
+  - first:
+      213: -7654235667488530800
+    second: "Sprite de orbes m\xE1gicos pulsantes_88"
+  - first:
+      213: -8118244437571824914
+    second: "Sprite de orbes m\xE1gicos pulsantes_89"
+  - first:
+      213: 3839195358016978430
+    second: "Sprite de orbes m\xE1gicos pulsantes_90"
+  - first:
+      213: 4210770840524931913
+    second: "Sprite de orbes m\xE1gicos pulsantes_91"
+  - first:
+      213: -1660081485891669889
+    second: "Sprite de orbes m\xE1gicos pulsantes_92"
+  - first:
+      213: 9103043487176087488
+    second: "Sprite de orbes m\xE1gicos pulsantes_93"
+  - first:
+      213: -4945258861397539508
+    second: "Sprite de orbes m\xE1gicos pulsantes_94"
+  - first:
+      213: -6973176134506594680
+    second: "Sprite de orbes m\xE1gicos pulsantes_95"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Sprite de orbes m\xE1gicos pulsantes_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2936e0e7f1a9d3230800000000000000
+      internalID: 3620219135525282706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite de orbes m\xE1gicos pulsantes_1"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582fe9594773d65b0800000000000000
+      internalID: -5373577806517177723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite de orbes m\xE1gicos pulsantes_2"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646e34afeb1665470800000000000000
+      internalID: 8382995229267191366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite de orbes m\xE1gicos pulsantes_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5843354b097b5faf0800000000000000
+      internalID: -363182362804931451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite de orbes m\xE1gicos pulsantes_4"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abd186c29c6df7488aafdeb813717b0
+      internalID: -564802015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite de orbes m\xE1gicos pulsantes_5"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3376c4ddbaf41e42834b8d5a2dfda6c
+      internalID: 1185959506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ea77e1c0be5a3414e9168c4a7fc83cc2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Sprite de orbes m\xE1gicos pulsantes_0": 3620219135525282706
+      "Sprite de orbes m\xE1gicos pulsantes_1": -5373577806517177723
+      "Sprite de orbes m\xE1gicos pulsantes_2": 8382995229267191366
+      "Sprite de orbes m\xE1gicos pulsantes_3": -363182362804931451
+      "Sprite de orbes m\xE1gicos pulsantes_4": -564802015
+      "Sprite de orbes m\xE1gicos pulsantes_5": 1185959506
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
