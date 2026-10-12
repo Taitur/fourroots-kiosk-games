@@ -5553,15 +5553,11 @@ MonoBehaviour:
   drawingRenderer: {fileID: 592218679}
   drawingMaxSize: {x: 13.5, y: 8}
   tmpInput: {fileID: 1354708075}
-  legacyInput: {fileID: 0}
   tmpResult: {fileID: 0}
   legacyResult: {fileID: 0}
   loadingMessage: Cargando dibujo...
   noDrawingsMessage: "No hay dibujos de otros jugadores todav\xEDa."
-  correctMessage: "\xA1Correcto!"
-  wrongMessage: 'Incorrecto. Era: '
-  onlyOneGuess: 1
-  pointsForCorrectGuess: 100
+  pointsForCorrectGuess: 10
   nextSceneName: CA_Escena_Menu
   delayBeforeChange: 2
 --- !u!1 &1832959702

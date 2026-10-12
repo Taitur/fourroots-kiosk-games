@@ -4,6 +4,13 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
 
+/// <summary>
+/// Cliente HTTP: Unity habla con TU API y la API habla con la base de datos.
+/// Es un singleton que NO se destruye al cambiar de escena, así una subida
+/// que empezó en la escena de dibujar termina aunque ya se haya cargado la siguiente.
+/// Ponlo en un objeto RAÍZ (sin padre) de la escena. Si pruebas cada escena por separado,
+/// pon uno en cada una: el duplicado se destruye solo.
+/// </summary>
 public class CA_ApiDibujos : MonoBehaviour
 {
     public static CA_ApiDibujos Instance { get; private set; }
@@ -28,6 +35,7 @@ public class CA_ApiDibujos : MonoBehaviour
     {
         public int id_dibujo;
         public int puntos;
+        public int id_jugador;   // quien manda los puntos (quien adivinó / quien calificó)
     }
 
     [Serializable]
@@ -88,14 +96,14 @@ public class CA_ApiDibujos : MonoBehaviour
     // Guarda los puntos de quien adivinó
     public void SendGuessPoints(int idDibujo, int puntos, Action<bool, string> onDone = null)
     {
-        var body = new PointsRequest { id_dibujo = idDibujo, puntos = puntos };
+        var body = new PointsRequest { id_dibujo = idDibujo, puntos = puntos, id_jugador = playerId };
         StartCoroutine(PostJson("/dibujos/puntos-adivinar", JsonUtility.ToJson(body), onDone));
     }
 
     // Guarda los puntos de la calificación (1 a 5)
     public void SendRatingPoints(int idDibujo, int puntos, Action<bool, string> onDone = null)
     {
-        var body = new PointsRequest { id_dibujo = idDibujo, puntos = puntos };
+        var body = new PointsRequest { id_dibujo = idDibujo, puntos = puntos, id_jugador = playerId };
         StartCoroutine(PostJson("/dibujos/puntos-calificacion", JsonUtility.ToJson(body), onDone));
     }
 
