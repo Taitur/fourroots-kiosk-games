@@ -24,16 +24,21 @@ public class Jugador : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
-        Vector2 direccion = new Vector2(horizontal, vertical).normalized;
-        cuerpo.linearVelocity = direccion * velocidad;
-
-        if (horizontal < 0)
-            anim.Play("JugadorCaminaIzq");
-        else if (horizontal > 0)
-            anim.Play("JugadorCaminaDer");
-        else if (vertical != 0)
-            anim.Play("JugadorCamina");
-        else
-            anim.Play("JugadorEspera");
+       
+        if(cuerpo.bodyType == RigidbodyType2D.Dynamic)
+        {
+            Vector2 direccion = new Vector2(horizontal, vertical).normalized;
+            cuerpo.linearVelocity = direccion * velocidad;
+            if (horizontal < 0)
+                anim.Play("JugadorCaminaIzq");
+            else if (horizontal > 0)
+                anim.Play("JugadorCaminaDer");
+            else if (vertical != 0)
+                anim.Play("JugadorCamina");
+            else
+                anim.Play("JugadorEspera");
         }
+        }
+        
+       
 }
