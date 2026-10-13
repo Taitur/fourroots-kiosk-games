@@ -10,7 +10,7 @@ public class BotonoesMenu : MonoBehaviour
 
         public void Juego2()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Menu");
     }
 
         public void Juego3()
