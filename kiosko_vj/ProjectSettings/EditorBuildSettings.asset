@@ -12,13 +12,49 @@ EditorBuildSettings:
     path: Assets/JuegoConectArte/EscenasCA/CA_Escena_Menu.unity
     guid: 47bea78f7a420bc40b54e7259db17c39
   - enabled: 1
-    path: Assets/JuegoConectArte/EscenasCA/CA_Escena_instrucciones.unity
+    path: Assets/JuegoConectArte/EscenasCA/CA_Escena_juego.unity
     guid: 948e43911e0ee8b47a71d65c00bce77f
+  - enabled: 1
+    path: Assets/JuegoReset/EscenasR/R_Escena_Menu.unity
+    guid: f261d732bce461f409838cd4353a72df
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/Menu.unity
+    guid: 1edf78715e869422a9bf5118873fa04c
+  - enabled: 1
+    path: Assets/JuegoIAvventura/EscenasIA/IAvventuraScene.unity
+    guid: e32f6daf5f6d443699c522fecd559a58
   - enabled: 1
     path: Assets/JuegoSaltoCorporativo/Menu_SP.unity
     guid: ab17c5abb78364aff906ae7dea4728b7
   - enabled: 1
     path: Assets/JuegoSaltoCorporativo/Nivel 1.unity
     guid: aeb51b74c076647b7845a8aa14ca33db
+  - enabled: 1
+    path: Assets/JuegoReset/EscenasR/R_Escena_Juego.unity
+    guid: 009ad75929a36dd4ca6fdf16de2c9e6c
+  - enabled: 1
+    path: Assets/JuegoReset/EscenasR/R_Escena_Respira.unity
+    guid: f77c21d6d6cfb5b43ac176c619ce541b
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoRH.unity
+    guid: a36a8ea16f0e649f9b50a757556d69b4
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoAtencion.unity
+    guid: b962ebced55f242babc5e8201939f7a6
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoDireccion.unity
+    guid: 0e72c47de193a4eb6a8c5553e43bf78c
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoFinanzas.unity
+    guid: b36f08617e65d4a74ad250e6105d585b
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoMarketing.unity
+    guid: fbd825b9c74f34b78949344bfb0878ca
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoVentas.unity
+    guid: 22fbfb003085b4868866db7aa5a8ae19
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/MapaDepartamentos.unity
+    guid: 1d19854afed16464195be883ece81330
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

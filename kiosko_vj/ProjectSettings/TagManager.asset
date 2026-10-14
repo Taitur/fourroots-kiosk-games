@@ -2,17 +2,18 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags:
+  - suelo
   - Peligro
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
+  - UpperUI
   - 
   - 
   - 
@@ -42,3 +43,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: DownUI
+    uniqueID: 372200213
+    locked: 0
+  - name: Player
+    uniqueID: 116271875
+    locked: 0
+  - name: UpperUI
+    uniqueID: 305880893
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []

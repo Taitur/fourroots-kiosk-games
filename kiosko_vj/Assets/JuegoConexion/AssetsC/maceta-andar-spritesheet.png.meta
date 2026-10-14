@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f78a63231dd38485ba292602265526d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2538856583272999665
+    second: maceta-andar-spritesheet_0
+  - first:
+      213: 1188777623762786929
+    second: maceta-andar-spritesheet_1
+  - first:
+      213: 4074506716293654404
+    second: maceta-andar-spritesheet_2
+  - first:
+      213: -1929184879440707373
+    second: maceta-andar-spritesheet_3
+  - first:
+      213: 2198377956276355268
+    second: maceta-andar-spritesheet_4
+  - first:
+      213: 2267583620004354597
+    second: maceta-andar-spritesheet_5
+  - first:
+      213: 650418261387047434
+    second: maceta-andar-spritesheet_6
+  - first:
+      213: -1779931051620468659
+    second: maceta-andar-spritesheet_7
+  - first:
+      213: 7433605075268930262
+    second: maceta-andar-spritesheet_8
+  - first:
+      213: 8546967629747936803
+    second: maceta-andar-spritesheet_9
+  - first:
+      213: -6318866486784188337
+    second: maceta-andar-spritesheet_10
+  - first:
+      213: -5983442408173925650
+    second: maceta-andar-spritesheet_11
+  - first:
+      213: 6871314202737911683
+    second: maceta-andar-spritesheet_12
+  - first:
+      213: 8105234058102855774
+    second: maceta-andar-spritesheet_13
+  - first:
+      213: 6660238192954487076
+    second: maceta-andar-spritesheet_14
+  - first:
+      213: 172555296500919916
+    second: maceta-andar-spritesheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 779
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa26ad6c94db3320800000000000000
+      internalID: 2538856583272999665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 779
+        width: 176
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a505d43f26f7010800000000000000
+      internalID: 1188777623762786929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 779
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48760a3554e8b8830800000000000000
+      internalID: 4074506716293654404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 779
+        width: 176
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0c1eac2982a35e0800000000000000
+      internalID: -1929184879440707373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 523
+        width: 158
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0c6ed8a15328e10800000000000000
+      internalID: 2198377956276355268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 523
+        width: 158
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a9ad8c943187f10800000000000000
+      internalID: 2267583620004354597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 523
+        width: 158
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02f66176ffb60900800000000000000
+      internalID: 650418261387047434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 523
+        width: 158
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d487977932a6c47e0800000000000000
+      internalID: -1779931051620468659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 267
+        width: 158
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da02f75e68792760800000000000000
+      internalID: 7433605075268930262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 267
+        width: 158
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e53e586cdec9670800000000000000
+      internalID: 8546967629747936803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 267
+        width: 158
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40ab18b860ee48a0800000000000000
+      internalID: -6318866486784188337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 267
+        width: 158
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea09c6d4da86fca0800000000000000
+      internalID: -5983442408173925650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 11
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3872a429cdfcb5f50800000000000000
+      internalID: 6871314202737911683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 11
+        width: 176
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e585e96be639b7070800000000000000
+      internalID: 8105234058102855774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 11
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421ba8a595bed6c50800000000000000
+      internalID: 6660238192954487076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maceta-andar-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 11
+        width: 176
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6eac00c02a056200800000000000000
+      internalID: 172555296500919916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      maceta-andar-spritesheet_0: 2538856583272999665
+      maceta-andar-spritesheet_1: 1188777623762786929
+      maceta-andar-spritesheet_10: -6318866486784188337
+      maceta-andar-spritesheet_11: -5983442408173925650
+      maceta-andar-spritesheet_12: 6871314202737911683
+      maceta-andar-spritesheet_13: 8105234058102855774
+      maceta-andar-spritesheet_14: 6660238192954487076
+      maceta-andar-spritesheet_15: 172555296500919916
+      maceta-andar-spritesheet_2: 4074506716293654404
+      maceta-andar-spritesheet_3: -1929184879440707373
+      maceta-andar-spritesheet_4: 2198377956276355268
+      maceta-andar-spritesheet_5: 2267583620004354597
+      maceta-andar-spritesheet_6: 650418261387047434
+      maceta-andar-spritesheet_7: -1779931051620468659
+      maceta-andar-spritesheet_8: 7433605075268930262
+      maceta-andar-spritesheet_9: 8546967629747936803
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

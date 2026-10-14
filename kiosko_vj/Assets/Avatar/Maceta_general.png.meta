@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 8968bd0b0652147659c3fa9799c5a6a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6421116308848425793
+    second: Maceta_general_0
+  - first:
+      213: -8531783457990225184
+    second: Maceta_general_1
+  - first:
+      213: 5490792692913259265
+    second: Maceta_general_2
+  - first:
+      213: -4311647845599356047
+    second: Maceta_general_3
+  - first:
+      213: -870904411027068048
+    second: Maceta_general_4
+  - first:
+      213: 9218555174613817990
+    second: Maceta_general_5
+  - first:
+      213: -47960821761101985
+    second: Maceta_general_6
+  - first:
+      213: -6919378387796314243
+    second: Maceta_general_7
+  - first:
+      213: 522413269553830296
+    second: Maceta_general_8
+  - first:
+      213: 2907969458149183743
+    second: Maceta_general_9
+  - first:
+      213: -4084720714540253144
+    second: Maceta_general_10
+  - first:
+      213: -2068358620634504393
+    second: Maceta_general_11
+  - first:
+      213: -1387451996752203765
+    second: Maceta_general_12
+  - first:
+      213: -8580516622369304343
+    second: Maceta_general_13
+  - first:
+      213: 1205583300956856292
+    second: Maceta_general_14
+  - first:
+      213: 2115567197423477497
+    second: Maceta_general_15
+  - first:
+      213: -4253096174885507250
+    second: Maceta_general_16
+  - first:
+      213: 7911367836385960916
+    second: Maceta_general_17
+  - first:
+      213: 2202620179937141585
+    second: Maceta_general_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Maceta_general_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 523
+        width: 154
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bb06a23436c1950800000000000000
+      internalID: 6421116308848425793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 523
+        width: 154
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e250f5f524099980800000000000000
+      internalID: -8531783457990225184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 523
+        width: 154
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103c76cdcd6333c40800000000000000
+      internalID: 5490792692913259265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 523
+        width: 154
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bd876e023f924c0800000000000000
+      internalID: -4311647845599356047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 267
+        width: 146
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b296b6d0de9e3f0800000000000000
+      internalID: -870904411027068048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 267
+        width: 154
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a123dd613eeef70800000000000000
+      internalID: 9218555174613817990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_6
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 267
+        width: 162
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f2bcff2eb955ff0800000000000000
+      internalID: -47960821761101985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_7
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 267
+        width: 154
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77b2e8440e69ff90800000000000000
+      internalID: -6919378387796314243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 11
+        width: 162
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899d4bdc91cff3700800000000000000
+      internalID: 522413269553830296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_9
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 39
+        width: 154
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0daaaa0de2b5820800000000000000
+      internalID: 2907969458149183743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_10
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 183
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8200623e6282057c0800000000000000
+      internalID: -4084720714540253144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_11
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 47
+        width: 154
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733a6fc0bc6bb43e0800000000000000
+      internalID: -2068358620634504393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_12
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 191
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00bdae82c7cebce0800000000000000
+      internalID: -1387451996752203765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_13
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 11
+        width: 162
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0d75ee791ebe880800000000000000
+      internalID: -8580516622369304343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_14
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 135
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef1da0ff971bb010800000000000000
+      internalID: 1205583300956856292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_15
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 159
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f225e448210c5d10800000000000000
+      internalID: 2115567197423477497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_16
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 119
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f60641097f9f4c0800000000000000
+      internalID: -4253096174885507250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_17
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 11
+        width: 74
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d36c378123dacd60800000000000000
+      internalID: 7911367836385960916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_general_18
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 11
+        width: 74
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153a2483267419e10800000000000000
+      internalID: 2202620179937141585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Maceta_general_0: 6421116308848425793
+      Maceta_general_1: -8531783457990225184
+      Maceta_general_10: -4084720714540253144
+      Maceta_general_11: -2068358620634504393
+      Maceta_general_12: -1387451996752203765
+      Maceta_general_13: -8580516622369304343
+      Maceta_general_14: 1205583300956856292
+      Maceta_general_15: 2115567197423477497
+      Maceta_general_16: -4253096174885507250
+      Maceta_general_17: 7911367836385960916
+      Maceta_general_18: 2202620179937141585
+      Maceta_general_2: 5490792692913259265
+      Maceta_general_3: -4311647845599356047
+      Maceta_general_4: -870904411027068048
+      Maceta_general_5: 9218555174613817990
+      Maceta_general_6: -47960821761101985
+      Maceta_general_7: -6919378387796314243
+      Maceta_general_8: 522413269553830296
+      Maceta_general_9: 2907969458149183743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
