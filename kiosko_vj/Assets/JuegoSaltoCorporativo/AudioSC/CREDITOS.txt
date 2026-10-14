@@ -1,0 +1,1 @@
+Sfx_Dash.ogg: sonido de dash editado por el autor del juego a partir de "tissue-pull" (proyecto Dash.aup4), recortado y con graves/agudos reducidos.
