@@ -67,12 +67,16 @@ public class Form : MonoBehaviour
 
     public void SubmitForm()
     {
-        var usuario = gm.usuario;
-        usuario.nombre = nombreInput.text;
-        usuario.puesto = puestoInput.text;
-        usuario.expertise = expertiseInput.text;
-        usuario.usuarioDepartamento = departamentoElegido;
-        gm.usuario = usuario;   
+       if (string.IsNullOrWhiteSpace(nombreInput.text) || departamentoElegido == "")
+        {
+            Debug.LogWarning("Falta el nombre o el departamento");
+            return;
+        }
+
+        gm.usuario = new GameManagerConexion.PlayerData(
+            nombreInput.text, puestoInput.text, expertiseInput.text, departamentoElegido);
+
+        gm.IniciarSesion();   
         
     }
 }
