@@ -97,6 +97,11 @@ public class SC_Jugador : MonoBehaviour
     bool muerto;
     SC_Cuarto cuartoActual;
     Vector3 puntoReaparicion;
+    Vector3 ultimoSuelo;
+    bool tieneUltimoSuelo;
+    float tiempoSueloEstable;
+    float alturaPies = 0.5f;
+    readonly RaycastHit2D[] resultadosRay = new RaycastHit2D[8];
 
     void Awake()
     {
@@ -104,6 +109,8 @@ public class SC_Jugador : MonoBehaviour
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         gravedadBase = rb.gravityScale;
+        Collider2D colJugador = GetComponent<Collider2D>();
+        if (colJugador != null) alturaPies = transform.position.y - colJugador.bounds.min.y;
         audioFx = GetComponent<AudioSource>();
         if (audioFx == null) audioFx = gameObject.AddComponent<AudioSource>();
         audioFx.playOnAwake = false;
@@ -142,6 +149,18 @@ public class SC_Jugador : MonoBehaviour
 
         enSuelo = ChequearSuelo();
         paredDir = ChequearPared();
+
+        // Recuerda el ultimo lugar donde estuvo parado un momento (respaldo para reaparecer).
+        if (enSuelo && !dashing && !agarrado)
+        {
+            tiempoSueloEstable += Time.deltaTime;
+            if (tiempoSueloEstable > 0.15f)
+            {
+                ultimoSuelo = transform.position;
+                tieneUltimoSuelo = true;
+            }
+        }
+        else tiempoSueloEstable = 0f;
 
         // Cada vez que vuelve a tocar el suelo (corriendo o quieto) suena el aterrizaje.
         // Se pide un instante minimo en el aire para ignorar parpadeos del chequeo de suelo.
@@ -271,6 +290,40 @@ public class SC_Jugador : MonoBehaviour
         }
     }
 
+    // Si el cuarto tiene punto de reaparicion manual, se usa tal cual. Si no, se usa el lugar por
+    // donde entro el jugador; si ahi no hay suelo, se busca la plataforma mas cercana hacia abajo
+    // dentro del mismo cuarto, y como ultimo recurso el ultimo lugar donde estuvo parado.
+    Vector3 ElegirReaparicion()
+    {
+        Vector3 destino = puntoReaparicion;
+        if (cuartoActual != null && cuartoActual.reaparicion != null) return destino;
+        if (HaySueloEn(destino)) return destino;
+
+        float distancia = 30f;
+        if (cuartoActual != null) distancia = Mathf.Max(0.1f, destino.y - cuartoActual.Limites.yMin);
+        int n = Physics2D.Raycast(destino, Vector2.down, filtro, resultadosRay, distancia);
+        for (int i = 0; i < n; i++)
+        {
+            Collider2D c = resultadosRay[i].collider;
+            if (c == null || c.isTrigger || c.attachedRigidbody == rb || c.gameObject.tag == tagPeligro) continue;
+            return new Vector3(destino.x, resultadosRay[i].point.y + alturaPies + 0.02f, destino.z);
+        }
+
+        if (tieneUltimoSuelo) return ultimoSuelo;
+        return destino;
+    }
+
+    bool HaySueloEn(Vector3 pos)
+    {
+        Vector2 centro = (Vector2)pos + centroChequeoSuelo;
+        int n = Physics2D.OverlapBox(centro, tamanoChequeoSuelo, 0f, filtro, resultados);
+        for (int i = 0; i < n; i++)
+        {
+            if (resultados[i] != null && resultados[i].attachedRigidbody != rb) return true;
+        }
+        return false;
+    }
+
     bool CayoFueraDelNivel()
     {
         float limite = -15f;
@@ -306,8 +359,9 @@ public class SC_Jugador : MonoBehaviour
     {
         yield return new WaitForSeconds(tiempoExplosion);
 
-        transform.position = puntoReaparicion;
-        rb.position = puntoReaparicion;
+        Vector3 destino = ElegirReaparicion();
+        transform.position = destino;
+        rb.position = destino;
         rb.linearVelocity = Vector2.zero;
         rb.simulated = true;
         coyote = 0f;
@@ -373,6 +427,18 @@ public class SC_Jugador : MonoBehaviour
 
         h = Mathf.Clamp(h, -1f, 1f);
         vInput = Mathf.Clamp(vInput, -1f, 1f);
+
+        // Durante un dialogo el jugador no se mueve.
+        if (SC_Dialogo.EnDialogo)
+        {
+            h = 0f;
+            vInput = 0f;
+            saltoPresionado = false;
+            saltoSostenido = false;
+            saltoBoton = false;
+            agarrarPresionado = false;
+            dashPresionado = false;
+        }
     }
 
     void Sonar(AudioClip clip)
