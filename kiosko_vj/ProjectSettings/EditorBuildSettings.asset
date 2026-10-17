@@ -35,5 +35,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/JuegoReset/EscenasR/R_Escena_Respira.unity
     guid: f77c21d6d6cfb5b43ac176c619ce541b
+  - enabled: 1
+    path: Assets/JuegoReset/EscenasR/R_Escena_Muevete.unity
+    guid: 5b6a167220ec1ee46938f043645617da
+  - enabled: 1
+    path: Assets/JuegoReset/EscenasR/R_Escena_Enfocate.unity
+    guid: 2cfd8547f8b390c4bb20c0704851aac5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

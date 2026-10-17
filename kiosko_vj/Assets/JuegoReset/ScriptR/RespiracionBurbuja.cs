@@ -29,16 +29,41 @@ public class RespiracionBurbuja : MonoBehaviour
     public Sprite barra100;
     public Sprite barraCompletado;
 
-    private IEnumerator Start()
+    [Header("Sonido final")]
+    public AudioSource audioSource;
+    public AudioClip sonidoCompletado;
+
+    private bool respiracionIniciada = false;
+
+    private void Start()
     {
         transform.localScale = Vector3.one * escalaMinima;
 
-        barraProgreso.sprite = barraVacia;
+        if (barraProgreso != null && barraVacia != null)
+        {
+            barraProgreso.sprite = barraVacia;
+        }
+    }
 
+    public void IniciarRespiracion()
+    {
+        if (respiracionIniciada)
+            return;
+
+        respiracionIniciada = true;
+
+        StartCoroutine(RutinaRespiracion());
+    }
+
+    private IEnumerator RutinaRespiracion()
+    {
         for (int ronda = 1; ronda <= 5; ronda++)
         {
             // INHALAR
-            textoRespira.sprite = spriteInhala;
+            if (textoRespira != null && spriteInhala != null)
+            {
+                textoRespira.sprite = spriteInhala;
+            }
 
             yield return CambiarEscala(
                 escalaMinima,
@@ -47,12 +72,18 @@ public class RespiracionBurbuja : MonoBehaviour
             );
 
             // SOSTENER
-            textoRespira.sprite = spriteSosten;
+            if (textoRespira != null && spriteSosten != null)
+            {
+                textoRespira.sprite = spriteSosten;
+            }
 
             yield return new WaitForSeconds(tiempoMantener);
 
             // EXHALAR
-            textoRespira.sprite = spriteExhala;
+            if (textoRespira != null && spriteExhala != null)
+            {
+                textoRespira.sprite = spriteExhala;
+            }
 
             yield return CambiarEscala(
                 escalaMaxima,
@@ -61,36 +92,53 @@ public class RespiracionBurbuja : MonoBehaviour
             );
 
             // PROGRESO
-            switch (ronda)
+            if (barraProgreso != null)
             {
-                case 1:
-                    barraProgreso.sprite = barra25;
-                    break;
+                switch (ronda)
+                {
+                    case 1:
+                        barraProgreso.sprite = barra25;
+                        break;
 
-                case 2:
-                    barraProgreso.sprite = barra50;
-                    break;
+                    case 2:
+                        barraProgreso.sprite = barra50;
+                        break;
 
-                case 3:
-                    barraProgreso.sprite = barra75;
-                    break;
+                    case 3:
+                        barraProgreso.sprite = barra75;
+                        break;
 
-                case 4:
-                    barraProgreso.sprite = barra85;
-                    break;
+                    case 4:
+                        barraProgreso.sprite = barra85;
+                        break;
 
-                case 5:
-                    barraProgreso.sprite = barra100;
-                    break;
+                    case 5:
+                        barraProgreso.sprite = barra100;
+                        break;
+                }
             }
         }
 
         yield return new WaitForSeconds(1f);
 
-        barraProgreso.sprite = barraCompletado;
+        if (barraProgreso != null && barraCompletado != null)
+        {
+            barraProgreso.sprite = barraCompletado;
+        }
+
+        if (audioSource != null && sonidoCompletado != null)
+        {
+            audioSource.PlayOneShot(sonidoCompletado);
+        }
+
+        respiracionIniciada = false;
     }
 
-    private IEnumerator CambiarEscala(float inicio, float fin, float duracion)
+    private IEnumerator CambiarEscala(
+        float inicio,
+        float fin,
+        float duracion
+    )
     {
         float tiempo = 0f;
 

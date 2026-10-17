@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: e983f65b9e4ca504db0853c5b9048169
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8827462683813932897
+    second: Sprite de maceta suculenta marchando en 8 frames_0
+  - first:
+      213: -3693802686266034194
+    second: Sprite de maceta suculenta marchando en 8 frames_1
+  - first:
+      213: -6605207238342118833
+    second: Sprite de maceta suculenta marchando en 8 frames_2
+  - first:
+      213: -1442809620697630685
+    second: Sprite de maceta suculenta marchando en 8 frames_3
+  - first:
+      213: -7525175330275751619
+    second: Sprite de maceta suculenta marchando en 8 frames_4
+  - first:
+      213: 1361126637874298561
+    second: Sprite de maceta suculenta marchando en 8 frames_5
+  - first:
+      213: -1433134297140207229
+    second: Sprite de maceta suculenta marchando en 8 frames_6
+  - first:
+      213: -4990936056867945907
+    second: Sprite de maceta suculenta marchando en 8 frames_7
+  - first:
+      213: -5586570512841121603
+    second: Sprite de maceta suculenta marchando en 8 frames_8
+  - first:
+      213: 6209298963972036086
+    second: Sprite de maceta suculenta marchando en 8 frames_9
+  - first:
+      213: 4189482973614497371
+    second: Sprite de maceta suculenta marchando en 8 frames_10
+  - first:
+      213: -4534248467209843674
+    second: Sprite de maceta suculenta marchando en 8 frames_11
+  - first:
+      213: -8019712658793846161
+    second: Sprite de maceta suculenta marchando en 8 frames_12
+  - first:
+      213: 3262734104043026527
+    second: Sprite de maceta suculenta marchando en 8 frames_13
+  - first:
+      213: 3873422405060387166
+    second: Sprite de maceta suculenta marchando en 8 frames_14
+  - first:
+      213: 8736555524551390446
+    second: Sprite de maceta suculenta marchando en 8 frames_15
+  - first:
+      213: 1939406203832621552
+    second: Sprite de maceta suculenta marchando en 8 frames_16
+  - first:
+      213: 8115022517560457343
+    second: Sprite de maceta suculenta marchando en 8 frames_17
+  - first:
+      213: 5177336196625283317
+    second: Sprite de maceta suculenta marchando en 8 frames_18
+  - first:
+      213: -231660904717739183
+    second: Sprite de maceta suculenta marchando en 8 frames_19
+  - first:
+      213: 8113342342118284851
+    second: Sprite de maceta suculenta marchando en 8 frames_20
+  - first:
+      213: 2647320804517943715
+    second: Sprite de maceta suculenta marchando en 8 frames_21
+  - first:
+      213: 2445640878101928278
+    second: Sprite de maceta suculenta marchando en 8 frames_22
+  - first:
+      213: 6662536593557108198
+    second: Sprite de maceta suculenta marchando en 8 frames_23
+  - first:
+      213: -5200915552384111678
+    second: Sprite de maceta suculenta marchando en 8 frames_24
+  - first:
+      213: -5040580854531719410
+    second: Sprite de maceta suculenta marchando en 8 frames_25
+  - first:
+      213: 4220852731119066376
+    second: Sprite de maceta suculenta marchando en 8 frames_26
+  - first:
+      213: -6924642243508374291
+    second: Sprite de maceta suculenta marchando en 8 frames_27
+  - first:
+      213: 2589635339515768605
+    second: Sprite de maceta suculenta marchando en 8 frames_28
+  - first:
+      213: 7571894720116990119
+    second: Sprite de maceta suculenta marchando en 8 frames_29
+  - first:
+      213: 8303354180655756433
+    second: Sprite de maceta suculenta marchando en 8 frames_30
+  - first:
+      213: -2275471324703692178
+    second: Sprite de maceta suculenta marchando en 8 frames_31
+  - first:
+      213: 5528637170394312396
+    second: Sprite de maceta suculenta marchando en 8 frames_32
+  - first:
+      213: 9029136242934920388
+    second: Sprite de maceta suculenta marchando en 8 frames_33
+  - first:
+      213: -3376482665646392952
+    second: Sprite de maceta suculenta marchando en 8 frames_34
+  - first:
+      213: -580250693745833951
+    second: Sprite de maceta suculenta marchando en 8 frames_35
+  - first:
+      213: -326860376803640638
+    second: Sprite de maceta suculenta marchando en 8 frames_36
+  - first:
+      213: -8833340593830012370
+    second: Sprite de maceta suculenta marchando en 8 frames_37
+  - first:
+      213: 3480875001678361887
+    second: Sprite de maceta suculenta marchando en 8 frames_38
+  - first:
+      213: 86370270565744010
+    second: Sprite de maceta suculenta marchando en 8 frames_39
+  - first:
+      213: 7344296682382877318
+    second: Sprite de maceta suculenta marchando en 8 frames_40
+  - first:
+      213: 794425369389792642
+    second: Sprite de maceta suculenta marchando en 8 frames_41
+  - first:
+      213: 1225844942045446174
+    second: Sprite de maceta suculenta marchando en 8 frames_42
+  - first:
+      213: -1281184491366514376
+    second: Sprite de maceta suculenta marchando en 8 frames_43
+  - first:
+      213: 7273486665749205100
+    second: Sprite de maceta suculenta marchando en 8 frames_44
+  - first:
+      213: 7644039151943511219
+    second: Sprite de maceta suculenta marchando en 8 frames_45
+  - first:
+      213: -696070018559632560
+    second: Sprite de maceta suculenta marchando en 8 frames_46
+  - first:
+      213: 5326448091117042932
+    second: Sprite de maceta suculenta marchando en 8 frames_47
+  - first:
+      213: -8960531753967243676
+    second: Sprite de maceta suculenta marchando en 8 frames_48
+  - first:
+      213: 5787206556366101428
+    second: Sprite de maceta suculenta marchando en 8 frames_49
+  - first:
+      213: 7430219638513075031
+    second: Sprite de maceta suculenta marchando en 8 frames_50
+  - first:
+      213: -2887984453484133049
+    second: Sprite de maceta suculenta marchando en 8 frames_51
+  - first:
+      213: -4776839393586094633
+    second: Sprite de maceta suculenta marchando en 8 frames_52
+  - first:
+      213: 2688250241406471192
+    second: Sprite de maceta suculenta marchando en 8 frames_53
+  - first:
+      213: 1366652630323161529
+    second: Sprite de maceta suculenta marchando en 8 frames_54
+  - first:
+      213: 8572037281714909499
+    second: Sprite de maceta suculenta marchando en 8 frames_55
+  - first:
+      213: -1373092494986960697
+    second: Sprite de maceta suculenta marchando en 8 frames_56
+  - first:
+      213: 8203340141046663378
+    second: Sprite de maceta suculenta marchando en 8 frames_57
+  - first:
+      213: 6495991867397188074
+    second: Sprite de maceta suculenta marchando en 8 frames_58
+  - first:
+      213: -5545441661149996568
+    second: Sprite de maceta suculenta marchando en 8 frames_59
+  - first:
+      213: 344392028134457911
+    second: Sprite de maceta suculenta marchando en 8 frames_60
+  - first:
+      213: 2851527113068213694
+    second: Sprite de maceta suculenta marchando en 8 frames_61
+  - first:
+      213: -6721112844124372595
+    second: Sprite de maceta suculenta marchando en 8 frames_62
+  - first:
+      213: -8070048741971798763
+    second: Sprite de maceta suculenta marchando en 8 frames_63
+  - first:
+      213: 3654209667114732356
+    second: Sprite de maceta suculenta marchando en 8 frames_64
+  - first:
+      213: -5104082793937861596
+    second: Sprite de maceta suculenta marchando en 8 frames_65
+  - first:
+      213: -5981364355684199324
+    second: Sprite de maceta suculenta marchando en 8 frames_66
+  - first:
+      213: 4023187029258332795
+    second: Sprite de maceta suculenta marchando en 8 frames_67
+  - first:
+      213: -6344021624317544575
+    second: Sprite de maceta suculenta marchando en 8 frames_68
+  - first:
+      213: -4083036683208703448
+    second: Sprite de maceta suculenta marchando en 8 frames_69
+  - first:
+      213: 6337802311179502791
+    second: Sprite de maceta suculenta marchando en 8 frames_70
+  - first:
+      213: 7482182611567302502
+    second: Sprite de maceta suculenta marchando en 8 frames_71
+  - first:
+      213: 4143977544921574191
+    second: Sprite de maceta suculenta marchando en 8 frames_72
+  - first:
+      213: -3561929953769605598
+    second: Sprite de maceta suculenta marchando en 8 frames_73
+  - first:
+      213: 6918634050734119686
+    second: Sprite de maceta suculenta marchando en 8 frames_74
+  - first:
+      213: 7844294416680245482
+    second: Sprite de maceta suculenta marchando en 8 frames_75
+  - first:
+      213: 1233619177309561095
+    second: Sprite de maceta suculenta marchando en 8 frames_76
+  - first:
+      213: 7712667379582685903
+    second: Sprite de maceta suculenta marchando en 8 frames_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Maceta_Marchando_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 362
+        height: 543
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 111}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fecf00d07365b8469905a5598b8ca5b
+      internalID: 1207584079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_Marchando_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 543
+        width: 362
+        height: 543
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 111}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b218c71fecedd42bba3e4c6d00f8ae
+      internalID: -1933227623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_Marchando_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 543
+        width: 362
+        height: 543
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 111}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404f30c1844cfa542a2b3a73ac68c295
+      internalID: 542688220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_Marchando_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 543
+        width: 362
+        height: 432
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5ff533e1612f045b297a85bddd2c59
+      internalID: 868227288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_Marchando_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 362
+        height: 543
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 59, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82872aee8ab32a43a4050611e2f5216
+      internalID: -1336623197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_Marchando_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 59
+        width: 362
+        height: 484
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330c4cf6c92b71241888dd673c290da6
+      internalID: 1048952693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_Marchando_6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 362
+        height: 543
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88f3e9a83971a947b5c4685f914b323
+      internalID: -897004077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maceta_Marchando_7
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 543
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b8dc5944ddd6f4899e9cfda4bb85f0
+      internalID: 328518516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 76be6d33c378ed340bf6cfd6c61e0393
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":362.0,"y":543.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Maceta_Marchando_0: 1207584079
+      Maceta_Marchando_1: -1933227623
+      Maceta_Marchando_2: 542688220
+      Maceta_Marchando_3: 868227288
+      Maceta_Marchando_4: -1336623197
+      Maceta_Marchando_5: 1048952693
+      Maceta_Marchando_6: -897004077
+      Maceta_Marchando_7: 328518516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
