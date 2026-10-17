@@ -1164,7 +1164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: add7e8d87394746e78964b0065ccccc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PanelRespuesta
+  botonCancelar: {fileID: 0}
+  botonEnviar: {fileID: 0}
   textoEnunciado: {fileID: 670885875088672138}
+  response: {fileID: 0}
+  pregAnim: {fileID: 4852428454120779373, guid: 7052a2ef645ae4e58964a2535636b70d, type: 3}
 --- !u!1 &7685414974354744411
 GameObject:
   m_ObjectHideFlags: 0
