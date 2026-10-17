@@ -2171,6 +2171,7 @@ GameObject:
   - component: {fileID: 806207853}
   - component: {fileID: 806207852}
   - component: {fileID: 806207851}
+  - component: {fileID: 806207854}
   m_Layer: 5
   m_Name: Estrella5
   m_TagString: Untagged
@@ -2279,6 +2280,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806207849}
   m_CullTransparentMesh: 1
+--- !u!114 &806207854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806207849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c8a750ca93c5c40b77b719ddc280b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CA_ButtonSound
+  sound: 1
 --- !u!1 &831591286
 GameObject:
   m_ObjectHideFlags: 0
@@ -2291,6 +2305,7 @@ GameObject:
   - component: {fileID: 831591290}
   - component: {fileID: 831591289}
   - component: {fileID: 831591288}
+  - component: {fileID: 831591291}
   m_Layer: 5
   m_Name: Estrella3
   m_TagString: Untagged
@@ -2399,6 +2414,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831591286}
   m_CullTransparentMesh: 1
+--- !u!114 &831591291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831591286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c8a750ca93c5c40b77b719ddc280b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CA_ButtonSound
+  sound: 1
 --- !u!1 &1043539742
 GameObject:
   m_ObjectHideFlags: 0
@@ -2411,6 +2439,7 @@ GameObject:
   - component: {fileID: 1043539746}
   - component: {fileID: 1043539745}
   - component: {fileID: 1043539744}
+  - component: {fileID: 1043539747}
   m_Layer: 5
   m_Name: Submit
   m_TagString: Untagged
@@ -2532,6 +2561,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043539742}
   m_CullTransparentMesh: 1
+--- !u!114 &1043539747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043539742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c8a750ca93c5c40b77b719ddc280b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CA_ButtonSound
+  sound: 0
 --- !u!1 &1064477110
 GameObject:
   m_ObjectHideFlags: 0
@@ -2544,6 +2586,7 @@ GameObject:
   - component: {fileID: 1064477114}
   - component: {fileID: 1064477113}
   - component: {fileID: 1064477112}
+  - component: {fileID: 1064477115}
   m_Layer: 5
   m_Name: Estrella2
   m_TagString: Untagged
@@ -2652,6 +2695,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064477110}
   m_CullTransparentMesh: 1
+--- !u!114 &1064477115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064477110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c8a750ca93c5c40b77b719ddc280b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CA_ButtonSound
+  sound: 1
 --- !u!1 &1166344336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2801,6 +2857,7 @@ GameObject:
   - component: {fileID: 1193374048}
   - component: {fileID: 1193374047}
   - component: {fileID: 1193374046}
+  - component: {fileID: 1193374049}
   m_Layer: 5
   m_Name: Estrella4
   m_TagString: Untagged
@@ -2909,6 +2966,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193374044}
   m_CullTransparentMesh: 1
+--- !u!114 &1193374049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193374044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c8a750ca93c5c40b77b719ddc280b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CA_ButtonSound
+  sound: 1
 --- !u!1 &1354708073
 GameObject:
   m_ObjectHideFlags: 0
@@ -5245,6 +5315,7 @@ GameObject:
   - component: {fileID: 1638545852}
   - component: {fileID: 1638545851}
   - component: {fileID: 1638545850}
+  - component: {fileID: 1638545853}
   m_Layer: 5
   m_Name: Estrella1
   m_TagString: Untagged
@@ -5365,6 +5436,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638545848}
   m_CullTransparentMesh: 1
+--- !u!114 &1638545853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638545848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c8a750ca93c5c40b77b719ddc280b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CA_ButtonSound
+  sound: 1
 --- !u!1 &1665107699
 GameObject:
   m_ObjectHideFlags: 0
@@ -5548,7 +5632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CA_Adivinar
   tmpPlayerName: {fileID: 1166344338}
   legacyPlayerName: {fileID: 0}
-  namePrefix: 'Dibujo de: '
+  namePrefix: ' '
   drawingImage: {fileID: 0}
   drawingRenderer: {fileID: 592218679}
   drawingMaxSize: {x: 13.5, y: 8}

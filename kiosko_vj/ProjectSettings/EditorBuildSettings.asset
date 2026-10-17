@@ -32,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/JuegoReset/EscenasR/R_Escena_Respira.unity
     guid: f77c21d6d6cfb5b43ac176c619ce541b
+  - enabled: 1
+    path: Assets/JuegoConectArte/EscenasCA/CA_Escena_instrucciones.unity
+    guid: 1c6decccdee8c1c469df6323c468d543
+  - enabled: 1
+    path: Assets/JuegoConectArte/EscenasCA/CA_Calificar.unity
+    guid: ac97f35c61db5b748b4fc4fd997e6ede
   - enabled: 0
     path: Assets/JuegoConexion/EscenasC/DepartamentoRH.unity
     guid: a36a8ea16f0e649f9b50a757556d69b4
