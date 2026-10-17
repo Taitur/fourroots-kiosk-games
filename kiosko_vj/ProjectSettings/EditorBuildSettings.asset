@@ -36,25 +36,40 @@ EditorBuildSettings:
     path: Assets/JuegoReset/EscenasR/R_Escena_Respira.unity
     guid: f77c21d6d6cfb5b43ac176c619ce541b
   - enabled: 1
+    path: Assets/JuegoConectArte/EscenasCA/CA_Escena_instrucciones.unity
+    guid: 1c6decccdee8c1c469df6323c468d543
+  - enabled: 1
+    path: Assets/JuegoConectArte/EscenasCA/CA_Calificar.unity
+    guid: ac97f35c61db5b748b4fc4fd997e6ede
+  - enabled: 0
     path: Assets/JuegoConexion/EscenasC/DepartamentoRH.unity
     guid: a36a8ea16f0e649f9b50a757556d69b4
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoAtencion.unity
-    guid: b962ebced55f242babc5e8201939f7a6
+    guid: e23a56e0229c145a6ab3bb1249a2de0d
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoDireccion.unity
-    guid: 0e72c47de193a4eb6a8c5553e43bf78c
+    guid: bc1de925e6f5b4eaf9ee54f20f35d75c
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoFinanzas.unity
-    guid: b36f08617e65d4a74ad250e6105d585b
+    guid: 29134d25173d242a7995ac71930b2f90
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoMarketing.unity
-    guid: fbd825b9c74f34b78949344bfb0878ca
+    guid: a6c35ebfdcfd64faba7551a352f81670
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoVentas.unity
     guid: 22fbfb003085b4868866db7aa5a8ae19
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/MapaDepartamentos.unity
     guid: 1d19854afed16464195be883ece81330
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/MainForm.unity
+    guid: 795ce49b3f51543ef8917bb929c825ec
+  - enabled: 1
+    path: Assets/JuegoReset/EscenasR/R_Escena_Muevete.unity
+    guid: 5b6a167220ec1ee46938f043645617da
+  - enabled: 1
+    path: Assets/JuegoReset/EscenasR/R_Escena_Enfocate.unity
+    guid: 2cfd8547f8b390c4bb20c0704851aac5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
