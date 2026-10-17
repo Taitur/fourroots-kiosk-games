@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: c79c47af6e6fb6947aaa3b761882dace
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2398027637124567391
+    second: "Cartel pixelado de inclinaci\xF3n lateral_0"
+  - first:
+      213: -4242250467869495762
+    second: "Cartel pixelado de inclinaci\xF3n lateral_1"
+  - first:
+      213: 2273667052657546863
+    second: "Cartel pixelado de inclinaci\xF3n lateral_2"
+  - first:
+      213: 7089667512082097280
+    second: "Cartel pixelado de inclinaci\xF3n lateral_3"
+  - first:
+      213: 7904807763948249424
+    second: "Cartel pixelado de inclinaci\xF3n lateral_4"
+  - first:
+      213: -2444057484659981167
+    second: "Cartel pixelado de inclinaci\xF3n lateral_5"
+  - first:
+      213: -1616319964202548139
+    second: "Cartel pixelado de inclinaci\xF3n lateral_6"
+  - first:
+      213: -8249523982876739723
+    second: "Cartel pixelado de inclinaci\xF3n lateral_7"
+  - first:
+      213: 5085597503677662479
+    second: "Cartel pixelado de inclinaci\xF3n lateral_8"
+  - first:
+      213: -309364450373072285
+    second: "Cartel pixelado de inclinaci\xF3n lateral_9"
+  - first:
+      213: -1640121219715737124
+    second: "Cartel pixelado de inclinaci\xF3n lateral_10"
+  - first:
+      213: -8340444854365242601
+    second: "Cartel pixelado de inclinaci\xF3n lateral_11"
+  - first:
+      213: -6054721985441365524
+    second: "Cartel pixelado de inclinaci\xF3n lateral_12"
+  - first:
+      213: 2726743421917928934
+    second: "Cartel pixelado de inclinaci\xF3n lateral_13"
+  - first:
+      213: -7860541160441125840
+    second: "Cartel pixelado de inclinaci\xF3n lateral_14"
+  - first:
+      213: 5422184115413922165
+    second: "Cartel pixelado de inclinaci\xF3n lateral_15"
+  - first:
+      213: 5310742340678077495
+    second: "Cartel pixelado de inclinaci\xF3n lateral_16"
+  - first:
+      213: -3658003723729449371
+    second: "Cartel pixelado de inclinaci\xF3n lateral_17"
+  - first:
+      213: -7420034510419038710
+    second: "Cartel pixelado de inclinaci\xF3n lateral_18"
+  - first:
+      213: -2172909197804032533
+    second: "Cartel pixelado de inclinaci\xF3n lateral_19"
+  - first:
+      213: -9093575830942548376
+    second: "Cartel pixelado de inclinaci\xF3n lateral_20"
+  - first:
+      213: -6874448169239993246
+    second: "Cartel pixelado de inclinaci\xF3n lateral_21"
+  - first:
+      213: 6612643657887404313
+    second: "Cartel pixelado de inclinaci\xF3n lateral_22"
+  - first:
+      213: -5767435422692435362
+    second: "Cartel pixelado de inclinaci\xF3n lateral_23"
+  - first:
+      213: 3632935169234013727
+    second: "Cartel pixelado de inclinaci\xF3n lateral_24"
+  - first:
+      213: -1947752372880823065
+    second: "Cartel pixelado de inclinaci\xF3n lateral_25"
+  - first:
+      213: 3292113387497014678
+    second: "Cartel pixelado de inclinaci\xF3n lateral_26"
+  - first:
+      213: 441884028741448635
+    second: "Cartel pixelado de inclinaci\xF3n lateral_27"
+  - first:
+      213: 1626683814183500480
+    second: "Cartel pixelado de inclinaci\xF3n lateral_28"
+  - first:
+      213: -5905273794583499428
+    second: "Cartel pixelado de inclinaci\xF3n lateral_29"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 2167
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5111604e61874120800000000000000
+      internalID: 2398027637124567391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_1"
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 691
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e67660daf7025c0800000000000000
+      internalID: -4242250467869495762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_2"
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 682
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6699235320bd8f10800000000000000
+      internalID: 2273667052657546863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_3"
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 690
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084e7412a0f836260800000000000000
+      internalID: 7089667512082097280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_4"
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 693
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051a2e3a7c483bd60800000000000000
+      internalID: 7904807763948249424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_5"
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 692
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1940538baa6f41ed0800000000000000
+      internalID: -2444057484659981167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_6"
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 676
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554c5526e8da199e0800000000000000
+      internalID: -1616319964202548139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_7"
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 692
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577f09a35adc38d80800000000000000
+      internalID: -8249523982876739723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_8"
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 682
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0502552cfba39640800000000000000
+      internalID: 5085597503677662479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_9"
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 677
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a0165ebaae4bbf0800000000000000
+      internalID: -309364450373072285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_10"
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 676
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9534eb07e1d39e0800000000000000
+      internalID: -1640121219715737124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_11"
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 659
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b33d23899c04c80800000000000000
+      internalID: -8340444854365242601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_12"
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 658
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1050cfe6e49fba0800000000000000
+      internalID: -6054721985441365524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_13"
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 659
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed1d0102b657d520800000000000000
+      internalID: 2726743421917928934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_14"
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 661
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034e195267fb9e290800000000000000
+      internalID: -7860541160441125840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_15"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 61
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571330a99b77f3b40800000000000000
+      internalID: 5422184115413922165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_16"
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 66
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c4eb5750c83b940800000000000000
+      internalID: 5310742340678077495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_17"
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 65
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ecc048ef82c3dc0800000000000000
+      internalID: -3658003723729449371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_18"
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 59
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e65510dedb60990800000000000000
+      internalID: -7420034510419038710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_19"
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 71
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed26bfd89648d1e0800000000000000
+      internalID: -2172909197804032533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_20"
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e779a26f02dc180800000000000000
+      internalID: -9093575830942548376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_21"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 51
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264ad9dffcd0990a0800000000000000
+      internalID: -6874448169239993246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_22"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 49
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9115e9e1f54d4cb50800000000000000
+      internalID: 6612643657887404313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_23"
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 49
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a996d4a04f5ffa0800000000000000
+      internalID: -5767435422692435362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_24"
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 49
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e873ec947ca6230800000000000000
+      internalID: 3632935169234013727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_25"
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 31
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eca308598138f4e0800000000000000
+      internalID: -1947752372880823065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_26"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 43
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695411efeafefad20800000000000000
+      internalID: 3292113387497014678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_27"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 31
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb37d05de23e12600800000000000000
+      internalID: 441884028741448635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_28"
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 31
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caf84a7f44239610800000000000000
+      internalID: 1626683814183500480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado de inclinaci\xF3n lateral_29"
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 31
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d6d6475c04c0ea0800000000000000
+      internalID: -5905273794583499428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Cartel pixelado de inclinaci\xF3n lateral_0": 2398027637124567391
+      "Cartel pixelado de inclinaci\xF3n lateral_1": -4242250467869495762
+      "Cartel pixelado de inclinaci\xF3n lateral_10": -1640121219715737124
+      "Cartel pixelado de inclinaci\xF3n lateral_11": -8340444854365242601
+      "Cartel pixelado de inclinaci\xF3n lateral_12": -6054721985441365524
+      "Cartel pixelado de inclinaci\xF3n lateral_13": 2726743421917928934
+      "Cartel pixelado de inclinaci\xF3n lateral_14": -7860541160441125840
+      "Cartel pixelado de inclinaci\xF3n lateral_15": 5422184115413922165
+      "Cartel pixelado de inclinaci\xF3n lateral_16": 5310742340678077495
+      "Cartel pixelado de inclinaci\xF3n lateral_17": -3658003723729449371
+      "Cartel pixelado de inclinaci\xF3n lateral_18": -7420034510419038710
+      "Cartel pixelado de inclinaci\xF3n lateral_19": -2172909197804032533
+      "Cartel pixelado de inclinaci\xF3n lateral_2": 2273667052657546863
+      "Cartel pixelado de inclinaci\xF3n lateral_20": -9093575830942548376
+      "Cartel pixelado de inclinaci\xF3n lateral_21": -6874448169239993246
+      "Cartel pixelado de inclinaci\xF3n lateral_22": 6612643657887404313
+      "Cartel pixelado de inclinaci\xF3n lateral_23": -5767435422692435362
+      "Cartel pixelado de inclinaci\xF3n lateral_24": 3632935169234013727
+      "Cartel pixelado de inclinaci\xF3n lateral_25": -1947752372880823065
+      "Cartel pixelado de inclinaci\xF3n lateral_26": 3292113387497014678
+      "Cartel pixelado de inclinaci\xF3n lateral_27": 441884028741448635
+      "Cartel pixelado de inclinaci\xF3n lateral_28": 1626683814183500480
+      "Cartel pixelado de inclinaci\xF3n lateral_29": -5905273794583499428
+      "Cartel pixelado de inclinaci\xF3n lateral_3": 7089667512082097280
+      "Cartel pixelado de inclinaci\xF3n lateral_4": 7904807763948249424
+      "Cartel pixelado de inclinaci\xF3n lateral_5": -2444057484659981167
+      "Cartel pixelado de inclinaci\xF3n lateral_6": -1616319964202548139
+      "Cartel pixelado de inclinaci\xF3n lateral_7": -8249523982876739723
+      "Cartel pixelado de inclinaci\xF3n lateral_8": 5085597503677662479
+      "Cartel pixelado de inclinaci\xF3n lateral_9": -309364450373072285
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

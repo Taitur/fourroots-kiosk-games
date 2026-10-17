@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 1e21541a5e073984db63185999bd897e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5936487541157926404
+    second: Panel pixel art de inicio con plantas_0
+  - first:
+      213: -6306607591379709588
+    second: Panel pixel art de inicio con plantas_1
+  - first:
+      213: -8402400099403303941
+    second: Panel pixel art de inicio con plantas_2
+  - first:
+      213: 4372691148574263533
+    second: Panel pixel art de inicio con plantas_3
+  - first:
+      213: -8693417231303260968
+    second: Panel pixel art de inicio con plantas_4
+  - first:
+      213: 1430177259828694019
+    second: Panel pixel art de inicio con plantas_5
+  - first:
+      213: -1408515393349724580
+    second: Panel pixel art de inicio con plantas_6
+  - first:
+      213: -8642412665602330238
+    second: Panel pixel art de inicio con plantas_7
+  - first:
+      213: 8118520177120643834
+    second: Panel pixel art de inicio con plantas_8
+  - first:
+      213: -4093773939144617729
+    second: Panel pixel art de inicio con plantas_9
+  - first:
+      213: -7875884637579275422
+    second: Panel pixel art de inicio con plantas_10
+  - first:
+      213: 4012231438869679896
+    second: Panel pixel art de inicio con plantas_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 39
+        width: 1378
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9efbfb80c5d9da0800000000000000
+      internalID: -5936487541157926404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_1
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1020
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61d70a3fcd6a78a0800000000000000
+      internalID: -6306607591379709588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_2
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1034
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3fb5e90ada46b80800000000000000
+      internalID: -8402400099403303941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1020
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8834f9e6beeac30800000000000000
+      internalID: 4372691148574263533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_4
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1022
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4c8eb7617ca5780800000000000000
+      internalID: -8693417231303260968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_5
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1024
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c4ee1f3a209d310800000000000000
+      internalID: 1430177259828694019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_6
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1022
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5658be56b2f37ce0800000000000000
+      internalID: -1408515393349724580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_7
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1012
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281bf68587bff0880800000000000000
+      internalID: -8642412665602330238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_8
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 996
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa0e1b5617caa070800000000000000
+      internalID: 8118520177120643834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_9
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 994
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff09886ca4eff27c0800000000000000
+      internalID: -4093773939144617729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_10
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 997
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263912d76ac33b290800000000000000
+      internalID: -7875884637579275422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panel pixel art de inicio con plantas_11
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 990
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f4b766c3f4ea730800000000000000
+      internalID: 4012231438869679896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Panel pixel art de inicio con plantas_0: -5936487541157926404
+      Panel pixel art de inicio con plantas_1: -6306607591379709588
+      Panel pixel art de inicio con plantas_10: -7875884637579275422
+      Panel pixel art de inicio con plantas_11: 4012231438869679896
+      Panel pixel art de inicio con plantas_2: -8402400099403303941
+      Panel pixel art de inicio con plantas_3: 4372691148574263533
+      Panel pixel art de inicio con plantas_4: -8693417231303260968
+      Panel pixel art de inicio con plantas_5: 1430177259828694019
+      Panel pixel art de inicio con plantas_6: -1408515393349724580
+      Panel pixel art de inicio con plantas_7: -8642412665602330238
+      Panel pixel art de inicio con plantas_8: 8118520177120643834
+      Panel pixel art de inicio con plantas_9: -4093773939144617729
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
