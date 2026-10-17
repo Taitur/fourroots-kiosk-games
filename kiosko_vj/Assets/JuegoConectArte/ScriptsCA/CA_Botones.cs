@@ -5,10 +5,18 @@ public class CA_Botones : MonoBehaviour
 {
         public void Menu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("MenuPrincipal");
     }
         public void Instrucciones()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("CA_Escena_instrucciones");
+    }
+        public void Entregado()
+    {
+        SceneManager.LoadScene("CA_Calificar");
+    }
+        public void Jugar()
+    {
+        SceneManager.LoadScene("CA_EScena_juego");
     }
 }

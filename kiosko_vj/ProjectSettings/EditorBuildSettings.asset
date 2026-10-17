@@ -9,19 +9,16 @@ EditorBuildSettings:
     path: Assets/MenuPrincipal/MenuPrincipal.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: "Assets/JuegoConexion/EscenasC/Menu\u0301.unity"
-    guid: 1edf78715e869422a9bf5118873fa04c
-  - enabled: 1
     path: Assets/JuegoConectArte/EscenasCA/CA_Escena_Menu.unity
     guid: 47bea78f7a420bc40b54e7259db17c39
   - enabled: 1
-    path: Assets/JuegoConectArte/EscenasCA/CA_Escena_instrucciones.unity
+    path: Assets/JuegoConectArte/EscenasCA/CA_Escena_juego.unity
     guid: 948e43911e0ee8b47a71d65c00bce77f
   - enabled: 1
     path: Assets/JuegoReset/EscenasR/R_Escena_Menu.unity
     guid: f261d732bce461f409838cd4353a72df
   - enabled: 1
-    path: "Assets/JuegoConexion/EscenasC/Menu\u0301.unity"
+    path: Assets/JuegoConexion/EscenasC/Menu.unity
     guid: 1edf78715e869422a9bf5118873fa04c
   - enabled: 1
     path: Assets/JuegoIAvventura/EscenasIA/IAvventuraScene.unity
@@ -30,10 +27,49 @@ EditorBuildSettings:
     path: Assets/JuegoSaltoCorporativo/Menu_SP.unity
     guid: ab17c5abb78364aff906ae7dea4728b7
   - enabled: 1
+    path: Assets/JuegoSaltoCorporativo/Nivel 1.unity
+    guid: aeb51b74c076647b7845a8aa14ca33db
+  - enabled: 1
     path: Assets/JuegoReset/EscenasR/R_Escena_Juego.unity
     guid: 009ad75929a36dd4ca6fdf16de2c9e6c
   - enabled: 1
     path: Assets/JuegoReset/EscenasR/R_Escena_Respira.unity
     guid: f77c21d6d6cfb5b43ac176c619ce541b
+  - enabled: 1
+    path: Assets/JuegoConectArte/EscenasCA/CA_Escena_instrucciones.unity
+    guid: 1c6decccdee8c1c469df6323c468d543
+  - enabled: 1
+    path: Assets/JuegoConectArte/EscenasCA/CA_Calificar.unity
+    guid: ac97f35c61db5b748b4fc4fd997e6ede
+  - enabled: 0
+    path: Assets/JuegoConexion/EscenasC/DepartamentoRH.unity
+    guid: a36a8ea16f0e649f9b50a757556d69b4
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoAtencion.unity
+    guid: e23a56e0229c145a6ab3bb1249a2de0d
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoDireccion.unity
+    guid: bc1de925e6f5b4eaf9ee54f20f35d75c
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoFinanzas.unity
+    guid: 29134d25173d242a7995ac71930b2f90
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoMarketing.unity
+    guid: a6c35ebfdcfd64faba7551a352f81670
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoVentas.unity
+    guid: 22fbfb003085b4868866db7aa5a8ae19
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/MapaDepartamentos.unity
+    guid: 1d19854afed16464195be883ece81330
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/MainForm.unity
+    guid: 795ce49b3f51543ef8917bb929c825ec
+  - enabled: 1
+    path: Assets/JuegoReset/EscenasR/R_Escena_Muevete.unity
+    guid: 5b6a167220ec1ee46938f043645617da
+  - enabled: 1
+    path: Assets/JuegoReset/EscenasR/R_Escena_Enfocate.unity
+    guid: 2cfd8547f8b390c4bb20c0704851aac5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
