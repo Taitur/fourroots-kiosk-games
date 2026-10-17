@@ -1,25 +1,53 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CargarEscenaR : MonoBehaviour
 {
+    [Header("Sonido de botones")]
+    public AudioSource audioSource;
+    public AudioClip sonidoClick;
+    public float retrasoCambioEscena = 0.12f;
+
     public void IrAEscenaJuego()
     {
-        SceneManager.LoadScene("R_Escena_Juego");
+        StartCoroutine(CambiarEscenaConSonido("R_Escena_Juego"));
     }
 
     public void IrAEscenaMenu()
     {
-        SceneManager.LoadScene("R_Escena_Menu");
+        StartCoroutine(CambiarEscenaConSonido("R_Escena_Menu"));
     }
 
     public void IrAEscenaRespira()
     {
-        SceneManager.LoadScene("R_Escena_Respira");
+        StartCoroutine(CambiarEscenaConSonido("R_Escena_Respira"));
+    }
+
+    public void IrAEscenaMuevete()
+    {
+        StartCoroutine(CambiarEscenaConSonido("R_Escena_Muevete"));
+    }
+
+    public void IrAEscenaEnfocate()
+    {
+        StartCoroutine(CambiarEscenaConSonido("R_Escena_Enfocate"));
     }
 
     public void IrAMenuPrincipal()
     {
-        SceneManager.LoadScene("MenuPrincipal");
+        StartCoroutine(CambiarEscenaConSonido("MenuPrincipal"));
+    }
+
+    private IEnumerator CambiarEscenaConSonido(string nombreEscena)
+    {
+        if (audioSource != null && sonidoClick != null)
+        {
+            audioSource.PlayOneShot(sonidoClick);
+        }
+
+        yield return new WaitForSeconds(retrasoCambioEscena);
+
+        SceneManager.LoadScene(nombreEscena);
     }
 }
