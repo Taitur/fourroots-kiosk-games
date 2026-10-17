@@ -1,5 +1,7 @@
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class Oficina : MonoBehaviour
 {
@@ -37,31 +39,24 @@ public class Oficina : MonoBehaviour
         if (i >= 0) ocupado[i] = null;
     }
 
-    void Start()
+    IEnumerator Start()
     {
         gameManager = GameManagerConexion.instancia;
         preguntas = new List<GameManagerConexion.Question>();
-        var datos = gameManager.gameData;
 
-        
-
-        foreach (var jugador in datos.jugadores)
+        yield return ApiClient.ListarPreguntas(lista =>
         {
-            if (jugador.preguntas == null) continue;
-
-            for (int i = 0; i < jugador.preguntas.Count; i++)
+            foreach (var d in lista)
             {
-                var q = jugador.preguntas[i];
+                if (d.oficinaId != gameObject.name) continue;
+                if (d.relatedDepartment != SceneManager.GetActiveScene().name) continue;
+                if (!string.IsNullOrEmpty(d.response)) continue;
 
-                if (q.oficinaId != gameObject.name) continue; 
-
-                Transform punto = puntos[q.slotIndex];         
-
-                jugador.preguntas[i] = q.Reaparecer(prefabPreg, punto);
+                var q = GameManagerConexion.DesdeDTO(d);
+                Transform punto = puntos[q.slotIndex];
+                q.Reaparecer(prefabPreg, punto);
             }
-                
-        }
-
+        });
     }
 
     public void AgregarPregunta(GameManagerConexion.Question pregunta)

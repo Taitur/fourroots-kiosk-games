@@ -10,6 +10,8 @@ public class PanelRespuesta : MonoBehaviour
     public TMP_Text textoEnunciado;
     public TMP_InputField response;
 
+    public Animator pregAnim;
+
     GameManagerConexion.Question pregunta; 
     
     void Awake()
@@ -23,20 +25,24 @@ public class PanelRespuesta : MonoBehaviour
     void Enviar()
     {
         pregunta.response = response.text;
-        PreguntaManager.Instancia.EnviarRespuesta(pregunta); 
+        PreguntaManager.Instancia.EnviarRespuesta(pregunta);
         Cerrar();
-      
+
+
+
+
     }
 
-   
+
     public void Inicializar(GameManagerConexion.Question p)
     {
         textoEnunciado.text = p.question;
         pregunta = p;
-        
+
     }
     public void Cerrar()
     {
+        GameManagerConexion.instancia.ReproducirSFX("BotonClick");
         PreguntaManager.Instancia.PanelCerrado();
         Destroy(gameObject);
     }

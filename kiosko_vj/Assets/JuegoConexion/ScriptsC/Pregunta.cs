@@ -6,6 +6,7 @@ public class Pregunta : MonoBehaviour
 {
   
     Animator anim;
+    AudioSource audioSource;
 
     public GameObject panelResponse;
 
@@ -14,21 +15,27 @@ public class Pregunta : MonoBehaviour
 
     public GameManagerConexion.Question preguntaData;
 
-  
+
 
 
     void Start()
     {
         anim = GetComponent<Animator>();
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
     }
 
    void OnCollisionEnter2D(Collision2D collision)
     {
         anim.SetBool("IsTouching", true);
         anim.Play("PreguntaInteractuable");
+        audioSource.PlayOneShot(Resources.Load<AudioClip>("SFX/Interactuable"));
         cuerpo = collision.gameObject.GetComponent<Rigidbody2D>();
-        
-       
+
+
     }
 
 
