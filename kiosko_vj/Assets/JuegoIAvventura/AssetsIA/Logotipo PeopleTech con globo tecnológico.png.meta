@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: ec4bcfe0afaa4f645bb178dc49ac9cd6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8629072342104766233
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_0"
+  - first:
+      213: -8569058797811576254
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_1"
+  - first:
+      213: 7547292889023316011
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_2"
+  - first:
+      213: -3919698108386351957
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_3"
+  - first:
+      213: -2533826698840546509
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_4"
+  - first:
+      213: 9182343155158656492
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_5"
+  - first:
+      213: -3233117716544924074
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_6"
+  - first:
+      213: -3768300814071514017
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_7"
+  - first:
+      213: -6353294305777382124
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_8"
+  - first:
+      213: 7147147549885129079
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_9"
+  - first:
+      213: 2548363701317496628
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_10"
+  - first:
+      213: 5256015222776110653
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_11"
+  - first:
+      213: -6796105764584893621
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_12"
+  - first:
+      213: 5530772185927420290
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_13"
+  - first:
+      213: 2705705050011678381
+    second: "Logotipo PeopleTech con globo tecnol\xF3gico_14"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_0"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 2092
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9177d4c839f90c770800000000000000
+      internalID: 8629072342104766233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_1"
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 488
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24251099c66941980800000000000000
+      internalID: -8569058797811576254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_2"
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 443
+        width: 88
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20011235ee5db860800000000000000
+      internalID: 7547292889023316011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_3"
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 435
+        width: 30
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba46cde765f6a99c0800000000000000
+      internalID: -3919698108386351957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_4"
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 461
+        width: 80
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333653dca0a06dcd0800000000000000
+      internalID: -2533826698840546509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_5"
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 39
+        width: 559
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5a8f0137c3e6f70800000000000000
+      internalID: 9182343155158656492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_6"
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 55
+        width: 540
+        height: 454
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656515c0198a123d0800000000000000
+      internalID: -3233117716544924074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_7"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 31
+        width: 494
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cb37aff5e44bbc0800000000000000
+      internalID: -3768300814071514017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_8"
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 435
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d80a67d7094d7a0800000000000000
+      internalID: -6353294305777382124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_9"
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 427
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771e43454d4cf2360800000000000000
+      internalID: 7147147549885129079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_10"
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 424
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f6787d84b9d5320800000000000000
+      internalID: 2548363701317496628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_11"
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 425
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e9d9f5ffd11f840800000000000000
+      internalID: 5256015222776110653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_12"
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 409
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43deed70d16fa1a0800000000000000
+      internalID: -6796105764584893621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_13"
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 226
+        width: 134
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28980d3ffff31cc40800000000000000
+      internalID: 5530772185927420290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Logotipo PeopleTech con globo tecnol\xF3gico_14"
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 162
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da63de458689c8520800000000000000
+      internalID: 2705705050011678381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9d60f12676ddb9d48a2dd765fc811152
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Logotipo PeopleTech con globo tecnol\xF3gico_0": 8629072342104766233
+      "Logotipo PeopleTech con globo tecnol\xF3gico_1": -8569058797811576254
+      "Logotipo PeopleTech con globo tecnol\xF3gico_10": 2548363701317496628
+      "Logotipo PeopleTech con globo tecnol\xF3gico_11": 5256015222776110653
+      "Logotipo PeopleTech con globo tecnol\xF3gico_12": -6796105764584893621
+      "Logotipo PeopleTech con globo tecnol\xF3gico_13": 5530772185927420290
+      "Logotipo PeopleTech con globo tecnol\xF3gico_14": 2705705050011678381
+      "Logotipo PeopleTech con globo tecnol\xF3gico_2": 7547292889023316011
+      "Logotipo PeopleTech con globo tecnol\xF3gico_3": -3919698108386351957
+      "Logotipo PeopleTech con globo tecnol\xF3gico_4": -2533826698840546509
+      "Logotipo PeopleTech con globo tecnol\xF3gico_5": 9182343155158656492
+      "Logotipo PeopleTech con globo tecnol\xF3gico_6": -3233117716544924074
+      "Logotipo PeopleTech con globo tecnol\xF3gico_7": -3768300814071514017
+      "Logotipo PeopleTech con globo tecnol\xF3gico_8": -6353294305777382124
+      "Logotipo PeopleTech con globo tecnol\xF3gico_9": 7147147549885129079
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
