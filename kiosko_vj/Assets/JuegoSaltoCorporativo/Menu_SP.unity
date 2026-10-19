@@ -624,6 +624,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27cf89837386840830bfec0c4478d131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SC_Botones
+  sonidoClick: {fileID: 8300000, guid: 08a1eb2066cc1b7b99995d52a08506a6, type: 3}
+  musicaFondo: {fileID: 8300000, guid: 9a391ba7ccb374d77036e14476fa7ea9, type: 3}
+  volumenClick: 0.8
+  volumenMusica: 0.5
 --- !u!1 &900000020
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,7 +664,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 200}
+  m_SizeDelta: {x: 420, y: 308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &900000022
 MonoBehaviour:
@@ -682,7 +686,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9c637bd9bc30acd84d1d9b131dc40e3f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b035c939838b11ab5134ccd10e0e26c9, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -743,7 +747,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 900000022}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 900000015}
+        m_TargetAssemblyTypeName: SC_Botones, Assembly-CSharp
+        m_MethodName: Jugar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &900000030
 GameObject:
   m_ObjectHideFlags: 0
