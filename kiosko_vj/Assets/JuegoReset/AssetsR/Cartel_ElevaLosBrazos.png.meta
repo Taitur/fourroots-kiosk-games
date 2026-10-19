@@ -1,0 +1,3991 @@
+fileFormatVersion: 2
+guid: 97b7a102d433d0f4bb12403516a9f09a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1487384949440693753
+    second: "Cartel pixelado \xABEleva los brazos\xBB_0"
+  - first:
+      213: -8543722697496865657
+    second: "Cartel pixelado \xABEleva los brazos\xBB_1"
+  - first:
+      213: -7108422869427207461
+    second: "Cartel pixelado \xABEleva los brazos\xBB_2"
+  - first:
+      213: 551397670171570053
+    second: "Cartel pixelado \xABEleva los brazos\xBB_3"
+  - first:
+      213: 3212405607880081458
+    second: "Cartel pixelado \xABEleva los brazos\xBB_4"
+  - first:
+      213: 5729913243448729738
+    second: "Cartel pixelado \xABEleva los brazos\xBB_5"
+  - first:
+      213: 6640148078978749500
+    second: "Cartel pixelado \xABEleva los brazos\xBB_6"
+  - first:
+      213: 637863820364816628
+    second: "Cartel pixelado \xABEleva los brazos\xBB_7"
+  - first:
+      213: 1443397153252438492
+    second: "Cartel pixelado \xABEleva los brazos\xBB_8"
+  - first:
+      213: -7588927232196797847
+    second: "Cartel pixelado \xABEleva los brazos\xBB_9"
+  - first:
+      213: 4733271160233788278
+    second: "Cartel pixelado \xABEleva los brazos\xBB_10"
+  - first:
+      213: 1741793466526163684
+    second: "Cartel pixelado \xABEleva los brazos\xBB_11"
+  - first:
+      213: -1161419698745103519
+    second: "Cartel pixelado \xABEleva los brazos\xBB_12"
+  - first:
+      213: 872876207993886930
+    second: "Cartel pixelado \xABEleva los brazos\xBB_13"
+  - first:
+      213: 802274958796711960
+    second: "Cartel pixelado \xABEleva los brazos\xBB_14"
+  - first:
+      213: -7445356317935189601
+    second: "Cartel pixelado \xABEleva los brazos\xBB_15"
+  - first:
+      213: -3193996883152769490
+    second: "Cartel pixelado \xABEleva los brazos\xBB_16"
+  - first:
+      213: -8554080808995989759
+    second: "Cartel pixelado \xABEleva los brazos\xBB_17"
+  - first:
+      213: -2126254370905445425
+    second: "Cartel pixelado \xABEleva los brazos\xBB_18"
+  - first:
+      213: 7067955596166286876
+    second: "Cartel pixelado \xABEleva los brazos\xBB_19"
+  - first:
+      213: 4761631080083855927
+    second: "Cartel pixelado \xABEleva los brazos\xBB_20"
+  - first:
+      213: 2904110326977033536
+    second: "Cartel pixelado \xABEleva los brazos\xBB_21"
+  - first:
+      213: -8931166997890824513
+    second: "Cartel pixelado \xABEleva los brazos\xBB_22"
+  - first:
+      213: 5126810287028138192
+    second: "Cartel pixelado \xABEleva los brazos\xBB_23"
+  - first:
+      213: -9204922490494145816
+    second: "Cartel pixelado \xABEleva los brazos\xBB_24"
+  - first:
+      213: -4459361745519697555
+    second: "Cartel pixelado \xABEleva los brazos\xBB_25"
+  - first:
+      213: 5989247935243925126
+    second: "Cartel pixelado \xABEleva los brazos\xBB_26"
+  - first:
+      213: -8625183699512842500
+    second: "Cartel pixelado \xABEleva los brazos\xBB_27"
+  - first:
+      213: -2721129866359185935
+    second: "Cartel pixelado \xABEleva los brazos\xBB_28"
+  - first:
+      213: -3369360590041854164
+    second: "Cartel pixelado \xABEleva los brazos\xBB_29"
+  - first:
+      213: 6309206004480627267
+    second: "Cartel pixelado \xABEleva los brazos\xBB_30"
+  - first:
+      213: 5204096027541096923
+    second: "Cartel pixelado \xABEleva los brazos\xBB_31"
+  - first:
+      213: -7348302918238806192
+    second: "Cartel pixelado \xABEleva los brazos\xBB_32"
+  - first:
+      213: -2680380569545095311
+    second: "Cartel pixelado \xABEleva los brazos\xBB_33"
+  - first:
+      213: -548481068411567620
+    second: "Cartel pixelado \xABEleva los brazos\xBB_34"
+  - first:
+      213: -8581535596371542120
+    second: "Cartel pixelado \xABEleva los brazos\xBB_35"
+  - first:
+      213: 7800577899825726209
+    second: "Cartel pixelado \xABEleva los brazos\xBB_36"
+  - first:
+      213: 4952292321500865079
+    second: "Cartel pixelado \xABEleva los brazos\xBB_37"
+  - first:
+      213: -3665306725672398147
+    second: "Cartel pixelado \xABEleva los brazos\xBB_38"
+  - first:
+      213: 497912640090067290
+    second: "Cartel pixelado \xABEleva los brazos\xBB_39"
+  - first:
+      213: 3073168417789125930
+    second: "Cartel pixelado \xABEleva los brazos\xBB_40"
+  - first:
+      213: -8899835176197204363
+    second: "Cartel pixelado \xABEleva los brazos\xBB_41"
+  - first:
+      213: -778841525878470922
+    second: "Cartel pixelado \xABEleva los brazos\xBB_42"
+  - first:
+      213: -1452896286730966111
+    second: "Cartel pixelado \xABEleva los brazos\xBB_43"
+  - first:
+      213: -2914467804227146378
+    second: "Cartel pixelado \xABEleva los brazos\xBB_44"
+  - first:
+      213: -4818025681163954350
+    second: "Cartel pixelado \xABEleva los brazos\xBB_45"
+  - first:
+      213: 111081764123260702
+    second: "Cartel pixelado \xABEleva los brazos\xBB_46"
+  - first:
+      213: -763646460510388212
+    second: "Cartel pixelado \xABEleva los brazos\xBB_47"
+  - first:
+      213: -159009463283783683
+    second: "Cartel pixelado \xABEleva los brazos\xBB_48"
+  - first:
+      213: -4172312980387331290
+    second: "Cartel pixelado \xABEleva los brazos\xBB_49"
+  - first:
+      213: -1345609728842660428
+    second: "Cartel pixelado \xABEleva los brazos\xBB_50"
+  - first:
+      213: -267394731874737569
+    second: "Cartel pixelado \xABEleva los brazos\xBB_51"
+  - first:
+      213: 2725417343315329606
+    second: "Cartel pixelado \xABEleva los brazos\xBB_52"
+  - first:
+      213: -4575317533825175011
+    second: "Cartel pixelado \xABEleva los brazos\xBB_53"
+  - first:
+      213: -4449984890358969685
+    second: "Cartel pixelado \xABEleva los brazos\xBB_54"
+  - first:
+      213: -797727746871602555
+    second: "Cartel pixelado \xABEleva los brazos\xBB_55"
+  - first:
+      213: -4949689664071998966
+    second: "Cartel pixelado \xABEleva los brazos\xBB_56"
+  - first:
+      213: 9112677300459176411
+    second: "Cartel pixelado \xABEleva los brazos\xBB_57"
+  - first:
+      213: 8636525971137033392
+    second: "Cartel pixelado \xABEleva los brazos\xBB_58"
+  - first:
+      213: 2903990126493390743
+    second: "Cartel pixelado \xABEleva los brazos\xBB_59"
+  - first:
+      213: -8059836042072124298
+    second: "Cartel pixelado \xABEleva los brazos\xBB_60"
+  - first:
+      213: -7131174244040668366
+    second: "Cartel pixelado \xABEleva los brazos\xBB_61"
+  - first:
+      213: -7047590817806247432
+    second: "Cartel pixelado \xABEleva los brazos\xBB_62"
+  - first:
+      213: -8401896297882229639
+    second: "Cartel pixelado \xABEleva los brazos\xBB_63"
+  - first:
+      213: 1825478498089867797
+    second: "Cartel pixelado \xABEleva los brazos\xBB_64"
+  - first:
+      213: 7786648401063590356
+    second: "Cartel pixelado \xABEleva los brazos\xBB_65"
+  - first:
+      213: -7825642393036990446
+    second: "Cartel pixelado \xABEleva los brazos\xBB_66"
+  - first:
+      213: 4467638782431320407
+    second: "Cartel pixelado \xABEleva los brazos\xBB_67"
+  - first:
+      213: -2287958363784643815
+    second: "Cartel pixelado \xABEleva los brazos\xBB_68"
+  - first:
+      213: 1019504463680535051
+    second: "Cartel pixelado \xABEleva los brazos\xBB_69"
+  - first:
+      213: 6514518290655248959
+    second: "Cartel pixelado \xABEleva los brazos\xBB_70"
+  - first:
+      213: 1357751078691255711
+    second: "Cartel pixelado \xABEleva los brazos\xBB_71"
+  - first:
+      213: 122693121710905980
+    second: "Cartel pixelado \xABEleva los brazos\xBB_72"
+  - first:
+      213: -1087932564727077309
+    second: "Cartel pixelado \xABEleva los brazos\xBB_73"
+  - first:
+      213: -493292910630111034
+    second: "Cartel pixelado \xABEleva los brazos\xBB_74"
+  - first:
+      213: 3906667888974314181
+    second: "Cartel pixelado \xABEleva los brazos\xBB_75"
+  - first:
+      213: 5238589607059481460
+    second: "Cartel pixelado \xABEleva los brazos\xBB_76"
+  - first:
+      213: 2396373999153518948
+    second: "Cartel pixelado \xABEleva los brazos\xBB_77"
+  - first:
+      213: 4724787534288104279
+    second: "Cartel pixelado \xABEleva los brazos\xBB_78"
+  - first:
+      213: -5079106616972306896
+    second: "Cartel pixelado \xABEleva los brazos\xBB_79"
+  - first:
+      213: -3272049268892021809
+    second: "Cartel pixelado \xABEleva los brazos\xBB_80"
+  - first:
+      213: -7481093700659418112
+    second: "Cartel pixelado \xABEleva los brazos\xBB_81"
+  - first:
+      213: 8238055620585530454
+    second: "Cartel pixelado \xABEleva los brazos\xBB_82"
+  - first:
+      213: -152971497637538193
+    second: "Cartel pixelado \xABEleva los brazos\xBB_83"
+  - first:
+      213: 7006130941668936437
+    second: "Cartel pixelado \xABEleva los brazos\xBB_84"
+  - first:
+      213: 7882712528256596605
+    second: "Cartel pixelado \xABEleva los brazos\xBB_85"
+  - first:
+      213: -713696782690329143
+    second: "Cartel pixelado \xABEleva los brazos\xBB_86"
+  - first:
+      213: 4342950051311475005
+    second: "Cartel pixelado \xABEleva los brazos\xBB_87"
+  - first:
+      213: -3760390856637788100
+    second: "Cartel pixelado \xABEleva los brazos\xBB_88"
+  - first:
+      213: -7357893947095870596
+    second: "Cartel pixelado \xABEleva los brazos\xBB_89"
+  - first:
+      213: 43289242353488170
+    second: "Cartel pixelado \xABEleva los brazos\xBB_90"
+  - first:
+      213: -7849204302985155210
+    second: "Cartel pixelado \xABEleva los brazos\xBB_91"
+  - first:
+      213: -8848493501624418141
+    second: "Cartel pixelado \xABEleva los brazos\xBB_92"
+  - first:
+      213: -8547312467909976819
+    second: "Cartel pixelado \xABEleva los brazos\xBB_93"
+  - first:
+      213: 5686775744193499478
+    second: "Cartel pixelado \xABEleva los brazos\xBB_94"
+  - first:
+      213: -8189210720461421032
+    second: "Cartel pixelado \xABEleva los brazos\xBB_95"
+  - first:
+      213: -2200533939107433430
+    second: "Cartel pixelado \xABEleva los brazos\xBB_96"
+  - first:
+      213: -6122835901663067610
+    second: "Cartel pixelado \xABEleva los brazos\xBB_97"
+  - first:
+      213: -5535469000330154756
+    second: "Cartel pixelado \xABEleva los brazos\xBB_98"
+  - first:
+      213: 7791765099118099845
+    second: "Cartel pixelado \xABEleva los brazos\xBB_99"
+  - first:
+      213: 2942181161320314334
+    second: "Cartel pixelado \xABEleva los brazos\xBB_100"
+  - first:
+      213: -730620728777057054
+    second: "Cartel pixelado \xABEleva los brazos\xBB_101"
+  - first:
+      213: -2855707151053310055
+    second: "Cartel pixelado \xABEleva los brazos\xBB_102"
+  - first:
+      213: -8727548650019575506
+    second: "Cartel pixelado \xABEleva los brazos\xBB_103"
+  - first:
+      213: 5782481867802581592
+    second: "Cartel pixelado \xABEleva los brazos\xBB_104"
+  - first:
+      213: 4641499492406621273
+    second: "Cartel pixelado \xABEleva los brazos\xBB_105"
+  - first:
+      213: -6998708765009080228
+    second: "Cartel pixelado \xABEleva los brazos\xBB_106"
+  - first:
+      213: -4374611112767468450
+    second: "Cartel pixelado \xABEleva los brazos\xBB_107"
+  - first:
+      213: -8828352967092916806
+    second: "Cartel pixelado \xABEleva los brazos\xBB_108"
+  - first:
+      213: 8069993906008085765
+    second: "Cartel pixelado \xABEleva los brazos\xBB_109"
+  - first:
+      213: 5201619996489042049
+    second: "Cartel pixelado \xABEleva los brazos\xBB_110"
+  - first:
+      213: 8433734648915830048
+    second: "Cartel pixelado \xABEleva los brazos\xBB_111"
+  - first:
+      213: 8462231546419901756
+    second: "Cartel pixelado \xABEleva los brazos\xBB_112"
+  - first:
+      213: -4759718081889983912
+    second: "Cartel pixelado \xABEleva los brazos\xBB_113"
+  - first:
+      213: -1467391867019947856
+    second: "Cartel pixelado \xABEleva los brazos\xBB_114"
+  - first:
+      213: 2290946128113293825
+    second: "Cartel pixelado \xABEleva los brazos\xBB_115"
+  - first:
+      213: -5845896396050759508
+    second: "Cartel pixelado \xABEleva los brazos\xBB_116"
+  - first:
+      213: 7967637389009243784
+    second: "Cartel pixelado \xABEleva los brazos\xBB_117"
+  - first:
+      213: 8256802007230142469
+    second: "Cartel pixelado \xABEleva los brazos\xBB_118"
+  - first:
+      213: 2609424228563376347
+    second: "Cartel pixelado \xABEleva los brazos\xBB_119"
+  - first:
+      213: 1320285430472911692
+    second: "Cartel pixelado \xABEleva los brazos\xBB_120"
+  - first:
+      213: -6641156773154318299
+    second: "Cartel pixelado \xABEleva los brazos\xBB_121"
+  - first:
+      213: 3144200701238712999
+    second: "Cartel pixelado \xABEleva los brazos\xBB_122"
+  - first:
+      213: -5013139559115839666
+    second: "Cartel pixelado \xABEleva los brazos\xBB_123"
+  - first:
+      213: 6112125686000919296
+    second: "Cartel pixelado \xABEleva los brazos\xBB_124"
+  - first:
+      213: -6202818665368196145
+    second: "Cartel pixelado \xABEleva los brazos\xBB_125"
+  - first:
+      213: -2903833492777522981
+    second: "Cartel pixelado \xABEleva los brazos\xBB_126"
+  - first:
+      213: -3553730938023405227
+    second: "Cartel pixelado \xABEleva los brazos\xBB_127"
+  - first:
+      213: 1298950450548611571
+    second: "Cartel pixelado \xABEleva los brazos\xBB_128"
+  - first:
+      213: -4883116687669676954
+    second: "Cartel pixelado \xABEleva los brazos\xBB_129"
+  - first:
+      213: -5542321178809602616
+    second: "Cartel pixelado \xABEleva los brazos\xBB_130"
+  - first:
+      213: 8522304930911819509
+    second: "Cartel pixelado \xABEleva los brazos\xBB_131"
+  - first:
+      213: 1418934858412563925
+    second: "Cartel pixelado \xABEleva los brazos\xBB_132"
+  - first:
+      213: -8306399273863618982
+    second: "Cartel pixelado \xABEleva los brazos\xBB_133"
+  - first:
+      213: 5567850322666167891
+    second: "Cartel pixelado \xABEleva los brazos\xBB_134"
+  - first:
+      213: 8154191591805931845
+    second: "Cartel pixelado \xABEleva los brazos\xBB_135"
+  - first:
+      213: -1468170647640024450
+    second: "Cartel pixelado \xABEleva los brazos\xBB_136"
+  - first:
+      213: -1826482175367853750
+    second: "Cartel pixelado \xABEleva los brazos\xBB_137"
+  - first:
+      213: 6191668203351012766
+    second: "Cartel pixelado \xABEleva los brazos\xBB_138"
+  - first:
+      213: -4574635628861855266
+    second: "Cartel pixelado \xABEleva los brazos\xBB_139"
+  - first:
+      213: -3363471193580426372
+    second: "Cartel pixelado \xABEleva los brazos\xBB_140"
+  - first:
+      213: 1570973334588136094
+    second: "Cartel pixelado \xABEleva los brazos\xBB_141"
+  - first:
+      213: 5878577116931387765
+    second: "Cartel pixelado \xABEleva los brazos\xBB_142"
+  - first:
+      213: 9219875570512455532
+    second: "Cartel pixelado \xABEleva los brazos\xBB_143"
+  - first:
+      213: -1704524877960344008
+    second: "Cartel pixelado \xABEleva los brazos\xBB_144"
+  - first:
+      213: -6571977032534872447
+    second: "Cartel pixelado \xABEleva los brazos\xBB_145"
+  - first:
+      213: -8610412559804730192
+    second: "Cartel pixelado \xABEleva los brazos\xBB_146"
+  - first:
+      213: 5312548807354314049
+    second: "Cartel pixelado \xABEleva los brazos\xBB_147"
+  - first:
+      213: -606121446617689330
+    second: "Cartel pixelado \xABEleva los brazos\xBB_148"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_0"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 572
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a335cd44fbb5be0800000000000000
+      internalID: -1487384949440693753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_1"
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 659
+        width: 91
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784d14429799e6980800000000000000
+      internalID: -8543722697496865657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_2"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 710
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd24782ff0fc95d90800000000000000
+      internalID: -7108422869427207461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_3"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 675
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fed847245f6a700800000000000000
+      internalID: 551397670171570053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_4"
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 648
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2304a2c51e1c49c20800000000000000
+      internalID: 3212405607880081458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_5"
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 640
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80619d8cbdb48f40800000000000000
+      internalID: 5729913243448729738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_6"
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 671
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34558f2f7b862c50800000000000000
+      internalID: 6640148078978749500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_7"
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 661
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f02bebd3c52ad800800000000000000
+      internalID: 637863820364816628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_8"
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 626
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1fb6d301af70410800000000000000
+      internalID: 1443397153252438492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_9"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 674
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a1f92e3e6bea690800000000000000
+      internalID: -7588927232196797847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_10"
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 644
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6730653da05ffa140800000000000000
+      internalID: 4733271160233788278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_11"
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 687
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2636cede71c2810800000000000000
+      internalID: 1741793466526163684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_12"
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 635
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b282dffeec1efe0800000000000000
+      internalID: -1161419698745103519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_13"
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 635
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d89d5659441d1c00800000000000000
+      internalID: 872876207993886930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_14"
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 655
+        width: 70
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818e44b03d0422b00800000000000000
+      internalID: 802274958796711960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_15"
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 613
+        width: 84
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91434340e7cca890800000000000000
+      internalID: -7445356317935189601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_16"
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 638
+        width: 96
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e69fdd1c4aca3d0800000000000000
+      internalID: -3193996883152769490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_17"
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 711
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107decf53dcc94980800000000000000
+      internalID: -8554080808995989759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_18"
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 636
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb2f004ae60e72e0800000000000000
+      internalID: -2126254370905445425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_19"
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 711
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ec9b5ca2c661260800000000000000
+      internalID: 7067955596166286876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_20"
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 650
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a9bd73d36b41240800000000000000
+      internalID: 4761631080083855927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_21"
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 636
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045720ca4f87d4820800000000000000
+      internalID: 2904110326977033536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_22"
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 658
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6860d4fee1e0480800000000000000
+      internalID: -8931166997890824513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_23"
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 635
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d071250bc6162740800000000000000
+      internalID: 5126810287028138192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_24"
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 661
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eaa711c3cb814080800000000000000
+      internalID: -9204922490494145816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_25"
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 642
+        width: 96
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6125518e1a2d12c0800000000000000
+      internalID: -4459361745519697555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_26"
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 562
+        width: 133
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686b4f3c3451e1350800000000000000
+      internalID: 5989247935243925126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_27"
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 693
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf62c0c9f113d4880800000000000000
+      internalID: -8625183699512842500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_28"
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 673
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd54ffbdca9c3ad0800000000000000
+      internalID: -2721129866359185935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_29"
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 656
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fca5e1560ad31d0800000000000000
+      internalID: -3369360590041854164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_30"
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 675
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34254d7fe6dce8750800000000000000
+      internalID: 6309206004480627267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_31"
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 695
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9cb9ab3c9a83840800000000000000
+      internalID: 5204096027541096923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_32"
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 550
+        width: 145
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fd868cd65950a90800000000000000
+      internalID: -7348302918238806192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_33"
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 631
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177c761c2106dcad0800000000000000
+      internalID: -2680380569545095311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_34"
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 679
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf14d4fcf576368f0800000000000000
+      internalID: -548481068411567620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_35"
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 659
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f77ee87d248e880800000000000000
+      internalID: -8581535596371542120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_36"
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 644
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10300e94548314c60800000000000000
+      internalID: 7800577899825726209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_37"
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 683
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73224f6c0a31ab440800000000000000
+      internalID: 4952292321500865079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_38"
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 642
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2527fd3f6322dc0800000000000000
+      internalID: -3665306725672398147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_39"
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 681
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51deb978e0f8e600800000000000000
+      internalID: 497912640090067290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_40"
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 671
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a252545c46616aa20800000000000000
+      internalID: 3073168417789125930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_41"
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 636
+        width: 110
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5765d338f0f6d7480800000000000000
+      internalID: -8899835176197204363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_42"
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 659
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6c0b932cff035f0800000000000000
+      internalID: -778841525878470922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_43"
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 658
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abaae5668646dbe0800000000000000
+      internalID: -1452896286730966111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_44"
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 659
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d6abb39fabd87d0800000000000000
+      internalID: -2914467804227146378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_45"
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 664
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25753838b2fe22db0800000000000000
+      internalID: -4818025681163954350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_46"
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 657
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e173793a644aa8100800000000000000
+      internalID: 111081764123260702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_47"
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 690
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c004b43179bf665f0800000000000000
+      internalID: -763646460510388212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_48"
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 640
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df76b015cb51bcdf0800000000000000
+      internalID: -159009463283783683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_49"
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 665
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62303404377f816c0800000000000000
+      internalID: -4172312980387331290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_50"
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 441
+        width: 236
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5060ab41f635de0800000000000000
+      internalID: -1345609728842660428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_51"
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 653
+        width: 75
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52abc778e50a4cf0800000000000000
+      internalID: -267394731874737569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_52"
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 592
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642cff442a0a2d520800000000000000
+      internalID: 2725417343315329606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_53"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 614
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12fbbda1f43180c0800000000000000
+      internalID: -4575317533825175011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_54"
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 594
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa4c4ab15a7e32c0800000000000000
+      internalID: -4449984890358969685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_55"
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 635
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582de3c37d6ede4f0800000000000000
+      internalID: -797727746871602555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_56"
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 628
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02e090a97b2f4bb0800000000000000
+      internalID: -4949689664071998966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_57"
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 632
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd182a649bbb67e70800000000000000
+      internalID: 9112677300459176411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_58"
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 641
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4fe0bcc9a1bd770800000000000000
+      internalID: 8636525971137033392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_59"
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 622
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79751e052ab0d4820800000000000000
+      internalID: 2903990126493390743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_60"
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 622
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674966492d5b52090800000000000000
+      internalID: -8059836042072124298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_61"
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 640
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b8a80cecaf80d90800000000000000
+      internalID: -7131174244040668366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_62"
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 644
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f99a5ead7de13e90800000000000000
+      internalID: -7047590817806247432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_63"
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 578
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9746f0d05d7766b80800000000000000
+      internalID: -8401896297882229639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_64"
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 625
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a92cfa507655910800000000000000
+      internalID: 1825478498089867797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_65"
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 618
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d93240277bbf0c60800000000000000
+      internalID: 7786648401063590356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_66"
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 646
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218dacf94bbb56390800000000000000
+      internalID: -7825642393036990446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_67"
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 642
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759d3935dcd300e30800000000000000
+      internalID: 4467638782431320407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_68"
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 612
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b7bb18df98f30e0800000000000000
+      internalID: -2287958363784643815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_69"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2157
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a7a9c78e1062e00800000000000000
+      internalID: 1019504463680535051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_70"
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 626
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f328a45bed7386a50800000000000000
+      internalID: 6514518290655248959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_71"
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 620
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95bbc29963b7d210800000000000000
+      internalID: 1357751078691255711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_72"
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 627
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a56ff7eb4e3b100800000000000000
+      internalID: 122693121710905980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_73"
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 608
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346ecd3b813e6e0f0800000000000000
+      internalID: -1087932564727077309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_74"
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 626
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c87cab16b87729f0800000000000000
+      internalID: -493292910630111034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_75"
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 630
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca3db12fb5473630800000000000000
+      internalID: 3906667888974314181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_76"
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 610
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47365dc0e7533b840800000000000000
+      internalID: 5238589607059481460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_77"
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 582
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4691788a471a14120800000000000000
+      internalID: 2396373999153518948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_78"
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 626
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75baf6cba31d19140800000000000000
+      internalID: 4724787534288104279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_79"
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 590
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036970f21736389b0800000000000000
+      internalID: -5079106616972306896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_80"
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 638
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb4d18a6885792d0800000000000000
+      internalID: -3272049268892021809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_81"
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 612
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c68c07ae0dd2890800000000000000
+      internalID: -7481093700659418112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_82"
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 627
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65429e890f3735270800000000000000
+      internalID: 8238055620585530454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_83"
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 630
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f661e8ebb3980edf0800000000000000
+      internalID: -152971497637538193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_84"
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 630
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5facc0ca8f6ca3160800000000000000
+      internalID: 7006130941668936437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_85"
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 605
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a7141b745056d60800000000000000
+      internalID: 7882712528256596605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_86"
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 612
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd5766be807816f0800000000000000
+      internalID: -713696782690329143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_87"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 134
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d395fadcf02454c30800000000000000
+      internalID: 4342950051311475005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_88"
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 508
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c305a75707860dbc0800000000000000
+      internalID: -3760390856637788100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_89"
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 433
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c739a5c507283e990800000000000000
+      internalID: -7357893947095870596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_90"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 403
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a215319265bc99000800000000000000
+      internalID: 43289242353488170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_91"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 204
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d2a17f546021390800000000000000
+      internalID: -7849204302985155210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_92"
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 150
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a00356aa06d33580800000000000000
+      internalID: -8848493501624418141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_93"
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 75
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d55f59898d16980800000000000000
+      internalID: -8547312467909976819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_94"
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 75
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65116f5d86c7bee40800000000000000
+      internalID: 5686775744193499478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_95"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 83
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8168310fc341a5e80800000000000000
+      internalID: -8189210720461421032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_96"
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 53
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a247f439a022671e0800000000000000
+      internalID: -2200533939107433430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_97"
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 71
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6224d570031570ba0800000000000000
+      internalID: -6122835901663067610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_98"
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 90
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc622ab5401e23b0800000000000000
+      internalID: -5535469000330154756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_99"
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 87
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d783a3319e12c60800000000000000
+      internalID: 7791765099118099845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_100"
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 89
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5f7598d2ab4d820800000000000000
+      internalID: 2942181161320314334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_101"
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 79
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecd4b371505cd5f0800000000000000
+      internalID: -730620728777057054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_102"
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 2
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997bceee97d7e58d0800000000000000
+      internalID: -2855707151053310055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_103"
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 74
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29a4ab4eb481e680800000000000000
+      internalID: -8727548650019575506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_104"
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a92823f908f3050800000000000000
+      internalID: 5782481867802581592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_105"
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 77
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9547d06523be96040800000000000000
+      internalID: 4641499492406621273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_106"
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 89
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50983f75779fde90800000000000000
+      internalID: -6998708765009080228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_107"
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 77
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cc401ee524a43c0800000000000000
+      internalID: -4374611112767468450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_108"
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 57
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd29a440c36b7580800000000000000
+      internalID: -8828352967092916806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_109"
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 60
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505dd2b63b06eff60800000000000000
+      internalID: 8069993906008085765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_110"
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 77
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1884c43d3dddf2840800000000000000
+      internalID: 5201619996489042049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_111"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 31
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0252886baf4aa0570800000000000000
+      internalID: 8433734648915830048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_112"
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c357673b1c2ef6570800000000000000
+      internalID: 8462231546419901756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_113"
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 21
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852a1f16f9512fdb0800000000000000
+      internalID: -4759718081889983912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_114"
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 71
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b09afb1fd6c2abe0800000000000000
+      internalID: -1467391867019947856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_115"
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 77
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10adfb59d531bcf10800000000000000
+      internalID: 2290946128113293825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_116"
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 67
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca088af53343fdea0800000000000000
+      internalID: -5845896396050759508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_117"
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 33
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e440fadfbb29e60800000000000000
+      internalID: 7967637389009243784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_118"
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 62
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5085fadddad069270800000000000000
+      internalID: 8256802007230142469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_119"
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 53
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd851d3b289863420800000000000000
+      internalID: 2609424228563376347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_120"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 49
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b26759a98925210800000000000000
+      internalID: 1320285430472911692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_121"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 55
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5281576e91fd5d3a0800000000000000
+      internalID: -6641156773154318299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_122"
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 59
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa1edb01e172ab20800000000000000
+      internalID: 3144200701238712999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_123"
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 53
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e472179b120cd6ab0800000000000000
+      internalID: -5013139559115839666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_124"
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 53
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00320a09de1a2d450800000000000000
+      internalID: 6112125686000919296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_125"
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 59
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbe09ca9492be9a0800000000000000
+      internalID: -6202818665368196145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_126"
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 63
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd82d10d2d283b7d0800000000000000
+      internalID: -2903833492777522981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_127"
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 55
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5599cc35a8c9eaec0800000000000000
+      internalID: -3553730938023405227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_128"
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f998c97d8cc60210800000000000000
+      internalID: 1298950450548611571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_129"
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 57
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664baa29e3fab3cb0800000000000000
+      internalID: -4883116687669676954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_130"
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 31
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdede99048b513b0800000000000000
+      internalID: -5542321178809602616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_131"
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 37
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f61f8a7e2f454670800000000000000
+      internalID: 8522304930911819509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_132"
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd99136cb111b310800000000000000
+      internalID: 1418934858412563925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_133"
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5edbce9eddb9bc80800000000000000
+      internalID: -8306399273863618982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_134"
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 47
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e9f056e5af44d40800000000000000
+      internalID: 5567850322666167891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_135"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 30
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541d11ccc02892170800000000000000
+      internalID: 8154191591805931845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_136"
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 15
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ad2cd139200abe0800000000000000
+      internalID: -1468170647640024450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_137"
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 33
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49cd9c732807a6e0800000000000000
+      internalID: -1826482175367853750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_138"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 37
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9571d31d693de550800000000000000
+      internalID: 6191668203351012766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_139"
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 23
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9e7dc0221a380c0800000000000000
+      internalID: -4574635628861855266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_140"
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 27
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b216615cc8251d0800000000000000
+      internalID: -3363471193580426372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_141"
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 7
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a9cb7ace73dc510800000000000000
+      internalID: 1570973334588136094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_142"
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 25
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5717f67edb6e49150800000000000000
+      internalID: 5878577116931387765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_143"
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 25
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6762bd7bf393ff70800000000000000
+      internalID: 9219875570512455532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_144"
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 18
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e8b5a87af4858e0800000000000000
+      internalID: -1704524877960344008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_145"
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 12
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18eabbf65b5abc4a0800000000000000
+      internalID: -6571977032534872447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_146"
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4f643956ba18880800000000000000
+      internalID: -8610412559804730192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_147"
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 7
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d67424ef6f9b940800000000000000
+      internalID: 5312548807354314049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cartel pixelado \xABEleva los brazos\xBB_148"
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 15
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e035b9371cf9697f0800000000000000
+      internalID: -606121446617689330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Cartel pixelado \xABEleva los brazos\xBB_0": -1487384949440693753
+      "Cartel pixelado \xABEleva los brazos\xBB_1": -8543722697496865657
+      "Cartel pixelado \xABEleva los brazos\xBB_10": 4733271160233788278
+      "Cartel pixelado \xABEleva los brazos\xBB_100": 2942181161320314334
+      "Cartel pixelado \xABEleva los brazos\xBB_101": -730620728777057054
+      "Cartel pixelado \xABEleva los brazos\xBB_102": -2855707151053310055
+      "Cartel pixelado \xABEleva los brazos\xBB_103": -8727548650019575506
+      "Cartel pixelado \xABEleva los brazos\xBB_104": 5782481867802581592
+      "Cartel pixelado \xABEleva los brazos\xBB_105": 4641499492406621273
+      "Cartel pixelado \xABEleva los brazos\xBB_106": -6998708765009080228
+      "Cartel pixelado \xABEleva los brazos\xBB_107": -4374611112767468450
+      "Cartel pixelado \xABEleva los brazos\xBB_108": -8828352967092916806
+      "Cartel pixelado \xABEleva los brazos\xBB_109": 8069993906008085765
+      "Cartel pixelado \xABEleva los brazos\xBB_11": 1741793466526163684
+      "Cartel pixelado \xABEleva los brazos\xBB_110": 5201619996489042049
+      "Cartel pixelado \xABEleva los brazos\xBB_111": 8433734648915830048
+      "Cartel pixelado \xABEleva los brazos\xBB_112": 8462231546419901756
+      "Cartel pixelado \xABEleva los brazos\xBB_113": -4759718081889983912
+      "Cartel pixelado \xABEleva los brazos\xBB_114": -1467391867019947856
+      "Cartel pixelado \xABEleva los brazos\xBB_115": 2290946128113293825
+      "Cartel pixelado \xABEleva los brazos\xBB_116": -5845896396050759508
+      "Cartel pixelado \xABEleva los brazos\xBB_117": 7967637389009243784
+      "Cartel pixelado \xABEleva los brazos\xBB_118": 8256802007230142469
+      "Cartel pixelado \xABEleva los brazos\xBB_119": 2609424228563376347
+      "Cartel pixelado \xABEleva los brazos\xBB_12": -1161419698745103519
+      "Cartel pixelado \xABEleva los brazos\xBB_120": 1320285430472911692
+      "Cartel pixelado \xABEleva los brazos\xBB_121": -6641156773154318299
+      "Cartel pixelado \xABEleva los brazos\xBB_122": 3144200701238712999
+      "Cartel pixelado \xABEleva los brazos\xBB_123": -5013139559115839666
+      "Cartel pixelado \xABEleva los brazos\xBB_124": 6112125686000919296
+      "Cartel pixelado \xABEleva los brazos\xBB_125": -6202818665368196145
+      "Cartel pixelado \xABEleva los brazos\xBB_126": -2903833492777522981
+      "Cartel pixelado \xABEleva los brazos\xBB_127": -3553730938023405227
+      "Cartel pixelado \xABEleva los brazos\xBB_128": 1298950450548611571
+      "Cartel pixelado \xABEleva los brazos\xBB_129": -4883116687669676954
+      "Cartel pixelado \xABEleva los brazos\xBB_13": 872876207993886930
+      "Cartel pixelado \xABEleva los brazos\xBB_130": -5542321178809602616
+      "Cartel pixelado \xABEleva los brazos\xBB_131": 8522304930911819509
+      "Cartel pixelado \xABEleva los brazos\xBB_132": 1418934858412563925
+      "Cartel pixelado \xABEleva los brazos\xBB_133": -8306399273863618982
+      "Cartel pixelado \xABEleva los brazos\xBB_134": 5567850322666167891
+      "Cartel pixelado \xABEleva los brazos\xBB_135": 8154191591805931845
+      "Cartel pixelado \xABEleva los brazos\xBB_136": -1468170647640024450
+      "Cartel pixelado \xABEleva los brazos\xBB_137": -1826482175367853750
+      "Cartel pixelado \xABEleva los brazos\xBB_138": 6191668203351012766
+      "Cartel pixelado \xABEleva los brazos\xBB_139": -4574635628861855266
+      "Cartel pixelado \xABEleva los brazos\xBB_14": 802274958796711960
+      "Cartel pixelado \xABEleva los brazos\xBB_140": -3363471193580426372
+      "Cartel pixelado \xABEleva los brazos\xBB_141": 1570973334588136094
+      "Cartel pixelado \xABEleva los brazos\xBB_142": 5878577116931387765
+      "Cartel pixelado \xABEleva los brazos\xBB_143": 9219875570512455532
+      "Cartel pixelado \xABEleva los brazos\xBB_144": -1704524877960344008
+      "Cartel pixelado \xABEleva los brazos\xBB_145": -6571977032534872447
+      "Cartel pixelado \xABEleva los brazos\xBB_146": -8610412559804730192
+      "Cartel pixelado \xABEleva los brazos\xBB_147": 5312548807354314049
+      "Cartel pixelado \xABEleva los brazos\xBB_148": -606121446617689330
+      "Cartel pixelado \xABEleva los brazos\xBB_15": -7445356317935189601
+      "Cartel pixelado \xABEleva los brazos\xBB_16": -3193996883152769490
+      "Cartel pixelado \xABEleva los brazos\xBB_17": -8554080808995989759
+      "Cartel pixelado \xABEleva los brazos\xBB_18": -2126254370905445425
+      "Cartel pixelado \xABEleva los brazos\xBB_19": 7067955596166286876
+      "Cartel pixelado \xABEleva los brazos\xBB_2": -7108422869427207461
+      "Cartel pixelado \xABEleva los brazos\xBB_20": 4761631080083855927
+      "Cartel pixelado \xABEleva los brazos\xBB_21": 2904110326977033536
+      "Cartel pixelado \xABEleva los brazos\xBB_22": -8931166997890824513
+      "Cartel pixelado \xABEleva los brazos\xBB_23": 5126810287028138192
+      "Cartel pixelado \xABEleva los brazos\xBB_24": -9204922490494145816
+      "Cartel pixelado \xABEleva los brazos\xBB_25": -4459361745519697555
+      "Cartel pixelado \xABEleva los brazos\xBB_26": 5989247935243925126
+      "Cartel pixelado \xABEleva los brazos\xBB_27": -8625183699512842500
+      "Cartel pixelado \xABEleva los brazos\xBB_28": -2721129866359185935
+      "Cartel pixelado \xABEleva los brazos\xBB_29": -3369360590041854164
+      "Cartel pixelado \xABEleva los brazos\xBB_3": 551397670171570053
+      "Cartel pixelado \xABEleva los brazos\xBB_30": 6309206004480627267
+      "Cartel pixelado \xABEleva los brazos\xBB_31": 5204096027541096923
+      "Cartel pixelado \xABEleva los brazos\xBB_32": -7348302918238806192
+      "Cartel pixelado \xABEleva los brazos\xBB_33": -2680380569545095311
+      "Cartel pixelado \xABEleva los brazos\xBB_34": -548481068411567620
+      "Cartel pixelado \xABEleva los brazos\xBB_35": -8581535596371542120
+      "Cartel pixelado \xABEleva los brazos\xBB_36": 7800577899825726209
+      "Cartel pixelado \xABEleva los brazos\xBB_37": 4952292321500865079
+      "Cartel pixelado \xABEleva los brazos\xBB_38": -3665306725672398147
+      "Cartel pixelado \xABEleva los brazos\xBB_39": 497912640090067290
+      "Cartel pixelado \xABEleva los brazos\xBB_4": 3212405607880081458
+      "Cartel pixelado \xABEleva los brazos\xBB_40": 3073168417789125930
+      "Cartel pixelado \xABEleva los brazos\xBB_41": -8899835176197204363
+      "Cartel pixelado \xABEleva los brazos\xBB_42": -778841525878470922
+      "Cartel pixelado \xABEleva los brazos\xBB_43": -1452896286730966111
+      "Cartel pixelado \xABEleva los brazos\xBB_44": -2914467804227146378
+      "Cartel pixelado \xABEleva los brazos\xBB_45": -4818025681163954350
+      "Cartel pixelado \xABEleva los brazos\xBB_46": 111081764123260702
+      "Cartel pixelado \xABEleva los brazos\xBB_47": -763646460510388212
+      "Cartel pixelado \xABEleva los brazos\xBB_48": -159009463283783683
+      "Cartel pixelado \xABEleva los brazos\xBB_49": -4172312980387331290
+      "Cartel pixelado \xABEleva los brazos\xBB_5": 5729913243448729738
+      "Cartel pixelado \xABEleva los brazos\xBB_50": -1345609728842660428
+      "Cartel pixelado \xABEleva los brazos\xBB_51": -267394731874737569
+      "Cartel pixelado \xABEleva los brazos\xBB_52": 2725417343315329606
+      "Cartel pixelado \xABEleva los brazos\xBB_53": -4575317533825175011
+      "Cartel pixelado \xABEleva los brazos\xBB_54": -4449984890358969685
+      "Cartel pixelado \xABEleva los brazos\xBB_55": -797727746871602555
+      "Cartel pixelado \xABEleva los brazos\xBB_56": -4949689664071998966
+      "Cartel pixelado \xABEleva los brazos\xBB_57": 9112677300459176411
+      "Cartel pixelado \xABEleva los brazos\xBB_58": 8636525971137033392
+      "Cartel pixelado \xABEleva los brazos\xBB_59": 2903990126493390743
+      "Cartel pixelado \xABEleva los brazos\xBB_6": 6640148078978749500
+      "Cartel pixelado \xABEleva los brazos\xBB_60": -8059836042072124298
+      "Cartel pixelado \xABEleva los brazos\xBB_61": -7131174244040668366
+      "Cartel pixelado \xABEleva los brazos\xBB_62": -7047590817806247432
+      "Cartel pixelado \xABEleva los brazos\xBB_63": -8401896297882229639
+      "Cartel pixelado \xABEleva los brazos\xBB_64": 1825478498089867797
+      "Cartel pixelado \xABEleva los brazos\xBB_65": 7786648401063590356
+      "Cartel pixelado \xABEleva los brazos\xBB_66": -7825642393036990446
+      "Cartel pixelado \xABEleva los brazos\xBB_67": 4467638782431320407
+      "Cartel pixelado \xABEleva los brazos\xBB_68": -2287958363784643815
+      "Cartel pixelado \xABEleva los brazos\xBB_69": 1019504463680535051
+      "Cartel pixelado \xABEleva los brazos\xBB_7": 637863820364816628
+      "Cartel pixelado \xABEleva los brazos\xBB_70": 6514518290655248959
+      "Cartel pixelado \xABEleva los brazos\xBB_71": 1357751078691255711
+      "Cartel pixelado \xABEleva los brazos\xBB_72": 122693121710905980
+      "Cartel pixelado \xABEleva los brazos\xBB_73": -1087932564727077309
+      "Cartel pixelado \xABEleva los brazos\xBB_74": -493292910630111034
+      "Cartel pixelado \xABEleva los brazos\xBB_75": 3906667888974314181
+      "Cartel pixelado \xABEleva los brazos\xBB_76": 5238589607059481460
+      "Cartel pixelado \xABEleva los brazos\xBB_77": 2396373999153518948
+      "Cartel pixelado \xABEleva los brazos\xBB_78": 4724787534288104279
+      "Cartel pixelado \xABEleva los brazos\xBB_79": -5079106616972306896
+      "Cartel pixelado \xABEleva los brazos\xBB_8": 1443397153252438492
+      "Cartel pixelado \xABEleva los brazos\xBB_80": -3272049268892021809
+      "Cartel pixelado \xABEleva los brazos\xBB_81": -7481093700659418112
+      "Cartel pixelado \xABEleva los brazos\xBB_82": 8238055620585530454
+      "Cartel pixelado \xABEleva los brazos\xBB_83": -152971497637538193
+      "Cartel pixelado \xABEleva los brazos\xBB_84": 7006130941668936437
+      "Cartel pixelado \xABEleva los brazos\xBB_85": 7882712528256596605
+      "Cartel pixelado \xABEleva los brazos\xBB_86": -713696782690329143
+      "Cartel pixelado \xABEleva los brazos\xBB_87": 4342950051311475005
+      "Cartel pixelado \xABEleva los brazos\xBB_88": -3760390856637788100
+      "Cartel pixelado \xABEleva los brazos\xBB_89": -7357893947095870596
+      "Cartel pixelado \xABEleva los brazos\xBB_9": -7588927232196797847
+      "Cartel pixelado \xABEleva los brazos\xBB_90": 43289242353488170
+      "Cartel pixelado \xABEleva los brazos\xBB_91": -7849204302985155210
+      "Cartel pixelado \xABEleva los brazos\xBB_92": -8848493501624418141
+      "Cartel pixelado \xABEleva los brazos\xBB_93": -8547312467909976819
+      "Cartel pixelado \xABEleva los brazos\xBB_94": 5686775744193499478
+      "Cartel pixelado \xABEleva los brazos\xBB_95": -8189210720461421032
+      "Cartel pixelado \xABEleva los brazos\xBB_96": -2200533939107433430
+      "Cartel pixelado \xABEleva los brazos\xBB_97": -6122835901663067610
+      "Cartel pixelado \xABEleva los brazos\xBB_98": -5535469000330154756
+      "Cartel pixelado \xABEleva los brazos\xBB_99": 7791765099118099845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
