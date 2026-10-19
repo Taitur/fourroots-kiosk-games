@@ -1,11 +1,11 @@
 using UnityEngine;
 
 // Controla la música de fondo y los efectos sonoros de IAvventura.
-// Va en un GameObject vacío llamado "SoundManager" que tenga DOS AudioSource:
-// uno para la música y otro para los efectos.
+// Va en un GameObject vacío llamado "SoundManager".
+// El script crea sus dos Audio Source automáticamente al iniciar.
 public class SoundManager : MonoBehaviour
 {
-    [Header("Fuentes de audio")]
+    [Header("Fuentes de audio (se crean solas, puedes dejarlas vacías)")]
     [SerializeField] private AudioSource musicSource; // Música (Loop activado)
     [SerializeField] private AudioSource sfxSource;   // Efectos sonoros
 
@@ -32,19 +32,29 @@ public class SoundManager : MonoBehaviour
     // ya está listo cuando SettingsManager lee los sliders.
     void Awake()
     {
+        // Si no hay Audio Source asignado, el script lo crea
+        if (musicSource == null)
+        {
+            musicSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        if (sfxSource == null)
+        {
+            sfxSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        // Ninguno suena solo al iniciar; el código decide cuándo
+        musicSource.playOnAwake = false;
+        sfxSource.playOnAwake = false;
+
+        musicSource.loop = true;  // La música se repite
+        sfxSource.loop = false;   // Los efectos suenan una vez
+
         float musicVolume = PlayerPrefs.GetFloat("MusicVolume", 0.6f);
         float sfxVolume = PlayerPrefs.GetFloat("SfxVolume", 1f);
 
-        if (musicSource != null)
-        {
-            musicSource.volume = musicVolume;
-            musicSource.loop = true;
-        }
-
-        if (sfxSource != null)
-        {
-            sfxSource.volume = sfxVolume;
-        }
+        musicSource.volume = musicVolume;
+        sfxSource.volume = sfxVolume;
     }
 
     void Start()
