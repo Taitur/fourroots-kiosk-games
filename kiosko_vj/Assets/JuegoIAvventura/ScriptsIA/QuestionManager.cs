@@ -23,11 +23,13 @@ public class QuestionManager : MonoBehaviour
     private List<QuestionData> practicalQuestions = new List<QuestionData>();
     private List<QuestionData> thinkingQuestions = new List<QuestionData>();
 
-    // NUEVO: categoría que se está jugando (1 a 4), para reiniciar y para la música
+    // categoría que se está jugando (1 a 4), para reiniciar y para la música
     private int currentCategory = 0;
 
     // segundos que se muestra el color verde/rojo antes de pasar a la siguiente pregunta
     private float feedbackTime = 1f;
+    // más tiempo cuando se equivocan, para que lean la respuesta correcta
+    private float wrongFeedbackTime = 2.5f;
 
     [SerializeField]
     private GameManager gameManager;
@@ -72,7 +74,7 @@ public class QuestionManager : MonoBehaviour
     [SerializeField]
     private Color incorrectColor = new Color(1f, 0.45f, 0.45f);
 
-    // NEW: Subscribe to the timer event
+    // Subscribe to the timer event
     void Awake()
     {
         if (timeManager != null)
@@ -291,15 +293,7 @@ public class QuestionManager : MonoBehaviour
     {
         menu.SetActive(false);
 
-        // NUEVO: primero se muestran las instrucciones
-        if (instructionsPanel != null)
-        {
-            instructionsPanel.SetActive(true);
-        }
-        else
-        {
-            modeSelectPanel.SetActive(true);
-        }
+        modeSelectPanel.SetActive(true);
 
         if (soundManager != null)
         {
@@ -315,6 +309,17 @@ public class QuestionManager : MonoBehaviour
             instructionsPanel.SetActive(false);
         }
         modeSelectPanel.SetActive(true);
+
+        if (soundManager != null)
+        {
+            soundManager.PlayClick();
+        }
+    }
+    // botón "¿Cómo jugar?" de la pantalla de categorías
+    public void ShowInstructions()
+    {
+        modeSelectPanel.SetActive(false);
+        instructionsPanel.SetActive(true);
 
         if (soundManager != null)
         {
@@ -396,8 +401,7 @@ public class QuestionManager : MonoBehaviour
 
     public void AnswerQuestion(int selectedAnswer)
     {
-        // Prevent answering when time has expired
-        // or the question has already been answered
+        // Prevent answering when time has expired or the question has already been answered
         if (currentQuestion >= questions.Count || !timeManager.isRunning)
         {
             return;
@@ -412,17 +416,19 @@ public class QuestionManager : MonoBehaviour
         {
             gameManager.RegisterCorrectAnswer();
 
-            // NUEVO: el botón elegido se pone verde
+            // el botón elegido se pone verde
             SetAnswerColor(selectedAnswer, correctColor);
 
             if (soundManager != null)
             {
                 soundManager.PlayCorrect();
+                Invoke(nameof(NextQuestion), feedbackTime);
             }
         }
         else
         {
             gameManager.RegisterIncorrectAnswer();
+            Invoke(nameof(NextQuestion), wrongFeedbackTime);
 
             // el botón elegido se pone rojo y se muestra la correcta en verde
             SetAnswerColor(selectedAnswer, incorrectColor);
@@ -436,7 +442,7 @@ public class QuestionManager : MonoBehaviour
 
         // Move to the next question
         // espera 1 segundo para que se vea el color
-        Invoke(nameof(NextQuestion), feedbackTime);
+       
     }
 
     // Called when the timer reaches zero
@@ -460,7 +466,7 @@ public class QuestionManager : MonoBehaviour
             soundManager.PlayTimeUp();
         }
 
-        Invoke(nameof(NextQuestion), feedbackTime);
+        Invoke(nameof(NextQuestion), wrongFeedbackTime);
     }
 
     // Shared logic for moving to the next question
