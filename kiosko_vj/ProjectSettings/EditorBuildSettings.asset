@@ -33,20 +33,20 @@ EditorBuildSettings:
     path: Assets/JuegoReset/EscenasR/R_Escena_Respira.unity
     guid: f77c21d6d6cfb5b43ac176c619ce541b
   - enabled: 1
-    path: Assets/JuegoConexion/EscenasC/DepartamentoRH.unity
-    guid: a36a8ea16f0e649f9b50a757556d69b4
+    path: Assets/JuegoConexion/EscenasC/DepartamentoRRHH.unity
+    guid: 4635462ef8c3542448c2d934373be521
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoAtencion.unity
-    guid: b962ebced55f242babc5e8201939f7a6
+    guid: 13bc31ee847c647d9bb0e30eb8e4579c
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoDireccion.unity
-    guid: 0e72c47de193a4eb6a8c5553e43bf78c
+    guid: 1e5667215966d47729ace06d0c6df229
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoFinanzas.unity
-    guid: b36f08617e65d4a74ad250e6105d585b
+    guid: 436140b4410284da6a00320d4b3448c9
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoMarketing.unity
-    guid: fbd825b9c74f34b78949344bfb0878ca
+    guid: 868470b25407d40a093721b566e324f3
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoVentas.unity
     guid: 22fbfb003085b4868866db7aa5a8ae19
