@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.UI; // NEW: needed to change the color of the answer buttons
+using UnityEngine.UI; // needed to change the color of the answer buttons
 using System.Collections.Generic;
 using TMPro;
 
@@ -51,9 +51,21 @@ public class QuestionManager : MonoBehaviour
     [SerializeField]
     private GameObject modeSelectPanel;
 
-    // panel de instrucciones (aparece después de presionar Jugar)
+    // panel de instrucciones (se abre con el botón "¿Cómo jugar?")
     [SerializeField]
     private GameObject instructionsPanel;
+
+    // panel para elegir dificultad (aparece después de elegir categoría)
+    [SerializeField]
+    private GameObject difficultyPanel;
+
+    // Dificultad Fácil: más tiempo, menos puntos
+    private float easyTime = 20f;
+    private int easyPoints = 100;
+
+    // Dificultad Difícil: menos tiempo, más puntos
+    private float hardTime = 10f;
+    private int hardPoints = 200;
 
     // título de la pantalla de resultados (el que ahora dice "New Text")
     [SerializeField]
@@ -355,20 +367,57 @@ public class QuestionManager : MonoBehaviour
         }
 
         currentCategory = category;
-        currentQuestion = 0;
-        gameManager.ResetGame();
 
+        // Después de elegir categoría se elige la dificultad
         modeSelectPanel.SetActive(false);
-        questionPanel.SetActive(true);
+        difficultyPanel.SetActive(true);
 
         if (soundManager != null)
         {
             soundManager.PlayCategory();
-            soundManager.PlayCategoryMusic(category);
+        }
+    }
+
+    // Botones de dificultad: 1 = Fácil, 2 = Difícil
+    public void SelectDifficulty(int level)
+    {
+        if (level == 1)
+        {
+            timeManager.SetStartTime(easyTime);
+            gameManager.SetPointsPerAnswer(easyPoints);
+        }
+        else
+        {
+            timeManager.SetStartTime(hardTime);
+            gameManager.SetPointsPerAnswer(hardPoints);
+        }
+
+        currentQuestion = 0;
+        gameManager.ResetGame();
+
+        difficultyPanel.SetActive(false);
+        questionPanel.SetActive(true);
+
+        if (soundManager != null)
+        {
+            soundManager.PlayClick();
+            soundManager.PlayCategoryMusic(currentCategory);
         }
 
         // Display the first question and start the timer
         ShowQuestion();
+    }
+
+    // Botón "Regresar" del panel de dificultad
+    public void BackToCategories()
+    {
+        difficultyPanel.SetActive(false);
+        modeSelectPanel.SetActive(true);
+
+        if (soundManager != null)
+        {
+            soundManager.PlayClick();
+        }
     }
 
     private void ShowQuestion()
@@ -387,7 +436,7 @@ public class QuestionManager : MonoBehaviour
         answerText3.text = questions[currentQuestion].GetAnswer3();
         answerText4.text = questions[currentQuestion].GetAnswer4();
 
-        // NUEVO: los botones regresan a su color normal
+        // los botones regresan a su color normal
         ResetAnswerColors();
 
         if (soundManager != null)
@@ -422,12 +471,16 @@ public class QuestionManager : MonoBehaviour
             if (soundManager != null)
             {
                 soundManager.PlayCorrect();
-                Invoke(nameof(NextQuestion), feedbackTime);
             }
+
+            // espera 1 segundo para que se vea el color
+            Invoke(nameof(NextQuestion), feedbackTime);
         }
         else
         {
             gameManager.RegisterIncorrectAnswer();
+
+            // espera más tiempo para que lean la respuesta correcta
             Invoke(nameof(NextQuestion), wrongFeedbackTime);
 
             // el botón elegido se pone rojo y se muestra la correcta en verde
@@ -439,10 +492,6 @@ public class QuestionManager : MonoBehaviour
                 soundManager.PlayIncorrect();
             }
         }
-
-        // Move to the next question
-        // espera 1 segundo para que se vea el color
-       
     }
 
     // Called when the timer reaches zero
@@ -498,7 +547,7 @@ public class QuestionManager : MonoBehaviour
 
         int correct = gameManager.GetCorrectAnswers();
 
-        // NUEVO: título según el resultado (reemplaza "New Text")
+        // título según el resultado
         if (resultTitleText != null)
         {
             if (correct == questions.Count)
@@ -532,7 +581,7 @@ public class QuestionManager : MonoBehaviour
 
     public void RestartGame()
     {
-        // NUEVO: cancela cualquier "siguiente pregunta" pendiente
+        // cancela cualquier "siguiente pregunta" pendiente
         CancelInvoke();
 
         // Stop the previous timer
@@ -587,6 +636,7 @@ public class QuestionManager : MonoBehaviour
         finalResultPanel.SetActive(false);
         questionPanel.SetActive(false);
         modeSelectPanel.SetActive(false);
+        difficultyPanel.SetActive(false);
         if (instructionsPanel != null)
         {
             instructionsPanel.SetActive(false);
