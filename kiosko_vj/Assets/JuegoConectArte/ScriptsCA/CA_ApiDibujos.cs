@@ -8,7 +8,7 @@ public class CA_ApiDibujos : MonoBehaviour
 {
     public static CA_ApiDibujos Instance { get; private set; }
 
-    [SerializeField] private string baseUrl = "http://localhost:5000/api";
+    [SerializeField] private string baseUrl = "http://localhost:3000/api";
 
     [Tooltip("Id del jugador actual (tabla Jugador). Por ahora fijo para pruebas; luego lo asignará el login.")]
     [SerializeField] private int playerId = 1;
