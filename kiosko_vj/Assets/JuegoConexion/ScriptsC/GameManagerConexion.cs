@@ -125,7 +125,9 @@ public class GameManagerConexion : MonoBehaviour
     {
         escenaAnterior = escenaActual;   
         escenaActual = nueva.name;
-        
+
+        // Al volver al menu principal del kiosko se destruye, para que su musica no siga sonando en los demas juegos.
+        if (nueva.name == "MenuPrincipal") Destroy(gameObject);
     }
 
 
