@@ -33,7 +33,13 @@ public class RespiracionBurbuja : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip sonidoCompletado;
 
+    [Header("Base de datos - Reset")]
+    public int idActividad = 2;
+    public int idUsuario = 1;
+    public int idUsuarioRegistro = 1;
+
     private bool respiracionIniciada = false;
+    private bool actividadRegistrada = false;
 
     private void Start()
     {
@@ -51,6 +57,7 @@ public class RespiracionBurbuja : MonoBehaviour
             return;
 
         respiracionIniciada = true;
+        actividadRegistrada = false;
 
         StartCoroutine(RutinaRespiracion());
     }
@@ -59,7 +66,6 @@ public class RespiracionBurbuja : MonoBehaviour
     {
         for (int ronda = 1; ronda <= 5; ronda++)
         {
-            // INHALAR
             if (textoRespira != null && spriteInhala != null)
             {
                 textoRespira.sprite = spriteInhala;
@@ -71,7 +77,6 @@ public class RespiracionBurbuja : MonoBehaviour
                 tiempoInhalar
             );
 
-            // SOSTENER
             if (textoRespira != null && spriteSosten != null)
             {
                 textoRespira.sprite = spriteSosten;
@@ -79,7 +84,6 @@ public class RespiracionBurbuja : MonoBehaviour
 
             yield return new WaitForSeconds(tiempoMantener);
 
-            // EXHALAR
             if (textoRespira != null && spriteExhala != null)
             {
                 textoRespira.sprite = spriteExhala;
@@ -91,7 +95,6 @@ public class RespiracionBurbuja : MonoBehaviour
                 tiempoExhalar
             );
 
-            // PROGRESO
             if (barraProgreso != null)
             {
                 switch (ronda)
@@ -129,6 +132,34 @@ public class RespiracionBurbuja : MonoBehaviour
         if (audioSource != null && sonidoCompletado != null)
         {
             audioSource.PlayOneShot(sonidoCompletado);
+        }
+
+        if (!actividadRegistrada)
+        {
+            actividadRegistrada = true;
+
+            yield return StartCoroutine(
+                ResetApiClient.RegistrarActividad(
+                    idActividad,
+                    idUsuario,
+                    idUsuarioRegistro,
+                    () =>
+                    {
+                        Debug.Log(
+                            "RESET RESPIRA: actividad registrada correctamente."
+                        );
+                    },
+                    (error) =>
+                    {
+                        Debug.LogError(
+                            "RESET RESPIRA: no se pudo registrar la actividad. " +
+                            error
+                        );
+
+                        actividadRegistrada = false;
+                    }
+                )
+            );
         }
 
         respiracionIniciada = false;
