@@ -2129,6 +2129,7 @@ GameObject:
   - component: {fileID: 711229741}
   - component: {fileID: 711229740}
   - component: {fileID: 711229744}
+  - component: {fileID: 711229745}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2251,6 +2252,18 @@ MonoBehaviour:
   guessManager: {fileID: 1788966560}
   offSprite: {fileID: 1505820523614367125, guid: c7613a0c69111fd40b7ccd63924223f4, type: 3}
   onSprite: {fileID: 419218246776751968, guid: c7613a0c69111fd40b7ccd63924223f4, type: 3}
+--- !u!114 &711229745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711229739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a69e13b4cfe6a4bbcd15127a9e809b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CA_Botones
 --- !u!1 &806207849
 GameObject:
   m_ObjectHideFlags: 0
@@ -6093,7 +6106,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2005616984}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 711229745}
+        m_TargetAssemblyTypeName: CA_Botones, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2005616984
 MonoBehaviour:
   m_ObjectHideFlags: 0
