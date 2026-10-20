@@ -32,14 +32,21 @@ public class EnfocateController : MonoBehaviour
     [Header("Velocidad")]
     public float tiempoEntreFrames = 0.18f;
 
+    [Header("Base de datos - Reset")]
+    public int idActividad = 4;
+    public int idUsuario = 1;
+    public int idUsuarioRegistro = 1;
+
     private int hojasEncontradas = 0;
     private bool reaccionando = false;
     private bool juegoTerminado = false;
+    private bool actividadRegistrada = false;
 
     private void Start()
     {
         hojasEncontradas = 0;
         juegoTerminado = false;
+        actividadRegistrada = false;
 
         if (avatar != null && felizFrames.Length > 0)
         {
@@ -97,7 +104,42 @@ public class EnfocateController : MonoBehaviour
             }
 
             Debug.Log("¡ENFOCATE COMPLETADO!");
+
+            if (!actividadRegistrada)
+            {
+                actividadRegistrada = true;
+
+                StartCoroutine(
+                    RegistrarActividadEnApi()
+                );
+            }
         }
+    }
+
+    private IEnumerator RegistrarActividadEnApi()
+    {
+        yield return StartCoroutine(
+            ResetApiClient.RegistrarActividad(
+                idActividad,
+                idUsuario,
+                idUsuarioRegistro,
+                () =>
+                {
+                    Debug.Log(
+                        "RESET ENFOCATE: actividad registrada correctamente."
+                    );
+                },
+                (error) =>
+                {
+                    Debug.LogError(
+                        "RESET ENFOCATE: no se pudo registrar la actividad. " +
+                        error
+                    );
+
+                    actividadRegistrada = false;
+                }
+            )
+        );
     }
 
     public void ClickIncorrecto()
