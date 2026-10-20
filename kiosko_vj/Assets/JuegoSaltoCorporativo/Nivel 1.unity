@@ -4167,6 +4167,282 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: terminaNivel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: lineas.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: 'lineas.Array.data[0]'
+      value: Felicidades, lo lograste!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: 'lineas.Array.data[1]'
+      value: Antes de subir, te voy a ensenar como pedir un permiso en la web del Kiosco.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: tituloTutorial
+      value: 'Web del Kiosco: Solicitar permisos'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: imagenesTutorial.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: imagenesTutorial.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: feb6885b94472db023b417dfff1e170a, type: 3}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: imagenesTutorial.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2af00fe1959d35a27a8e92139f227759, type: 3}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: imagenesTutorial.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6594ced9325c12839e1c98ccc2de80a2, type: 3}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: imagenesTutorial.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9bdcc9b5dbb93044aaa586ab9a0d7ec1, type: 3}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: textosTutorial.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: textosTutorial.Array.data[0]
+      value: 'Primero elige el tipo de permiso. Por ejemplo, Llegada tardia si vas a entrar mas tarde.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: textosTutorial.Array.data[1]
+      value: 'Despues indica la fecha, la hora de inicio y de fin, y escribe un comentario con el motivo.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: textosTutorial.Array.data[2]
+      value: 'Revisa el resumen y presiona Enviar solicitud.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: textosTutorial.Array.data[3]
+      value: 'Listo! Tu permiso aparece en Mis solicitudes como En proceso hasta que lo autoricen.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: textoDespuesDelTutorial
+      value: Ahora dejame llevarte a la superficie.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+--- !u!1001 &1346066101
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2000001, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_Name
+      value: Maceta (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: lineas.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: 'lineas.Array.data[0]'
+      value: Hola! Que bueno que llegaste hasta aqui.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: 'lineas.Array.data[1]'
+      value: Estas atrapado en el fondo de la cueva y tienes que subir hasta la superficie.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: 'lineas.Array.data[2]'
+      value: Muevete con A y D, y salta con la tecla J.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+--- !u!1001 &1346066102
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2000001, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_Name
+      value: Maceta (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: lineas.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: 'lineas.Array.data[0]'
+      value: Algunas paredes se pueden escalar. Manten presionada la tecla L para
+        sostenerte.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: 'lineas.Array.data[1]'
+      value: Ya agarrado, usa W para subir y S para bajar.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+--- !u!1001 &1346066103
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2000001, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_Name
+      value: Maceta (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 59.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000002, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: lineas.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: 'lineas.Array.data[0]'
+      value: Cuando un salto no alcance, presiona K para hacer un dash.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000007, guid: f3a5ebd5d2899047e19d79e869b58283, type: 3}
+      propertyPath: 'lineas.Array.data[1]'
+      value: Con W, A, S y D eliges hacia donde sales disparado.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6347,3 +6623,6 @@ SceneRoots:
   - {fileID: 2044274984}
   - {fileID: 123675871}
   - {fileID: 1346066074}
+  - {fileID: 1346066101}
+  - {fileID: 1346066102}
+  - {fileID: 1346066103}

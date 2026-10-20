@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Música de fondo + 2 sonidos de botón.
@@ -33,6 +34,7 @@ public class CA_SFX : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+        SceneManager.activeSceneChanged += AlCambiarEscena;
 
         // Un AudioSource para la música (en loop) y otro para los efectos
         musicSource = gameObject.AddComponent<AudioSource>();
@@ -50,6 +52,20 @@ public class CA_SFX : MonoBehaviour
             musicSource.clip = backgroundMusic;
             musicSource.Play();
         }
+    }
+
+    // Al salir de ConectArte (escenas "CA_...", p. ej. de vuelta al MenuPrincipal) se destruye
+    // para que la música no siga sonando en el menú ni en los demás juegos.
+    private void AlCambiarEscena(Scene anterior, Scene nueva)
+    {
+        if (!nueva.name.StartsWith("CA_")) Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        if (Instance != this) return;
+        SceneManager.activeSceneChanged -= AlCambiarEscena;
+        Instance = null;
     }
 
     public void PlayButtonSound1() => PlaySfx(buttonSound1);
