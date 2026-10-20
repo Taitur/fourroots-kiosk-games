@@ -4,24 +4,16 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
 
-/// <summary>
-/// Cliente HTTP: Unity habla con TU API y la API habla con la base de datos.
-/// Es un singleton que NO se destruye al cambiar de escena, así una subida
-/// que empezó en la escena de dibujar termina aunque ya se haya cargado la siguiente.
-/// Ponlo en un objeto RAÍZ (sin padre) de la escena. Si pruebas cada escena por separado,
-/// pon uno en cada una: el duplicado se destruye solo.
-/// </summary>
 public class CA_ApiDibujos : MonoBehaviour
 {
     public static CA_ApiDibujos Instance { get; private set; }
 
-    [SerializeField] private string baseUrl = "http://localhost:5000/api";
+    [SerializeField] private string baseUrl = "http://localhost:3000/api";
 
     [Tooltip("Id del jugador actual (tabla Jugador). Por ahora fijo para pruebas; luego lo asignará el login.")]
     [SerializeField] private int playerId = 1;
     public int PlayerId => playerId;
 
-    // ---------- Datos que se envían / reciben (los nombres coinciden con tu API) ----------
     [Serializable]
     private class UploadRequest
     {
@@ -67,7 +59,6 @@ public class CA_ApiDibujos : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    // ---------- Métodos públicos ----------
 
     // Trae un prompt al azar (id + nombre) para la escena de dibujar
     public void GetRandomPrompt(Action<PromptResponse> onDone)

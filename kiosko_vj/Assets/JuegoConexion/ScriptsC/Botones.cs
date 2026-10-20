@@ -5,21 +5,35 @@ public class Botones : MonoBehaviour
 {
     GameManagerConexion GameManager;
 
+    public GameObject explicacionIzq;
+
+    public GameObject explicacionDer;
+
+    public GameObject panelComoJugar;
     void Start()
     {
         GameManager = GameManagerConexion.instancia;
     }
+
+    void ReproducirSonidoBoton()
+    {
+        GameManager.ReproducirSFX("BotonClick");
+    }
+
     public void VolverAlMenu()
     {
+        ReproducirSonidoBoton();
         SceneManager.LoadScene("MenuPrincipal");
     }
 
     public void EntrarAlForms()
     {
+        ReproducirSonidoBoton();
         SceneManager.LoadScene("MainForm");
     }
     public void EntrarAlJuego()
     {
+        ReproducirSonidoBoton();
         if(GameManager.usuario.nombre != "" && GameManager.usuario.expertise != "" && GameManager.usuario.puesto!= "" && GameManager.usuario.usuarioDepartamento != "")
         {
            SceneManager.LoadScene(GameManager.usuario.usuarioDepartamento);
@@ -31,48 +45,88 @@ public class Botones : MonoBehaviour
 
     public void SalirAlMenuMinijuego()
     {
+        ReproducirSonidoBoton();
         SceneManager.LoadScene("Menu");
     }
 
     public void EntrarRH()
     {
-        SceneManager.LoadScene("DepartamentoRH");
+        ReproducirSonidoBoton();
+        SceneManager.LoadScene("DepartamentoRRHH");
     }
-    
+
     public void EntrarVentas()
     {
+        ReproducirSonidoBoton();
         SceneManager.LoadScene("DepartamentoVentas");
     }
 
     public void EntrarFinanzas()
     {
+        ReproducirSonidoBoton();
         SceneManager.LoadScene("DepartamentoFinanzas");
     }
 
     public void EntrarAtencion()
     {
+        ReproducirSonidoBoton();
         SceneManager.LoadScene("DepartamentoAtencion");
     }
 
     public void EntrarMarketing()
     {
+        ReproducirSonidoBoton();
         SceneManager.LoadScene("DepartamentoMarketing");
     }
 
     public void EntrarDireccion()
     {
+        ReproducirSonidoBoton();
         SceneManager.LoadScene("DepartamentoDireccion");
     }
 
+    public void MostrarExplicacionIzq()
+    {
+        if (!explicacionIzq.activeInHierarchy && explicacionDer.activeInHierarchy)
+        {
+            ReproducirSonidoBoton();
+            explicacionDer.SetActive(false);
+            explicacionIzq.SetActive(true);
+
+        }
+    }
+
+    public void MostrarExplicacionDer()
+    {
+        if (!explicacionDer.activeInHierarchy && explicacionIzq.activeInHierarchy)
+        {
+            ReproducirSonidoBoton();
+            explicacionIzq.SetActive(false);
+            explicacionDer.SetActive(true);
+
+        }
+    }
+
+    public void AbrirPanelComoJugar()
+    {
+        ReproducirSonidoBoton();
+        panelComoJugar.SetActive(true);
+    }
+    public void CerrarPanelComoJugar()
+    {
+        ReproducirSonidoBoton();
+        panelComoJugar.SetActive(false);
+    }
 
 
     public void SalirDelMapa()
     {
+        ReproducirSonidoBoton();
         if(GameManager.escenaAnterior != null)
         {
             SceneManager.LoadScene(GameManager.escenaAnterior);
         }
-        
+
     }
 
 

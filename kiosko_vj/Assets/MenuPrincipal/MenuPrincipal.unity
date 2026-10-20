@@ -1323,8 +1323,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.5152, y: 48}
-  m_SizeDelta: {x: 351.7722, y: 82.0369}
+  m_AnchoredPosition: {x: 0.0000023842, y: 48}
+  m_SizeDelta: {x: 364.8, y: 82.0369}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &601606166
 MonoBehaviour:
@@ -1346,7 +1346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vacanza
+  m_text: IAvventura
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
   m_sharedMaterial: {fileID: 1260715531048141648, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
@@ -4292,7 +4292,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Made by 4 Roots
+  m_text: Made by 4Roots
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
   m_sharedMaterial: {fileID: 1260715531048141648, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}

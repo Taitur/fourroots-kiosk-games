@@ -22,35 +22,41 @@ public class Form : MonoBehaviour
 
     void finanzasButtonClicked()
     {
+        gm.ReproducirSFX("BotonClick");
         departamentoElegido = "DepartamentoFinanzas";
     }
 
     void marketingButtonClicked()
     {
+        gm.ReproducirSFX("BotonClick");
         departamentoElegido = "DepartamentoMarketing";
        
     }
 
     void direccionButtonClicked()
     {
+        gm.ReproducirSFX("BotonClick");
         departamentoElegido = "DepartamentoDireccion";
         
     }
 
     void ventasButtonClicked()
     {
+        gm.ReproducirSFX("BotonClick");
         departamentoElegido = "DepartamentoVentas";
        
     }
 
     void rrhhButtonClicked()
     {
+        gm.ReproducirSFX("BotonClick");
         departamentoElegido = "DepartamentoRRHH";
        
     }
 
     void atencionButtonClicked()
     {
+        gm.ReproducirSFX("BotonClick");
         departamentoElegido = "DepartamentoAtencion";
        
     }
@@ -65,18 +71,26 @@ public class Form : MonoBehaviour
         atencionButton.onClick.AddListener(atencionButtonClicked);
     }
 
-    public void SubmitForm()
+   public void SubmitForm()
     {
-       if (string.IsNullOrWhiteSpace(nombreInput.text) || departamentoElegido == "")
+        gm.ReproducirSFX("BotonClick");
+
+        if (string.IsNullOrWhiteSpace(nombreInput.text) || string.IsNullOrEmpty(departamentoElegido))
         {
-            Debug.LogWarning("Falta el nombre o el departamento");
+            Debug.Log("Rellena todos los campos del formulario antes de entrar al juego");
             return;
         }
 
-        gm.usuario = new GameManagerConexion.PlayerData(
-            nombreInput.text, puestoInput.text, expertiseInput.text, departamentoElegido);
 
-        gm.IniciarSesion();   
-        
+        gm.StartCoroutine(ApiClient.Login(nombreInput.text, puestoInput.text, expertiseInput.text, departamentoElegido,
+            j =>
+            {
+
+                gm.usuario = new GameManagerConexion.PlayerData(j.nombre, j.puesto, j.expertise, j.usuarioDepartamento);
+                gm.usuario.puntos = j.puntos;
+                gm.jugadorId = j.id;
+
+                SceneManager.LoadScene(gm.usuario.usuarioDepartamento);
+            }));
     }
 }
