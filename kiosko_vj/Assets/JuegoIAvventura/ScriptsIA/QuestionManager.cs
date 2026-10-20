@@ -1,5 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI; // needed to change the color of the answer buttons
+using UnityEngine.Networking; // para conectarse a la API
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 
@@ -17,19 +20,41 @@ public class QuestionManager : MonoBehaviour
 
     private List<QuestionData> questions = new List<QuestionData>();
 
-    //  Questions for each category
-    private List<QuestionData> benefitsQuestions = new List<QuestionData>();
-    private List<QuestionData> ethicsQuestions = new List<QuestionData>();
-    private List<QuestionData> practicalQuestions = new List<QuestionData>();
-    private List<QuestionData> thinkingQuestions = new List<QuestionData>();
-
-    // categoría que se está jugando (1 a 4), para reiniciar y para la música
+    // categoria que se esta jugando (1 a 4), para reiniciar y para la musica
     private int currentCategory = 0;
 
     // segundos que se muestra el color verde/rojo antes de pasar a la siguiente pregunta
     private float feedbackTime = 1f;
-    // más tiempo cuando se equivocan, para que lean la respuesta correcta
+    // mas tiempo cuando se equivocan, para que lean la respuesta correcta
     private float wrongFeedbackTime = 2.5f;
+
+    // cuantas preguntas al azar salen en cada partida
+    private int questionsPerGame = 6;
+
+    // Direccion de la API del kiosco (en la version Web se toma sola de la URL)
+    [SerializeField]
+    private string apiUrl = "http://localhost:3000/api";
+
+    // Una pregunta tal como la manda la API
+    [Serializable]
+    private class PreguntaApi
+    {
+        public int idPregunta;
+        public string categoria;
+        public string pregunta;
+        public string respuesta1;
+        public string respuesta2;
+        public string respuesta3;
+        public string respuesta4;
+        public int respuestaCorrecta;
+    }
+
+    // La API responde { "preguntas": [ ... ] }
+    [Serializable]
+    private class RespuestaPreguntas
+    {
+        public PreguntaApi[] preguntas;
+    }
 
     [SerializeField]
     private GameManager gameManager;
@@ -51,34 +76,34 @@ public class QuestionManager : MonoBehaviour
     [SerializeField]
     private GameObject modeSelectPanel;
 
-    // panel de instrucciones (se abre con el botón "¿Cómo jugar?")
+    // panel de instrucciones (se abre con el boton "¿Como jugar?")
     [SerializeField]
     private GameObject instructionsPanel;
 
-    // panel para elegir dificultad (aparece después de elegir categoría)
+    // panel para elegir dificultad (aparece despues de elegir categoria)
     [SerializeField]
     private GameObject difficultyPanel;
 
-    // Dificultad Fácil: más tiempo, menos puntos
+    // Dificultad Facil: mas tiempo, menos puntos
     private float easyTime = 20f;
     private int easyPoints = 100;
 
-    // Dificultad Difícil: menos tiempo, más puntos
+    // Dificultad Dificil: menos tiempo, mas puntos
     private float hardTime = 10f;
     private int hardPoints = 200;
 
-    // título de la pantalla de resultados (el que ahora dice "New Text")
+    // titulo de la pantalla de resultados (el que ahora dice "New Text")
     [SerializeField]
     private TMP_Text resultTitleText;
 
     [SerializeField] // Allows to keep a variable as private but to see it in the Inspector
     private TMP_Text questionText, answerText1, answerText2, answerText3, answerText4;  // TMP_Text references to objects in Unity
 
-    // el componente Image de cada botón de respuesta (Answer1..Answer4)
+    // el componente Image de cada boton de respuesta (Answer1..Answer4)
     [SerializeField]
     private Image answerImage1, answerImage2, answerImage3, answerImage4;
 
-    // colores de retroalimentación
+    // colores de retroalimentacion
     [SerializeField]
     private Color normalColor = Color.white;
     [SerializeField]
@@ -108,194 +133,11 @@ public class QuestionManager : MonoBehaviour
     {
         Debug.Log("QuestionManager START");
 
-        //questions.Add(new QuestionData("Funcionalidad de la IA", "Copiarse", "Aprender", "Dejar de pensar", "No resumir", 1));
-
-        // Category 1 - Importancia y beneficios
-        benefitsQuestions.Add(new QuestionData(
-            "¿Cuál es un beneficio de la Inteligencia Artificial?",
-            "Automatizar tareas repetitivas",
-            "Eliminar todos los empleos",
-            "Evitar el uso de datos",
-            "Reemplazar siempre a las personas",
-            0
-        ));
-
-        benefitsQuestions.Add(new QuestionData(
-            "¿Cómo puede ayudar la IA en la educación?",
-            "Eliminando a los maestros",
-            "Ofreciendo aprendizaje personalizado",
-            "Evitando que los alumnos estudien",
-            "Garantizando todas las respuestas",
-            1
-        ));
-
-        benefitsQuestions.Add(new QuestionData(
-            "¿Qué beneficio puede aportar la IA en medicina?",
-            "Sustituir siempre al médico",
-            "Eliminar todos los riesgos",
-            "Apoyar el análisis de imágenes médicas",
-            "Garantizar una curación",
-            2
-        ));
-
-        benefitsQuestions.Add(new QuestionData(
-            "¿Cómo ayuda la IA a las empresas?",
-            "Eliminando toda supervisión",
-            "Impidiendo la innovación",
-            "Evitando tomar decisiones",
-            "Analizando grandes cantidades de datos",
-            3
-        ));
-
-        benefitsQuestions.Add(new QuestionData(
-            "¿Qué tarea puede facilitar la IA?",
-            "Clasificar información",
-            "Hacer infalibles las computadoras",
-            "Eliminar la privacidad",
-            "Evitar el pensamiento humano",
-            0
-        ));
-
-        // Category 2 - Ética y uso responsable
-        ethicsQuestions.Add(new QuestionData(
-            "¿Cuál es una práctica responsable al usar IA?",
-            "Compartir datos personales",
-            "Confiar siempre en sus respuestas",
-            "Verificar la información que genera",
-            "Usarla sin supervisión",
-            2
-        ));
-
-        ethicsQuestions.Add(new QuestionData(
-            "¿Qué dato no debes compartir con una IA pública?",
-            "Una pregunta general",
-            "Tu contraseña personal",
-            "El título de un libro",
-            "Una operación matemática",
-            1
-        ));
-
-        ethicsQuestions.Add(new QuestionData(
-            "¿Qué es un sesgo en Inteligencia Artificial?",
-            "Una respuesta siempre correcta",
-            "Un programa sin datos",
-            "Una computadora lenta",
-            "Una tendencia a resultados injustos",
-            3
-        ));
-
-        ethicsQuestions.Add(new QuestionData(
-            "¿Qué debes hacer si una IA inventa información?",
-            "Verificarla y corregirla",
-            "Compartirla inmediatamente",
-            "Usarla como si fuera verdadera",
-            "Ignorar el problema",
-            0
-        ));
-
-        ethicsQuestions.Add(new QuestionData(
-            "¿Quién debe asumir responsabilidad al utilizar IA?",
-            "Solamente la computadora",
-            "Nadie",
-            "Las personas y organizaciones que la usan",
-            "Únicamente el internet",
-            2
-        ));
-
-        // Category 3 - Uso práctico
-        practicalQuestions.Add(new QuestionData(
-            "¿Cuál es una funcionalidad de la IA?",
-            "Copiarse",
-            "Aprender patrones",
-            "Dejar de pensar",
-            "No resumir",
-            1
-        ));
-
-        practicalQuestions.Add(new QuestionData(
-            "¿Cuál es un ejemplo de IA en la vida diaria?",
-            "Un cable de corriente",
-            "Un cuaderno",
-            "Un asistente de voz",
-            "Una silla",
-            2
-        ));
-
-        practicalQuestions.Add(new QuestionData(
-            "¿Para qué puede utilizarse un modelo de IA?",
-            "Resumir textos",
-            "Fabricar electricidad",
-            "Evitar todas las fallas",
-            "Reemplazar cualquier profesión",
-            0
-        ));
-
-        practicalQuestions.Add(new QuestionData(
-            "¿Qué aplicación puede usar reconocimiento de imágenes?",
-            "Un lápiz",
-            "Un foco tradicional",
-            "Una mesa",
-            "Una herramienta que identifica objetos",
-            3
-        ));
-
-        practicalQuestions.Add(new QuestionData(
-            "¿Qué puedes pedirle a una IA generativa?",
-            "Que garantice resultados perfectos",
-            "Que proponga ideas para un proyecto",
-            "Que nunca cometa errores",
-            "Que decida todo por ti",
-            1
-        ));
-
-        // Category 4 - Pensar primero, potenciar después
-        thinkingQuestions.Add(new QuestionData(
-            "¿Qué conviene hacer antes de pedir ayuda a una IA?",
-            "Intentar comprender el problema",
-            "Copiar sin leer",
-            "Dejar de investigar",
-            "Aceptar cualquier respuesta",
-            0
-        ));
-
-        thinkingQuestions.Add(new QuestionData(
-            "¿Cómo aprovechar mejor una respuesta de IA?",
-            "Memorizarla sin entender",
-            "Evitar hacer preguntas",
-            "Revisarla y aplicar criterio propio",
-            "Usarla sin comprobar nada",
-            2
-        ));
-
-        thinkingQuestions.Add(new QuestionData(
-            "¿Qué habilidad sigue siendo importante con la IA?",
-            "No tomar decisiones",
-            "Pensamiento crítico",
-            "Depender de toda respuesta",
-            "Dejar de aprender",
-            1
-        ));
-
-        thinkingQuestions.Add(new QuestionData(
-            "Si una IA te da código, ¿qué deberías hacer?",
-            "Entregarlo sin revisarlo",
-            "Evitar ejecutarlo",
-            "Suponer que funciona",
-            "Comprenderlo y probarlo",
-            3
-        ));
-
-        thinkingQuestions.Add(new QuestionData(
-            "¿Cuál es el mejor papel de la IA al aprender?",
-            "Apoyar el aprendizaje, no sustituirlo",
-            "Pensar siempre por nosotros",
-            "Evitar cualquier esfuerzo",
-            "Eliminar la creatividad",
-            0
-        ));
-
         // Do not start the timer while the player is in the menu
         timeManager.StopTimer();
+
+        // Lee la direccion de la API desde la URL
+        ReadUrl();
 
         // ShowQuestion() was moved to SelectMode()
         // so the timer starts when the game begins.
@@ -313,7 +155,7 @@ public class QuestionManager : MonoBehaviour
         }
     }
 
-    // botón "¡Entendido!" del panel de instrucciones
+    // boton "¡Entendido!" del panel de instrucciones
     public void ContinueToCategories()
     {
         if (instructionsPanel != null)
@@ -327,7 +169,7 @@ public class QuestionManager : MonoBehaviour
             soundManager.PlayClick();
         }
     }
-    // botón "¿Cómo jugar?" de la pantalla de categorías
+    // boton "¿Como jugar?" de la pantalla de categorias
     public void ShowInstructions()
     {
         modeSelectPanel.SetActive(false);
@@ -343,32 +185,12 @@ public class QuestionManager : MonoBehaviour
     public void SelectMode(int category)
     {
         questions.Clear();
-
-        if (category == 1)
-        {
-            questions.AddRange(benefitsQuestions);
-        }
-        else if (category == 2)
-        {
-            questions.AddRange(ethicsQuestions);
-        }
-        else if (category == 3)
-        {
-            questions.AddRange(practicalQuestions);
-        }
-        else if (category == 4)
-        {
-            questions.AddRange(thinkingQuestions);
-        }
-        else
-        {
-            Debug.LogError("Categoría no válida");
-            return;
-        }
-
         currentCategory = category;
 
-        // Después de elegir categoría se elige la dificultad
+        // Trae las preguntas de la base de datos
+        StartCoroutine(LoadQuestionsFromApi(category));
+
+        // Despues de elegir categoria se elige la dificultad
         modeSelectPanel.SetActive(false);
         difficultyPanel.SetActive(true);
 
@@ -378,9 +200,16 @@ public class QuestionManager : MonoBehaviour
         }
     }
 
-    // Botones de dificultad: 1 = Fácil, 2 = Difícil
+    // Botones de dificultad: 1 = Facil, 2 = Dificil
     public void SelectDifficulty(int level)
     {
+        // Si todavia no llegan las preguntas de la base de datos, no empieza
+        if (questions.Count == 0)
+        {
+            Debug.LogWarning("Todavia no hay preguntas de la base de datos");
+            return;
+        }
+
         if (level == 1)
         {
             timeManager.SetStartTime(easyTime);
@@ -408,7 +237,7 @@ public class QuestionManager : MonoBehaviour
         ShowQuestion();
     }
 
-    // Botón "Regresar" del panel de dificultad
+    // Boton "Regresar" del panel de dificultad
     public void BackToCategories()
     {
         difficultyPanel.SetActive(false);
@@ -465,7 +294,7 @@ public class QuestionManager : MonoBehaviour
         {
             gameManager.RegisterCorrectAnswer();
 
-            // el botón elegido se pone verde
+            // el boton elegido se pone verde
             SetAnswerColor(selectedAnswer, correctColor);
 
             if (soundManager != null)
@@ -480,10 +309,10 @@ public class QuestionManager : MonoBehaviour
         {
             gameManager.RegisterIncorrectAnswer();
 
-            // espera más tiempo para que lean la respuesta correcta
+            // espera mas tiempo para que lean la respuesta correcta
             Invoke(nameof(NextQuestion), wrongFeedbackTime);
 
-            // el botón elegido se pone rojo y se muestra la correcta en verde
+            // el boton elegido se pone rojo y se muestra la correcta en verde
             SetAnswerColor(selectedAnswer, incorrectColor);
             SetAnswerColor(correctAnswer, correctColor);
 
@@ -507,7 +336,7 @@ public class QuestionManager : MonoBehaviour
         // No answer was selected, so it counts as incorrect
         gameManager.RegisterIncorrectAnswer();
 
-        //  muestra cuál era la correcta
+        //  muestra cual era la correcta
         SetAnswerColor(questions[currentQuestion].GetCorrectAnswer(), correctColor);
 
         if (soundManager != null)
@@ -547,14 +376,14 @@ public class QuestionManager : MonoBehaviour
 
         int correct = gameManager.GetCorrectAnswers();
 
-        // título según el resultado
+        // titulo segun el resultado
         if (resultTitleText != null)
         {
             if (correct == questions.Count)
             {
                 resultTitleText.text = "¡Perfecto!";
             }
-            else if (correct * 2 > questions.Count) // más de la mitad
+            else if (correct * 2 > questions.Count) // mas de la mitad
             {
                 resultTitleText.text = "¡Muy bien!";
             }
@@ -624,7 +453,7 @@ public class QuestionManager : MonoBehaviour
         ReturnToMenu();
     }
 
-    // lógica compartida para regresar al menú (antes estaba dentro de GoToMainMenu)
+    // logica compartida para regresar al menu (antes estaba dentro de GoToMainMenu)
     private void ReturnToMenu()
     {
         // Cancela cualquier "siguiente pregunta" pendiente
@@ -677,5 +506,75 @@ public class QuestionManager : MonoBehaviour
         {
             SetAnswerColor(i, normalColor);
         }
+    }
+
+    // ---------- base de datos (API) ----------
+
+    // Nombre de la categoria tal como esta en la columna categoria de kio_tbPregunta
+    private string GetCategoryName(int category)
+    {
+        if (category == 1) return "Importancia y beneficios";
+        if (category == 2) return "Ética y uso responsable";
+        if (category == 3) return "Uso práctico";
+        return "Pensar primero, potenciar después";
+    }
+
+    // En la version Web toma la direccion del servidor de la URL
+    private void ReadUrl()
+    {
+        string url = Application.absoluteURL;
+        if (string.IsNullOrEmpty(url))
+        {
+            return; // en el editor de Unity se usa apiUrl del Inspector
+        }
+
+        Uri uri = new Uri(url);
+        apiUrl = uri.GetLeftPart(UriPartial.Authority) + "/api";
+    }
+
+    // GET /api/iavventura/preguntas?categoria=Uso practico
+    private IEnumerator LoadQuestionsFromApi(int category)
+    {
+        string url = apiUrl + "/iavventura/preguntas?categoria=" + UnityWebRequest.EscapeURL(GetCategoryName(category));
+        UnityWebRequest request = UnityWebRequest.Get(url);
+        yield return request.SendWebRequest();
+
+        if (request.result != UnityWebRequest.Result.Success)
+        {
+            Debug.LogError("No se pudo conectar con la API: " + request.error);
+            yield break;
+        }
+
+        RespuestaPreguntas respuesta = JsonUtility.FromJson<RespuestaPreguntas>(request.downloadHandler.text);
+
+        if (respuesta == null || respuesta.preguntas == null || respuesta.preguntas.Length == 0)
+        {
+            Debug.LogError("La base de datos no tiene preguntas de esta categoría");
+            yield break;
+        }
+
+        foreach (PreguntaApi p in respuesta.preguntas)
+        {
+            questions.Add(new QuestionData(p.pregunta, p.respuesta1, p.respuesta2, p.respuesta3, p.respuesta4, p.respuestaCorrecta));
+        }
+
+        Debug.Log("Preguntas cargadas de la base de datos: " + questions.Count);
+
+        // Mezcla las preguntas: cada una cambia de lugar con otra al azar
+        for (int i = 0; i < questions.Count; i++)
+        {
+            int j = UnityEngine.Random.Range(i, questions.Count);
+            QuestionData temp = questions[i];
+            questions[i] = questions[j];
+            questions[j] = temp;
+        }
+
+        // Deja solo las primeras 5 para esta partida
+        if (questions.Count > questionsPerGame)
+        {
+            questions.RemoveRange(questionsPerGame, questions.Count - questionsPerGame);
+        }
+
+        Debug.Log("Preguntas en esta partida: " + questions.Count);
     }
 }
