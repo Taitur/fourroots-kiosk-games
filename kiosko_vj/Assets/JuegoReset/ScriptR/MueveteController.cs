@@ -50,8 +50,14 @@ public class MueveteController : MonoBehaviour
     public AudioClip sonidoSiguienteEjercicio;
     public AudioClip sonidoRutinaCompletada;
 
+    [Header("Base de datos - Reset")]
+    public int idActividad = 3;
+    public int idUsuario = 1;
+    public int idUsuarioRegistro = 1;
+
     private Coroutine animacionActual;
     private bool rutinaIniciada = false;
+    private bool actividadRegistrada = false;
 
     public void IniciarRutina()
     {
@@ -59,6 +65,7 @@ public class MueveteController : MonoBehaviour
             return;
 
         rutinaIniciada = true;
+        actividadRegistrada = false;
 
         if (audioSource != null && sonidoInicio != null)
         {
@@ -70,7 +77,6 @@ public class MueveteController : MonoBehaviour
 
     private IEnumerator RutinaCompleta()
     {
-        // EJERCICIO 1
         yield return StartCoroutine(RutinaMarcha());
 
         textoEjercicio.sprite = spriteCompletado;
@@ -91,8 +97,6 @@ public class MueveteController : MonoBehaviour
 
         yield return new WaitForSeconds(3f);
 
-
-        // EJERCICIO 2
         yield return StartCoroutine(RutinaBrazos());
 
         textoEjercicio.sprite = spriteCompletado;
@@ -113,8 +117,6 @@ public class MueveteController : MonoBehaviour
 
         yield return new WaitForSeconds(3f);
 
-
-        // EJERCICIO 3
         yield return StartCoroutine(RutinaLateral());
 
         textoEjercicio.sprite = spriteCompletado;
@@ -122,6 +124,34 @@ public class MueveteController : MonoBehaviour
         if (audioSource != null && sonidoRutinaCompletada != null)
         {
             audioSource.PlayOneShot(sonidoRutinaCompletada);
+        }
+
+        if (!actividadRegistrada)
+        {
+            actividadRegistrada = true;
+
+            yield return StartCoroutine(
+                ResetApiClient.RegistrarActividad(
+                    idActividad,
+                    idUsuario,
+                    idUsuarioRegistro,
+                    () =>
+                    {
+                        Debug.Log(
+                            "RESET MUEVETE: actividad registrada correctamente."
+                        );
+                    },
+                    (error) =>
+                    {
+                        Debug.LogError(
+                            "RESET MUEVETE: no se pudo registrar la actividad. " +
+                            error
+                        );
+
+                        actividadRegistrada = false;
+                    }
+                )
+            );
         }
 
         rutinaIniciada = false;

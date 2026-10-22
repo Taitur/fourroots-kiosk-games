@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: e06296886ceb05641b544ad1627fa89f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7798684113287809675
+    second: Logotipo de red global PeopleTech_0
+  - first:
+      213: 2638748103090055611
+    second: Logotipo de red global PeopleTech_1
+  - first:
+      213: -7425352214658840539
+    second: Logotipo de red global PeopleTech_2
+  - first:
+      213: 1198454881792951926
+    second: Logotipo de red global PeopleTech_3
+  - first:
+      213: 162443057077956993
+    second: Logotipo de red global PeopleTech_4
+  - first:
+      213: 7921712625688132486
+    second: Logotipo de red global PeopleTech_5
+  - first:
+      213: -9010820836923115187
+    second: Logotipo de red global PeopleTech_6
+  - first:
+      213: -6273921697002681458
+    second: Logotipo de red global PeopleTech_7
+  - first:
+      213: -2853690116662070454
+    second: Logotipo de red global PeopleTech_8
+  - first:
+      213: 8898085974194955268
+    second: Logotipo de red global PeopleTech_9
+  - first:
+      213: 7738865673047592202
+    second: Logotipo de red global PeopleTech_10
+  - first:
+      213: -4080258411410705487
+    second: Logotipo de red global PeopleTech_11
+  - first:
+      213: -2083264424855289707
+    second: Logotipo de red global PeopleTech_12
+  - first:
+      213: -8756150742057689423
+    second: Logotipo de red global PeopleTech_13
+  - first:
+      213: -2405764744826463981
+    second: Logotipo de red global PeopleTech_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 23
+        width: 862
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a8000c1ed7a3c60800000000000000
+      internalID: 7798684113287809675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_1
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 562
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb92b684b67be9420800000000000000
+      internalID: 2638748103090055611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_2
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 27
+        width: 498
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52889118089d3f890800000000000000
+      internalID: -7425352214658840539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_3
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 170
+        width: 482
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6760a948d54c1a010800000000000000
+      internalID: 1198454881792951926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_4
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 456
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1813c59891d114200800000000000000
+      internalID: 162443057077956993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_5
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 119
+        width: 495
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b3eda79a39fed60800000000000000
+      internalID: 7921712625688132486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_6
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 264
+        width: 137
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d497280b03223f280800000000000000
+      internalID: -9010820836923115187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_7
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 213
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b0a8d057d8ee8a0800000000000000
+      internalID: -6273921697002681458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_8
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 210
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43705955f7a568d0800000000000000
+      internalID: -2853690116662070454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 71
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404a6c8ac0a5c7b70800000000000000
+      internalID: 8898085974194955268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d477ec359f56b60800000000000000
+      internalID: 7738865673047592202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_11
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 21
+        width: 114
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3b01cc7920067c0800000000000000
+      internalID: -4080258411410705487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 65
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590ca4f0b02c613e0800000000000000
+      internalID: -2083264424855289707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_13
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 31
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bed0ebca47eb7680800000000000000
+      internalID: -8756150742057689423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logotipo de red global PeopleTech_14
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 31
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319d57bf5b10d9ed0800000000000000
+      internalID: -2405764744826463981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logotipo de red global PeopleTech_0: 7798684113287809675
+      Logotipo de red global PeopleTech_1: 2638748103090055611
+      Logotipo de red global PeopleTech_10: 7738865673047592202
+      Logotipo de red global PeopleTech_11: -4080258411410705487
+      Logotipo de red global PeopleTech_12: -2083264424855289707
+      Logotipo de red global PeopleTech_13: -8756150742057689423
+      Logotipo de red global PeopleTech_14: -2405764744826463981
+      Logotipo de red global PeopleTech_2: -7425352214658840539
+      Logotipo de red global PeopleTech_3: 1198454881792951926
+      Logotipo de red global PeopleTech_4: 162443057077956993
+      Logotipo de red global PeopleTech_5: 7921712625688132486
+      Logotipo de red global PeopleTech_6: -9010820836923115187
+      Logotipo de red global PeopleTech_7: -6273921697002681458
+      Logotipo de red global PeopleTech_8: -2853690116662070454
+      Logotipo de red global PeopleTech_9: 8898085974194955268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

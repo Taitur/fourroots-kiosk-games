@@ -8,6 +8,9 @@ public class TimeManager : MonoBehaviour
     public TMP_Text timerText;
     public bool isRunning = false;
 
+    // segundos con los que empieza cada pregunta (cambia según la dificultad)
+    public float startTime = 20f;
+
     // sonido de "tic" en los últimos segundos
     public SoundManager soundManager;
 
@@ -45,10 +48,16 @@ public class TimeManager : MonoBehaviour
         }
     }
 
+    // Cambia los segundos por pregunta (Fácil = 20, Difícil = 10)
+    public void SetStartTime(float seconds)
+    {
+        startTime = seconds;
+    }
+
     // Inicia o reinicia el reloj
     public void StartTimer()
     {
-        timeRemaining = 20f;
+        timeRemaining = startTime;
         isRunning = true;
         lastSecondShown = -1;
         UpdateTimerText();
