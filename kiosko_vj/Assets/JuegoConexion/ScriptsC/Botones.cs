@@ -23,12 +23,15 @@ public class Botones : MonoBehaviour
     public void VolverAlMenu()
     {
         ReproducirSonidoBoton();
+        GameManager.GetComponent<AudioSource>().Stop();
         SceneManager.LoadScene("MenuPrincipal");
     }
 
     public void EntrarAlForms()
     {
         ReproducirSonidoBoton();
+        GameManager.GetComponent<AudioSource>().Play();
+        
         SceneManager.LoadScene("MainForm");
     }
     public void EntrarAlJuego()
