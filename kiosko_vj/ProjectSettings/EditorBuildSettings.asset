@@ -41,21 +41,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/JuegoConectArte/EscenasCA/CA_Calificar.unity
     guid: ac97f35c61db5b748b4fc4fd997e6ede
-  - enabled: 0
-    path: Assets/JuegoConexion/EscenasC/DepartamentoRH.unity
-    guid: a36a8ea16f0e649f9b50a757556d69b4
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoAtencion.unity
-    guid: e23a56e0229c145a6ab3bb1249a2de0d
+    guid: 13bc31ee847c647d9bb0e30eb8e4579c
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoDireccion.unity
-    guid: bc1de925e6f5b4eaf9ee54f20f35d75c
+    guid: 1e5667215966d47729ace06d0c6df229
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoFinanzas.unity
-    guid: 29134d25173d242a7995ac71930b2f90
+    guid: 436140b4410284da6a00320d4b3448c9
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoMarketing.unity
-    guid: a6c35ebfdcfd64faba7551a352f81670
+    guid: 868470b25407d40a093721b566e324f3
   - enabled: 1
     path: Assets/JuegoConexion/EscenasC/DepartamentoVentas.unity
     guid: 22fbfb003085b4868866db7aa5a8ae19
@@ -71,5 +68,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/JuegoReset/EscenasR/R_Escena_Enfocate.unity
     guid: 2cfd8547f8b390c4bb20c0704851aac5
+  - enabled: 1
+    path: Assets/JuegoConexion/EscenasC/DepartamentoRRHH.unity
+    guid: 4635462ef8c3542448c2d934373be521
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
